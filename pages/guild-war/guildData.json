@@ -1,0 +1,802 @@
+[
+  {
+    "value": "90",
+    "label": "90",
+    "score": 740894,
+    "totalRank": 1,
+    "bracket": "Upper",
+    "rank": 1
+  },
+  {
+    "value": "comfortzone",
+    "label": "Comfort Zone",
+    "score": 554383,
+    "totalRank": 2,
+    "bracket": "Upper",
+    "rank": 2
+  },
+  {
+    "value": "rjn",
+    "label": "ROJANELOS",
+    "score": 548998,
+    "totalRank": 3,
+    "bracket": "Upper",
+    "rank": 3
+  },
+  {
+    "value": "farmhub",
+    "label": "FarmHub",
+    "score": 398223,
+    "totalRank": 4,
+    "bracket": "Middle",
+    "rank": 1
+  },
+  {
+    "value": "cyberkongz",
+    "label": "CyberKongz",
+    "score": 351258,
+    "totalRank": 5,
+    "bracket": "Upper",
+    "rank": 4
+  },
+  {
+    "value": "insomnia",
+    "label": "Insomnia",
+    "score": 269025,
+    "totalRank": 6,
+    "bracket": "Upper",
+    "rank": 5
+  },
+  {
+    "value": "paldoclub",
+    "label": "Paldo Club",
+    "score": 261897,
+    "totalRank": 7,
+    "bracket": "Upper",
+    "rank": 6
+  },
+  {
+    "value": "p2g",
+    "label": "Play2Guild ",
+    "score": 257218,
+    "totalRank": 8,
+    "bracket": "Middle",
+    "rank": 2
+  },
+  {
+    "value": "bch",
+    "label": "BCH",
+    "score": 242190,
+    "totalRank": 9,
+    "bracket": "Upper",
+    "rank": 7
+  },
+  {
+    "value": "4200",
+    "label": " Family 4200",
+    "score": 240501,
+    "totalRank": 10,
+    "bracket": "Lower",
+    "rank": 1
+  },
+  {
+    "value": "tif",
+    "label": "Trappers in the Field ",
+    "score": 217301,
+    "totalRank": 11,
+    "bracket": "Upper",
+    "rank": 8
+  },
+  {
+    "value": "clover",
+    "label": "Clover",
+    "score": 185627,
+    "totalRank": 12,
+    "bracket": "Middle",
+    "rank": 3
+  },
+  {
+    "value": "suragaming",
+    "label": "Sura Gaming",
+    "score": 178380,
+    "totalRank": 13,
+    "bracket": "Lower",
+    "rank": 2
+  },
+  {
+    "value": "cg",
+    "label": "Team CG",
+    "score": 176570,
+    "totalRank": 14,
+    "bracket": "Upper",
+    "rank": 9
+  },
+  {
+    "value": "c3r2d2",
+    "label": "C3-R2D2",
+    "score": 167961,
+    "totalRank": 15,
+    "bracket": "Lower",
+    "rank": 3
+  },
+  {
+    "value": "nerd",
+    "label": "Nerd",
+    "score": 140808,
+    "totalRank": 16,
+    "bracket": "Upper",
+    "rank": 10
+  },
+  {
+    "value": "pixelsgg",
+    "label": "Tribally x E4E x KIND",
+    "score": 140263,
+    "totalRank": 17,
+    "bracket": "Middle",
+    "rank": 4
+  },
+  {
+    "value": "pixelpals",
+    "label": "Pixel Pals ",
+    "score": 132079,
+    "totalRank": 18,
+    "bracket": "Middle",
+    "rank": 5
+  },
+  {
+    "value": "degranoengrano",
+    "label": "⌛De Grano En Grano | OLA",
+    "score": 127331,
+    "totalRank": 19,
+    "bracket": "Lower",
+    "rank": 4
+  },
+  {
+    "value": "smg",
+    "label": "Starry Mooncake Gaming",
+    "score": 112582,
+    "totalRank": 20,
+    "bracket": "Middle",
+    "rank": 6
+  },
+  {
+    "value": "pxf",
+    "label": "PixelFam",
+    "score": 108004,
+    "totalRank": 21,
+    "bracket": "Upper",
+    "rank": 11
+  },
+  {
+    "value": "pixelatedpeople",
+    "label": "Pixelated People",
+    "score": 106345,
+    "totalRank": 22,
+    "bracket": "Middle",
+    "rank": 7
+  },
+  {
+    "value": "hurugaming",
+    "label": "Huru Gaming",
+    "score": 103092,
+    "totalRank": 23,
+    "bracket": "Middle",
+    "rank": 8
+  },
+  {
+    "value": "ggs",
+    "label": "GGS DAO",
+    "score": 94477,
+    "totalRank": 24,
+    "bracket": "Middle",
+    "rank": 9
+  },
+  {
+    "value": "magicfarm",
+    "label": "Magic Farm",
+    "score": 93029,
+    "totalRank": 25,
+    "bracket": "Lower",
+    "rank": 5
+  },
+  {
+    "value": "pix",
+    "label": "PIX BR",
+    "score": 86187,
+    "totalRank": 26,
+    "bracket": "Lower",
+    "rank": 6
+  },
+  {
+    "value": "c3po",
+    "label": "C3-PO",
+    "score": 83148,
+    "totalRank": 27,
+    "bracket": "Middle",
+    "rank": 10
+  },
+  {
+    "value": "ferdysorphanage",
+    "label": "FO Guild",
+    "score": 77595,
+    "totalRank": 28,
+    "bracket": "Middle",
+    "rank": 11
+  },
+  {
+    "value": "ssow",
+    "label": "Secret Society of Whales",
+    "score": 73159,
+    "totalRank": 29,
+    "bracket": "Lower",
+    "rank": 7
+  },
+  {
+    "value": "markofthezeal",
+    "label": "Mark of the Zeal",
+    "score": 66283,
+    "totalRank": 30,
+    "bracket": "Lower",
+    "rank": 8
+  },
+  {
+    "value": "anata",
+    "label": "Anata",
+    "score": 57092,
+    "totalRank": 31,
+    "bracket": "Middle",
+    "rank": 12
+  },
+  {
+    "value": "afarmerparadise",
+    "label": "🌴  A Farmer Paradise 🌴 ",
+    "score": 54295,
+    "totalRank": 32,
+    "bracket": "Upper",
+    "rank": 12
+  },
+  {
+    "value": "renegadesph",
+    "label": "RenegadesPH",
+    "score": 53802,
+    "totalRank": 33,
+    "bracket": "Lower",
+    "rank": 9
+  },
+  {
+    "value": "pyjamasclub",
+    "label": "PyjamasClub",
+    "score": 53524,
+    "totalRank": 34,
+    "bracket": "Middle",
+    "rank": 13
+  },
+  {
+    "value": "tbtteam",
+    "label": "TBT Team",
+    "score": 53018,
+    "totalRank": 35,
+    "bracket": "Upper",
+    "rank": 13
+  },
+  {
+    "value": "zgg",
+    "label": "Zen Guild Gaming",
+    "score": 49484,
+    "totalRank": 36,
+    "bracket": "Lower",
+    "rank": 10
+  },
+  {
+    "value": "dizzy",
+    "label": "Dizzy",
+    "score": 46251,
+    "totalRank": 37,
+    "bracket": "Middle",
+    "rank": 14
+  },
+  {
+    "value": "p2gcn",
+    "label": "Play2Guild中文公会",
+    "score": 46014,
+    "totalRank": 38,
+    "bracket": "Middle",
+    "rank": 15
+  },
+  {
+    "value": "breederdao",
+    "label": "BreederDAO",
+    "score": 45219,
+    "totalRank": 39,
+    "bracket": "Upper",
+    "rank": 14
+  },
+  {
+    "value": "farm",
+    "label": "The Farmer's Guild",
+    "score": 43569,
+    "totalRank": 40,
+    "bracket": "Lower",
+    "rank": 11
+  },
+  {
+    "value": "moku",
+    "label": "Moku",
+    "score": 40996,
+    "totalRank": 41,
+    "bracket": "Lower",
+    "rank": 12
+  },
+  {
+    "value": "farmhands",
+    "label": "Farm Hands",
+    "score": 39375,
+    "totalRank": 42,
+    "bracket": "Middle",
+    "rank": 16
+  },
+  {
+    "value": "lemonheads",
+    "label": "Lemon Heads",
+    "score": 38945,
+    "totalRank": 43,
+    "bracket": "Lower",
+    "rank": 13
+  },
+  {
+    "value": "ccx",
+    "label": "Cryptomine | CCX",
+    "score": 37345,
+    "totalRank": 44,
+    "bracket": "Lower",
+    "rank": 14
+  },
+  {
+    "value": "barracks",
+    "label": "Pixel Barracks",
+    "score": 37126,
+    "totalRank": 45,
+    "bracket": "Middle",
+    "rank": 17
+  },
+  {
+    "value": "pop",
+    "label": "Pioneers Of Pixels",
+    "score": 36973,
+    "totalRank": 46,
+    "bracket": "Upper",
+    "rank": 15
+  },
+  {
+    "value": "5s",
+    "label": "5S",
+    "score": 36812,
+    "totalRank": 47,
+    "bracket": "Lower",
+    "rank": 15
+  },
+  {
+    "value": "catisland",
+    "label": "Cat Island",
+    "score": 36754,
+    "totalRank": 48,
+    "bracket": "Lower",
+    "rank": 16
+  },
+  {
+    "value": "cookiemonsters",
+    "label": "The Cookie Monsters",
+    "score": 35313,
+    "totalRank": 49,
+    "bracket": "Lower",
+    "rank": 17
+  },
+  {
+    "value": "manani",
+    "label": "ManAni GameFi",
+    "score": 32887,
+    "totalRank": 50,
+    "bracket": "Middle",
+    "rank": 18
+  },
+  {
+    "value": "dreamland",
+    "label": "Dreamland",
+    "score": 32768,
+    "totalRank": 51,
+    "bracket": "Middle",
+    "rank": 19
+  },
+  {
+    "value": "byac",
+    "label": "BigYak Axie Club",
+    "score": 32534,
+    "totalRank": 52,
+    "bracket": "Lower",
+    "rank": 18
+  },
+  {
+    "value": "covenant",
+    "label": "Covenant",
+    "score": 31196,
+    "totalRank": 53,
+    "bracket": "Lower",
+    "rank": 19
+  },
+  {
+    "value": "arcana",
+    "label": "Arcana",
+    "score": 30020,
+    "totalRank": 54,
+    "bracket": "Middle",
+    "rank": 20
+  },
+  {
+    "value": "luuu",
+    "label": "Luuu's Waterboys",
+    "score": 29107,
+    "totalRank": 55,
+    "bracket": "Lower",
+    "rank": 20
+  },
+  {
+    "value": "tropapipz",
+    "label": "TROPAPIPZ",
+    "score": 28584,
+    "totalRank": 56,
+    "bracket": "Lower",
+    "rank": 21
+  },
+  {
+    "value": "doozie",
+    "label": "Doozie Guild",
+    "score": 24737,
+    "totalRank": 57,
+    "bracket": "Middle",
+    "rank": 21
+  },
+  {
+    "value": "abood",
+    "label": "ASG ",
+    "score": 23720,
+    "totalRank": 58,
+    "bracket": "Middle",
+    "rank": 22
+  },
+  {
+    "value": "pixelprimates",
+    "label": "Pixel Primates",
+    "score": 22564,
+    "totalRank": 59,
+    "bracket": "Lower",
+    "rank": 22
+  },
+  {
+    "value": "harvesthooligans",
+    "label": "Harvest Hooligans",
+    "score": 22369,
+    "totalRank": 60,
+    "bracket": "Lower",
+    "rank": 23
+  },
+  {
+    "value": "namlong",
+    "label": "Nam Long",
+    "score": 22251,
+    "totalRank": 61,
+    "bracket": "Upper",
+    "rank": 16
+  },
+  {
+    "value": "triads",
+    "label": "The Triads (web3triads.com)",
+    "score": 22073,
+    "totalRank": 62,
+    "bracket": "Upper",
+    "rank": 17
+  },
+  {
+    "value": "sky",
+    "label": "SKY Guild",
+    "score": 21240,
+    "totalRank": 63,
+    "bracket": "Lower",
+    "rank": 24
+  },
+  {
+    "value": "diwatapares",
+    "label": "DiwataPares",
+    "score": 20534,
+    "totalRank": 64,
+    "bracket": "Lower",
+    "rank": 25
+  },
+  {
+    "value": "kryptoclouds",
+    "label": "SkyLab",
+    "score": 19577,
+    "totalRank": 65,
+    "bracket": "Middle",
+    "rank": 23
+  },
+  {
+    "value": "one",
+    "label": "ONE",
+    "score": 17761,
+    "totalRank": 66,
+    "bracket": "Middle",
+    "rank": 24
+  },
+  {
+    "value": "cryptoogame",
+    "label": "CryptooGame_IRAN",
+    "score": 16474,
+    "totalRank": 67,
+    "bracket": "Middle",
+    "rank": 25
+  },
+  {
+    "value": "lfg",
+    "label": "LFG",
+    "score": 15886,
+    "totalRank": 68,
+    "bracket": "Lower",
+    "rank": 26
+  },
+  {
+    "value": "fire",
+    "label": "FIRE",
+    "score": 15666,
+    "totalRank": 69,
+    "bracket": "Upper",
+    "rank": 18
+  },
+  {
+    "value": "drakp",
+    "label": "Friends Free Gamers",
+    "score": 15047,
+    "totalRank": 70,
+    "bracket": "Lower",
+    "rank": 27
+  },
+  {
+    "value": "tinys",
+    "label": "Tinys",
+    "score": 14055,
+    "totalRank": 71,
+    "bracket": "Upper",
+    "rank": 19
+  },
+  {
+    "value": "dts",
+    "label": "DAOTSU",
+    "score": 13503,
+    "totalRank": 72,
+    "bracket": "Lower",
+    "rank": 28
+  },
+  {
+    "value": "kuroiboshi",
+    "label": "Kuroi Boshi Crew",
+    "score": 12638,
+    "totalRank": 73,
+    "bracket": "Lower",
+    "rank": 29
+  },
+  {
+    "value": "cryptogamingfamily",
+    "label": "Crypto Gaming Family",
+    "score": 12067,
+    "totalRank": 74,
+    "bracket": "Lower",
+    "rank": 30
+  },
+  {
+    "value": "guildpal",
+    "label": "GuildPal",
+    "score": 11993,
+    "totalRank": 75,
+    "bracket": "Middle",
+    "rank": 26
+  },
+  {
+    "value": "ghost",
+    "label": "GhosT",
+    "score": 11241,
+    "totalRank": 76,
+    "bracket": "Lower",
+    "rank": 31
+  },
+  {
+    "value": "gcd",
+    "label": "GCD",
+    "score": 10973,
+    "totalRank": 77,
+    "bracket": "Lower",
+    "rank": 32
+  },
+  {
+    "value": "bx",
+    "label": "bx  Gaming Guild",
+    "score": 10234,
+    "totalRank": 78,
+    "bracket": "Lower",
+    "rank": 33
+  },
+  {
+    "value": "mysticlan",
+    "label": "MystiClan",
+    "score": 9984,
+    "totalRank": 79,
+    "bracket": "Lower",
+    "rank": 34
+  },
+  {
+    "value": "sundaempire",
+    "label": "Sunda Empire",
+    "score": 9930,
+    "totalRank": 80,
+    "bracket": "Middle",
+    "rank": 27
+  },
+  {
+    "value": "c3",
+    "label": "Crop Craft Club",
+    "score": 9474,
+    "totalRank": 81,
+    "bracket": "Upper",
+    "rank": 20
+  },
+  {
+    "value": "9gag",
+    "label": "9GAG",
+    "score": 9293,
+    "totalRank": 82,
+    "bracket": "Middle",
+    "rank": 28
+  },
+  {
+    "value": "oom",
+    "label": "Occult Order of Meowca (O.OM)",
+    "score": 8976,
+    "totalRank": 83,
+    "bracket": "Middle",
+    "rank": 29
+  },
+  {
+    "value": "juice",
+    "label": "The Juice Team",
+    "score": 8564,
+    "totalRank": 84,
+    "bracket": "Lower",
+    "rank": 35
+  },
+  {
+    "value": "ola",
+    "label": "OLA",
+    "score": 8432,
+    "totalRank": 85,
+    "bracket": "Lower",
+    "rank": 36
+  },
+  {
+    "value": "stark",
+    "label": "STARK",
+    "score": 8432,
+    "totalRank": 86,
+    "bracket": "Lower",
+    "rank": 37
+  },
+  {
+    "value": "prime",
+    "label": "Prime",
+    "score": 8122,
+    "totalRank": 87,
+    "bracket": "Lower",
+    "rank": 38
+  },
+  {
+    "value": "nftitalia",
+    "label": "NFT Italia ",
+    "score": 8086,
+    "totalRank": 88,
+    "bracket": "Lower",
+    "rank": 39
+  },
+  {
+    "value": "nic",
+    "label": "NICrew3",
+    "score": 7855,
+    "totalRank": 89,
+    "bracket": "Lower",
+    "rank": 40
+  },
+  {
+    "value": "critterclubhouse",
+    "label": "Critter Clubhouse",
+    "score": 7729,
+    "totalRank": 90,
+    "bracket": "Middle",
+    "rank": 30
+  },
+  {
+    "value": "brotherhood999",
+    "label": "The Brotherhood",
+    "score": 7367,
+    "totalRank": 91,
+    "bracket": "Lower",
+    "rank": 41
+  },
+  {
+    "value": "geegee",
+    "label": "GG | glitchgee",
+    "score": 6062,
+    "totalRank": 92,
+    "bracket": "Middle",
+    "rank": 31
+  },
+  {
+    "value": "lesfermiers",
+    "label": "Les Fermiers",
+    "score": 5951,
+    "totalRank": 93,
+    "bracket": "Lower",
+    "rank": 42
+  },
+  {
+    "value": "pixelsth",
+    "label": "PIXELSTH",
+    "score": 5774,
+    "totalRank": 94,
+    "bracket": "Lower",
+    "rank": 43
+  },
+  {
+    "value": "difgamefi",
+    "label": "DIF GameFi",
+    "score": 5590,
+    "totalRank": 95,
+    "bracket": "Lower",
+    "rank": 44
+  },
+  {
+    "value": "robkingdom",
+    "label": "ROBKINGDOM",
+    "score": 5529,
+    "totalRank": 96,
+    "bracket": "Lower",
+    "rank": 45
+  },
+  {
+    "value": "pixeldreams",
+    "label": "Pixel Dreams",
+    "score": 5245,
+    "totalRank": 97,
+    "bracket": "Lower",
+    "rank": 46
+  },
+  {
+    "value": "luckyberry",
+    "label": "Lucky Berry",
+    "score": 5170,
+    "totalRank": 98,
+    "bracket": "Middle",
+    "rank": 32
+  },
+  {
+    "value": "bracsquad",
+    "label": "Monkey's D. Atarxix",
+    "score": 5157,
+    "totalRank": 99,
+    "bracket": "Middle",
+    "rank": 33
+  },
+  {
+    "value": "serikat",
+    "label": "SNY",
+    "score": 5101,
+    "totalRank": 100,
+    "bracket": "Lower",
+    "rank": 47
+  }
+]

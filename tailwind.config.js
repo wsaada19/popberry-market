@@ -11,6 +11,10 @@ module.exports = {
       '2xl': '1536px',
     },
     extend: {
+      spacing: {
+        128: '32rem',
+        144: '36rem',
+      },
       backgroundColor: ['checked'],
       minHeight: {
         full: '100vh',
@@ -20,6 +24,10 @@ module.exports = {
       },
       colors: {
         light: '#eee',
+        lighterPurple: '#a2a2f5',
+        lightPurple: '#6c6ca9',
+        darkPurple: '#1B1043',
+        purple: '#5936DE',
         blue: {
           400: '#0096FF',
           600: '#2565C7',

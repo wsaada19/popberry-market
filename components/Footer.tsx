@@ -5,12 +5,6 @@ export const Footer = (): JSX.Element => {
   return (
     <footer className="mt-4 text-base">
       <hr className="border-gray-300 mb-2" />
-      <a className="text-sm" href="https://github.com/wsaada19/nextjs-contentful-blog">
-        Source code
-      </a>
-      <Link href="/resume" className="text-sm mx-2">
-        Resume
-      </Link>
       <span className="flex float-right">
         <Link passHref className="px-2" href="https://github.com">
           <Image
