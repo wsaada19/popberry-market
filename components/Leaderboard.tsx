@@ -19,7 +19,7 @@ export type Player = {
     rank: number;
   };
   total: {
-    averageRank: string;
+    rank: number;
     value: number;
   };
 };

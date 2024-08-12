@@ -23,6 +23,7 @@ type Player = {
   };
   total: {
     averageRank: number;
+    rank: number;
     value: number;
   };
 };
@@ -105,7 +106,7 @@ export function addPixelsPlot(
       getValue = (d: Player) => d.goo.value;
       title = 'Goo';
     } else if (type === 'total') {
-      getRank = (d: Player) => d.totalRank;
+      getRank = (d: Player) => d.total.rank;
       getValue = (d: Player) => d.total.value;
       title = 'Total Spores, Guano, Goo Used';
     }
