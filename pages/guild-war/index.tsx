@@ -36,7 +36,7 @@ export default function GuildWar() {
         }}
       />
       <h1 className="mt-2 text-blue-800">{`${guildData.label} Stats`}</h1>
-      <div className="p-3 mt-4 rounded-lg bg-purple shadow-lg text-white flex justify-evenly">
+      <div className="p-3 mt-4 rounded-2xl bg-purple shadow-2xl   text-white flex justify-evenly">
         <span>
           <div className="text-center text-lg font-bold">#{guildData.rank}</div>
           <div className="text-center text-xs">{guildData.bracket} Bracket</div>
