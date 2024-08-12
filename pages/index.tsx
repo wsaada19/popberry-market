@@ -7,7 +7,6 @@ import { GetStaticProps } from 'next';
 import Layout from '@components/layouts/PageLayout';
 import React from 'react';
 import { sortBy } from '@utilities';
-import Link from 'next/link';
 import { PlayerSkills } from '@components/layouts/PlayerSkills';
 
 type HomeProps = {
