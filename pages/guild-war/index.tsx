@@ -3,7 +3,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import pixelsData from '../../components/d3/guildWarsData.json';
 import Image from 'next/image';
 import { addPixelsPlot } from '@components/d3/pixelsGuildWar';
-import { Leaderboard } from '@components/Leaderboard';
+import { Leaderboard, Player } from '@components/Leaderboard';
 import Select from 'react-select';
 import options from './guildData.json';
 
@@ -13,6 +13,7 @@ export default function GuildWar() {
   const [guildData, setGuildData] = useState(options[0]);
 
   useEffect(() => {
+    // @ts-ignore relax
     addPixelsPlot(pixelsData, ref, guildData.value, 'spores');
   }, []);
 
@@ -22,6 +23,7 @@ export default function GuildWar() {
       <Select
         onChange={(result) => {
           setGuildData(result);
+          // @ts-ignore relax
           addPixelsPlot(pixelsData, ref, result.value, selected);
         }}
         className="w-1/3 float-right text-black border-purple"
@@ -87,7 +89,8 @@ export default function GuildWar() {
         />
       </div>
       <div className="my-8" ref={ref}></div>
-      <Leaderboard className="my-3" players={pixelsData} guildId={guildData.value} />
+      {/* ts-ignore relax */}
+      <Leaderboard className="my-3" players={pixelsData as Player[]} guildId={guildData.value} />
       {/* <TeamLeaderBoard
         className="m-y-3"
         teams={mostEfficientTeams(data === 'current' ? teamData : pastTeamData)}
@@ -100,6 +103,7 @@ const Tab = ({ title, imageUrl, graph, setSelected, selected, guildId }) => {
   return (
     <button
       onClick={() => {
+        // @ts-ignore relax
         addPixelsPlot(pixelsData, graph, guildId, title.toLowerCase());
         setSelected(title.toLowerCase());
       }}

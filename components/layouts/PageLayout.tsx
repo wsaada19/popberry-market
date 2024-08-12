@@ -7,14 +7,8 @@ type LayoutProps = {
   children: ReactNode;
   description: string;
   title: string;
-  hideLinks?: boolean;
 };
-export default function PageLayout({
-  children,
-  description,
-  title,
-  hideLinks = false,
-}: LayoutProps) {
+export default function PageLayout({ children, description, title }: LayoutProps) {
   return (
     <div className="dark:bg-lightPurple dark:text-white min-h-full">
       <div className="pt-4 mx-auto pb-8 max-w-4xl px-4 md:px-8">

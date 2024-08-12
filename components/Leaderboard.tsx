@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 
-type Player = {
+export type Player = {
   guildId: string;
   totalRank?: number;
   name: string;
@@ -19,7 +19,7 @@ type Player = {
     rank: number;
   };
   total: {
-    averageRank: number;
+    averageRank: string;
     value: number;
   };
 };
@@ -27,6 +27,7 @@ type Player = {
 export type TeamLeaderBoardProps = {
   players: Player[];
   className?: string;
+  guildId: string;
 };
 
 export const Leaderboard = ({ players, className, guildId }: TeamLeaderBoardProps) => {
