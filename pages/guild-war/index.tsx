@@ -5,7 +5,7 @@ import Image from 'next/image';
 import { addPixelsPlot } from '@components/d3/pixelsGuildWar';
 import { Leaderboard, Player } from '@components/Leaderboard';
 import Select from 'react-select';
-import options from './guildData.json';
+import options from '../../components/guildData.json';
 
 export default function GuildWar() {
   const ref = useRef(null);
