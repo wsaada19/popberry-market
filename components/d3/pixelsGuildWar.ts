@@ -148,7 +148,7 @@ export function addPixelsPlot(
         return y(getValue(d));
       })
       .attr('r', 3)
-      .attr('fill', '#5936DE')
+      .attr('fill', '#1c4d97')
       .on('mouseover', function (event, d: Player) {
         tooltip.html(() => {
           let html = `<p class="title"><strong>${d.name}</strong></p>`;
@@ -159,7 +159,7 @@ export function addPixelsPlot(
         tooltip
           .style('top', event.pageY - 48 + 'px')
           .style('left', event.pageX + 10 + 'px')
-          .style('background', '#5936DE')
+          .style('background', '#1c4d97')
           .transition()
           .duration(200)
           .style('opacity', 0.9);

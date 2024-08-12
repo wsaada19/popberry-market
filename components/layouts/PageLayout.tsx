@@ -10,17 +10,11 @@ type LayoutProps = {
 };
 export default function PageLayout({ children, description, title }: LayoutProps) {
   return (
-    <div className="dark:bg-lightPurple dark:text-white min-h-full">
+    <div className="dark:bg-blue-300 dark:text-white min-h-full">
       <div className="pt-4 mx-auto pb-8 max-w-4xl px-4 md:px-8">
         <Head>
           <title>{title}</title>
           <link rel="icon" href="/favicon.png" />
-          <link rel="preconnect" href="https://fonts.googleapis.com" />
-          <link rel="preconnect" href="https://fonts.gstatic.com" />
-          <link
-            href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap"
-            rel="stylesheet"
-          />
           <meta name="description" content={description} />
           <meta name="og:title" content={title} />
           <meta name="og:image" content="/favicon.png" />
@@ -37,6 +31,8 @@ export default function PageLayout({ children, description, title }: LayoutProps
               }`,
           }}
         ></script>
+        <script async src="https://platform.twitter.com/widgets.js"></script>
+
         <header>
           <Navigation hideLinks={true} />
         </header>

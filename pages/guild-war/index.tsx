@@ -36,7 +36,7 @@ export default function GuildWar() {
         }}
       />
       <h1 className="mt-2 text-blue-800">{`${guildData.label} Stats`}</h1>
-      <div className="p-3 mt-4 rounded-2xl bg-purple shadow-2xl   text-white flex justify-evenly">
+      <div className="p-3 mt-4 rounded-2xl bg-blue-700 shadow-2xl   text-white flex justify-evenly">
         <span>
           <div className="text-center text-lg font-bold">#{guildData.rank}</div>
           <div className="text-center text-xs">{guildData.bracket} Bracket</div>
@@ -108,13 +108,13 @@ const Tab = ({ title, imageUrl, graph, setSelected, selected, guildId }) => {
         setSelected(title.toLowerCase());
       }}
       className={`cursor-pointer h-9 px-1 mx-2 border-b-4 ${
-        selected == title.toLowerCase() && 'border-purple'
+        selected == title.toLowerCase() && 'border-blue-700'
       }`}
     >
       <Image
         src={`/images/${imageUrl}`}
-        height={title == 'Total' ? 20 : 24}
-        width={title == 'Total' ? 20 : 24}
+        height={title == 'Total' ? 22 : 26}
+        width={title == 'Total' ? 22 : 26}
         alt="Github logo"
         style={{
           maxWidth: '100%',
@@ -122,7 +122,9 @@ const Tab = ({ title, imageUrl, graph, setSelected, selected, guildId }) => {
           display: 'inline',
         }}
       ></Image>
-      <span className={`mr-2 md:mr-4 pl-2 font-semibold text-purple dark:text-white`}>{title}</span>
+      <span className={`mr-2 md:mr-4 pl-2 font-semibold text-blue-700 dark:text-white`}>
+        {title}
+      </span>
     </button>
   );
 };

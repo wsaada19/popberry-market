@@ -12,7 +12,7 @@ export const Switch = ({ className }: SwitchProps) => {
   return (
     <label className={className} htmlFor="toggle-switch">
       <input
-        className="text-purple toggle-switch cursor-pointer rounded-full shadow-md appearance-none bg-lighterPurple dark:bg-white h-6 w-12 border-1 border-purple checked-bg-purple transition duration-200 relative"
+        className="text-blue-600 toggle-switch cursor-pointer rounded-full shadow-md appearance-none bg-blue-400 dark:bg-white h-6 w-12 border-1 border-blue-600 checked-bg-purple transition duration-200 relative"
         type="checkbox"
         role="switch"
         id="toggle-switch"

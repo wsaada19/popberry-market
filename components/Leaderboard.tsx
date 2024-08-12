@@ -34,7 +34,7 @@ export const Leaderboard = ({ players, className, guildId }: TeamLeaderBoardProp
   return (
     <div className={`text-base ${className} h-144 overflow-auto mb-2`}>
       <table className="text-white w-full">
-        <thead className="text-base text-white h-10 bg-purple sticky top-0">
+        <thead className="text-base text-white h-11 bg-blue-600 sticky top-0">
           <tr>
             <th></th>
             <th></th>
@@ -80,12 +80,13 @@ export const Leaderboard = ({ players, className, guildId }: TeamLeaderBoardProp
                 }}
               ></Image>
             </th>
-            <th>Total</th>
+            <th className="text-lg">Total</th>
           </tr>
         </thead>
         <tbody>
           {players
             .filter((p) => p.guildId == guildId)
+            .sort((a, b) => b.total.value - a.total.value)
             .map((player, index) => {
               return (
                 <tr className="h-11 text-black even:bg-light bg-white" key={player.name}>
