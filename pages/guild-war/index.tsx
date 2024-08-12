@@ -14,7 +14,7 @@ export default function GuildWar() {
 
   useEffect(() => {
     // @ts-ignore relax
-    addPixelsPlot(pixelsData, ref, guildData.value, 'spores');
+    addPixelsPlot(pixelsData, ref, options[0].value, 'spores');
   }, []);
 
   return (
