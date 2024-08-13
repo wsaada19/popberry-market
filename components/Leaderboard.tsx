@@ -33,10 +33,6 @@ export type TeamLeaderBoardProps = {
 };
 
 export const Leaderboard = ({ players, className, guildId }: TeamLeaderBoardProps) => {
-  const getCost = (fert: number, goo: number, seeds: number) => {
-    const val = (fert / 3) * 300 + (goo / 3) * 350 + (seeds / 3) * 500;
-    return Number(val.toFixed(0)).toLocaleString();
-  };
   return (
     <div className={`text-base ${className} h-144 overflow-auto w-full`}>
       <table className="text-white w-full">
