@@ -158,7 +158,7 @@ export function addPixelsPlot(
       .on('mouseover', function (event, d: Player) {
         tooltip.html(() => {
           let html = `<p class="title"><strong>${d.name}</strong></p>`;
-          html += `<p><strong>#${getRank(d).toLocaleString()}</strong></p>`;
+          html += `<p><strong>Total Rank #${getRank(d).toLocaleString()}</strong></p>`;
           html += `<p><strong>${getValue(d).toLocaleString()}</strong> ${title}</p>`;
           return html;
         });
