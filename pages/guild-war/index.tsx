@@ -193,6 +193,7 @@ const Tab = ({ title, imageUrl, graph, setSelected, selected, guildId }) => {
             maxWidth: '100%',
             height: 'auto',
             display: 'inline',
+            paddingBottom: '4px',
           }}
         ></Image>
       )}
