@@ -34,7 +34,26 @@ export type TeamLeaderBoardProps = {
   selected: string;
 };
 
-export const Leaderboard = ({ players, className, guildId }: TeamLeaderBoardProps) => {
+export const Leaderboard = ({ players, className, guildId, selected }: TeamLeaderBoardProps) => {
+  // const sortyBy = (p: Player) => {
+  //   switch (selected) {
+  //     case 'fert':
+  //       return players.sort((a, b) => b.fert.value - a.fert.value);
+  //     case 'goo':
+  //       return players.sort((a, b) => b.goo.value - a.goo.value);
+  //     case 'spores':
+  //       return players.sort((a, b) => b.spores.value - a.spores.value);
+  //     case 'wateringCan':
+  //       return players.sort((a, b) => Number(b.wateringCanUse) - Number(a.wateringCanUse));
+  //     case 'pixels':
+  //       return players.sort((a, b) => b.pixelsSpent - a.pixelsSpent);
+  //     case 'total':
+  //       return players.sort((a, b) => b.totalCost - a.totalCost);
+  //     default:
+  //       return players.sort((a, b) => b.totalCost - a.totalCost);
+  //   }
+  // };
+
   return (
     <div className={`text-base ${className} h-144 overflow-auto w-full`}>
       <table className="text-white w-full">
@@ -122,7 +141,6 @@ export const Leaderboard = ({ players, className, guildId }: TeamLeaderBoardProp
                   maxWidth: '100%',
                   height: 'auto',
                   display: 'inline',
-                  paddingBottom: '4px',
                 }}
               ></Image>
             </th>
