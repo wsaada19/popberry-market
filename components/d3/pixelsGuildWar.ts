@@ -147,12 +147,12 @@ export function addPixelsPlot(
       .attr('cy', function (d: Player) {
         return y(getValue(d));
       })
-      .attr('r', 3)
+      .attr('r', 3.2)
       .attr('fill', '#1c4d97')
       .on('mouseover', function (event, d: Player) {
         tooltip.html(() => {
           let html = `<p class="title"><strong>${d.name}</strong></p>`;
-          html += `<p><strong># ${getRank(d).toLocaleString()}</strong></p>`;
+          html += `<p><strong>#${getRank(d).toLocaleString()}</strong></p>`;
           html += `<p><strong>${getValue(d).toLocaleString()}</strong> ${title}</p>`;
           return html;
         });

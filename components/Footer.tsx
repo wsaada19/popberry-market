@@ -4,8 +4,15 @@ export const Footer = (): JSX.Element => {
   return (
     <footer className="mt-4 text-base">
       <hr className="border-gray-300 mb-2" />
-      <p className="text-sm">
+      <p className="text-sm mb-2">
         *Cost is estimated assuming that players used T2 spores, goo and fertilizer for 500 coins.
+      </p>
+      <p className="text-sm mb-2">
+        **If players stopped pledging their shard after the event they may not be reflected in the
+        data.
+      </p>
+      <p className="text-sm mb-2">
+        ***This site is not affiliated with or endorsed by the developers of the game.
       </p>
       <span className="flex float-right">
         {/* <Link passHref className="px-2" href="https://github.com">
