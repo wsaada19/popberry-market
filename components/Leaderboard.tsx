@@ -113,11 +113,10 @@ export const Leaderboard = ({ players, className, guildId }: TeamLeaderBoardProp
               ></Image>
             </th>
             <th className="tex-sm md:text-base lg:text-lg">
-              Cost{'* '}
               <Image
                 src={`/images/coin.webp`}
-                height={18}
-                width={18}
+                height={32}
+                width={32}
                 alt="coin"
                 style={{
                   maxWidth: '100%',

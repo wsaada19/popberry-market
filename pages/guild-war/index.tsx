@@ -66,7 +66,7 @@ export default function GuildWar() {
         <StatDisplay value={`#${guildData.rank}`} type={`${guildData.bracket} Bracket`} />
         <StatDisplay value={`#${guildData.totalRank}`} type="Total Rank" />
         <StatDisplay value={guildData.score.toLocaleString()} type="Points scored" />
-        <StatDisplay value={getTotalCost().toLocaleString()} type="Estimated Cost*" />
+        <StatDisplay value={getTotalCost().toLocaleString()} type="Coins spent" />
       </div>
       <div className="pt-2 pb-3 bg-blue-600 shadow-2xl text-white grid grid-cols-4">
         <StatDisplay value={getTop100InGuild()} type="Top 100 players" />
@@ -124,14 +124,6 @@ export default function GuildWar() {
         guildId={guildData.value}
         selected={selected}
       />
-      <p className="text-sm my-2">
-        *Cost is an estimate assuming that players used T2 spores, goo and fertilizer for 500, 350
-        and 300 coins respectively.
-      </p>
-      <p className="text-sm mb-2">
-        **If players stopped pledging their shard after the event they may not be reflected in the
-        data. If you see someone missing, please let me know on X.
-      </p>
     </Layout>
   );
 }
@@ -157,7 +149,7 @@ const StatDisplay = ({ value, type }) => {
         ) : (
           <></>
         )}
-        {type == 'Estimated Cost*' ? (
+        {type == 'Coins spent' ? (
           <Image
             src={`/images/coin.webp`}
             height={24}
