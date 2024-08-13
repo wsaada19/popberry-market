@@ -16,7 +16,7 @@ export default function GuildWar() {
     const res = pixelsData
       .filter((p) => p.guildId == guildData.value)
       .reduce((acc, curr) => {
-        return acc + (curr.total.value / 3) * 500;
+        return acc + curr.totalCost;
       }, 0)
       .toFixed(0);
 
@@ -109,8 +109,8 @@ export default function GuildWar() {
         selected={selected}
       />
       <p className="text-sm my-2">
-        *Cost is an estimate assuming that players used T2 spores, goo and fertilizer for 500 coins
-        each.
+        *Cost is an estimate assuming that players used T2 spores, goo and fertilizer for 500, 350
+        and 300 coins respectively.
       </p>
       <p className="text-sm mb-2">
         **If players stopped pledging their shard after the event they may not be reflected in the

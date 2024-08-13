@@ -3,6 +3,7 @@ import Image from 'next/image';
 
 export type Player = {
   guildId: string;
+  totalCost: number;
   totalRank?: number;
   name: string;
   id: string;
@@ -32,8 +33,8 @@ export type TeamLeaderBoardProps = {
 };
 
 export const Leaderboard = ({ players, className, guildId }: TeamLeaderBoardProps) => {
-  const getCost = (total: number) => {
-    const val = (total / 3) * 500;
+  const getCost = (fert: number, goo: number, seeds: number) => {
+    const val = (fert / 3) * 300 + (goo / 3) * 350 + (seeds / 3) * 500;
     return Number(val.toFixed(0)).toLocaleString();
   };
   return (
@@ -125,7 +126,7 @@ export const Leaderboard = ({ players, className, guildId }: TeamLeaderBoardProp
                     {player.total.value.toLocaleString()}
                   </td>
                   <td className="text-sm w-10 text-center md:text-base">
-                    {getCost(player.total.value)}
+                    {Number(player.totalCost.toFixed(0)).toLocaleString()}
                   </td>
                 </tr>
               );
