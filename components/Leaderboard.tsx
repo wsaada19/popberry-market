@@ -131,7 +131,7 @@ export const Leaderboard = ({ players, className, guildId }: TeamLeaderBoardProp
         <tbody>
           {players
             .filter((p) => p.guildId == guildId)
-            .sort((a, b) => b.total.value - a.total.value)
+            .sort((a, b) => b.totalCost - a.totalCost)
             .map((player, index) => {
               return (
                 <tr className="h-11 text-black even:bg-light bg-white" key={player.name}>
