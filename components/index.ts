@@ -1,4 +1,3 @@
-export * from './About';
 export * from './Breadcrumbs';
 export * from './Card';
 export * from './ContentfulRichTextRenderer';
