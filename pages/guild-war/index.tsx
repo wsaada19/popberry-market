@@ -15,7 +15,9 @@ export default function GuildWar() {
   const getTotalCost = () => {
     const res = pixelsData
       .filter((p) => p.guildId == guildData.value)
-      .reduce((acc, curr) => acc + (curr.total.value / 3) * 500, 0)
+      .reduce((acc, curr) => {
+        return acc + (curr.total.value / 3) * 500;
+      }, 0)
       .toFixed(0);
 
     return Number(res).toLocaleString();
@@ -54,7 +56,7 @@ export default function GuildWar() {
         </span>
         <span>
           <div className="text-center text-lg font-bold">{getTotalCost()}</div>
-          <div className="text-center text-xs">Total Cost*</div>
+          <div className="text-center text-xs">Estimated Cost*</div>
         </span>
       </div>
       <div className="mt-4 mb-6 text-base h-6 flex justify-center">

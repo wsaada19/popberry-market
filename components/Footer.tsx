@@ -12,7 +12,10 @@ export const Footer = (): JSX.Element => {
         data.
       </p>
       <p className="text-sm mb-2">
-        ***This site is not affiliated with or endorsed by the developers of the game.
+        Not affiliated with{' '}
+        <Link passHref href="https://play.pixels.xyz">
+          Pixels
+        </Link>
       </p>
       <span className="flex float-right">
         {/* <Link passHref className="px-2" href="https://github.com">
