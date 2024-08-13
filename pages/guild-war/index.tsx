@@ -62,13 +62,11 @@ export default function GuildWar() {
         options={options}
       />
       <h1 className="mt-2 text-blue-800">{`${guildData.label} Stats`}</h1>
-      <div className="pb-2 pt-3 mt-4 bg-blue-600 shadow-2xl text-white grid grid-cols-4">
+      <div className="p-3 mt-4 bg-blue-600 shadow-2xl text-white grid grid-cols-2 md:grid-cols-4 gap-4">
         <StatDisplay value={`#${guildData.rank}`} type={`${guildData.bracket} Bracket`} />
         <StatDisplay value={`#${guildData.totalRank}`} type="Total Rank" />
         <StatDisplay value={guildData.score.toLocaleString()} type="Points scored" />
         <StatDisplay value={getTotalCost().toLocaleString()} type="Coins spent" />
-      </div>
-      <div className="pt-2 pb-3 bg-blue-600 shadow-2xl text-white grid grid-cols-4">
         <StatDisplay value={getTop100InGuild()} type="Top 100 players" />
         <StatDisplay value={getTotalGooUsed().toLocaleString()} type={'Goo Used'} />
         <StatDisplay value={getPixelsSpent().toLocaleString()} type="Pixels spent" />
