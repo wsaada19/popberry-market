@@ -9,6 +9,7 @@ type Player = {
   totalRank?: number;
   name: string;
   wateringCanUse: string;
+  wateringCanRank: number;
   id: string;
   fert: {
     value: number;
@@ -112,7 +113,7 @@ export function addPixelsPlot(
       title = 'Total Spores, Guano, Goo Used';
     } else if (type === 'watering') {
       getValue = (d: Player) => parseInt(d.wateringCanUse);
-      getRank = (d: Player) => d.totalRank;
+      getRank = (d: Player) => d.wateringCanRank;
       title = 'Watering Can Uses';
     }
 
