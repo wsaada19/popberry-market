@@ -183,20 +183,20 @@ const Tab = ({ title, imageUrl, graph, setSelected, selected, guildId }) => {
         selected == title.toLowerCase() && 'border-blue-700'
       }`}
     >
-      <Image
-        src={`/images/${imageUrl}`}
-        height={title == 'Total' ? 28 : 32}
-        width={title == 'Total' ? 28 : 32}
-        alt="Github logo"
-        style={{
-          maxWidth: '100%',
-          height: 'auto',
-          display: 'inline',
-        }}
-      ></Image>
-      <span
-        className={`font-semibold text-blue-700 dark:text-white ${title === 'Total' ? 'ml-2' : ''}`}
-      >
+      {title !== 'Total' && (
+        <Image
+          src={`/images/${imageUrl}`}
+          height={title == 'Total' ? 28 : 32}
+          width={title == 'Total' ? 28 : 32}
+          alt="Github logo"
+          style={{
+            maxWidth: '100%',
+            height: 'auto',
+            display: 'inline',
+          }}
+        ></Image>
+      )}
+      <span className={`font-semibold text-blue-700 dark:text-white`}>
         {title === 'Total' ? title : ''}
       </span>
     </button>
