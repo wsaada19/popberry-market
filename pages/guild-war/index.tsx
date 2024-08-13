@@ -20,7 +20,20 @@ export default function GuildWar() {
       }, 0)
       .toFixed(0);
 
-    return Number(res).toLocaleString();
+    return Number(res);
+  };
+
+  const getTotalGooUsed = () => {
+    return pixelsData
+      .filter((p) => p.guildId == guildData.value)
+      .reduce((acc, curr) => {
+        return acc + curr.goo.value;
+      }, 0);
+  };
+
+  const getTop100InGuild = () => {
+    return pixelsData.filter((p) => p.guildId == guildData.value).filter((p) => p.total.rank <= 100)
+      .length;
   };
 
   useEffect(() => {
@@ -41,23 +54,17 @@ export default function GuildWar() {
         options={options}
       />
       <h1 className="mt-2 text-blue-800">{`${guildData.label} Stats`}</h1>
-      <div className="p-3 mt-4 bg-blue-600 shadow-2xl text-white flex justify-evenly">
-        <span>
-          <div className="text-center text-lg font-bold">#{guildData.rank}</div>
-          <div className="text-center text-xs">{guildData.bracket} Bracket</div>
-        </span>
-        <span>
-          <div className="text-center text-lg font-bold">#{guildData.totalRank}</div>
-          <div className="text-center text-xs">Total Rank</div>
-        </span>
-        <span>
-          <div className="text-center text-lg font-bold">{guildData.score.toLocaleString()}</div>
-          <div className="text-center text-xs">Points scored</div>
-        </span>
-        <span>
-          <div className="text-center text-lg font-bold">{getTotalCost()}</div>
-          <div className="text-center text-xs">Estimated Cost*</div>
-        </span>
+      <div className="pb-2 pt-3 mt-4 bg-blue-600 shadow-2xl text-white grid grid-cols-4">
+        <StatDisplay value={`#${guildData.rank}`} type={`${guildData.bracket} Bracket`} />
+        <StatDisplay value={`#${guildData.totalRank}`} type="Total Rank" />
+        <StatDisplay value={guildData.score.toLocaleString()} type="Points scored" />
+        <StatDisplay value={getTotalCost().toLocaleString()} type="Estimated Cost*" />
+      </div>
+      <div className="pt-2 pb-3 bg-blue-600 shadow-2xl text-white grid grid-cols-4">
+        <StatDisplay value={getTop100InGuild()} type="Top 100 players" />
+        <StatDisplay value={getTotalGooUsed().toLocaleString()} type={'Goo Used'} />
+        <StatDisplay value={(getTotalCost() / guildData.score).toFixed(0)} type="Cost per point*" />
+        <StatDisplay value={guildData.earnings.toLocaleString()} type="Earnings" />
       </div>
       <div className="mt-4 mb-6 text-base h-6 flex justify-center">
         <Tab
@@ -96,18 +103,67 @@ export default function GuildWar() {
       <div className="my-8" ref={ref}></div>
       {/* ts-ignore relax */}
       <Leaderboard
-        className="my-3"
+        className="my-4"
         players={pixelsData as Player[]}
         guildId={guildData.value}
         selected={selected}
       />
-      {/* <TeamLeaderBoard
-        className="m-y-3"
-        teams={mostEfficientTeams(data === 'current' ? teamData : pastTeamData)}
-      /> */}
+      <p className="text-sm my-2">
+        *Cost is an estimate assuming that players used T2 spores, goo and fertilizer for 500 coins
+        each.
+      </p>
+      <p className="text-sm mb-2">
+        **If players stopped pledging their shard after the event they may not be reflected in the
+        data. If you see someone missing, please let me know on X.
+      </p>
     </Layout>
   );
 }
+
+const StatDisplay = ({ value, type }) => {
+  return (
+    <span>
+      <div className="text-md text-center md:text-lg font-bold">
+        {type == 'Earnings' ? (
+          <Image
+            src={`/images/pixel.webp`}
+            height={24}
+            width={24}
+            alt="Pixel"
+            style={{
+              maxWidth: '100%',
+              height: 'auto',
+              display: 'inline',
+              paddingBottom: '4px',
+              paddingRight: '4px',
+            }}
+          ></Image>
+        ) : (
+          <></>
+        )}
+        {type == 'Estimated Cost*' ? (
+          <Image
+            src={`/images/coin.webp`}
+            height={24}
+            width={24}
+            alt="Coin"
+            style={{
+              maxWidth: '100%',
+              height: 'auto',
+              display: 'inline',
+              paddingBottom: '4px',
+              paddingRight: '4px',
+            }}
+          ></Image>
+        ) : (
+          <></>
+        )}
+        {value}
+      </div>
+      <div className="text-center text-xs">{type}</div>
+    </span>
+  );
+};
 
 const Tab = ({ title, imageUrl, graph, setSelected, selected, guildId }) => {
   return (

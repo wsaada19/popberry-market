@@ -5,7 +5,8 @@
     "score": 740894,
     "totalRank": 1,
     "bracket": "Upper",
-    "rank": 1
+    "rank": 1,
+    "earnings": 100000
   },
   {
     "value": "comfortzone",
@@ -13,7 +14,8 @@
     "score": 554383,
     "totalRank": 2,
     "bracket": "Upper",
-    "rank": 2
+    "rank": 2,
+    "earnings": 33333.33
   },
   {
     "value": "rjn",
@@ -21,7 +23,8 @@
     "score": 548998,
     "totalRank": 3,
     "bracket": "Upper",
-    "rank": 3
+    "rank": 3,
+    "earnings": 12500
   },
   {
     "value": "farmhub",
@@ -29,7 +32,8 @@
     "score": 398223,
     "totalRank": 4,
     "bracket": "Middle",
-    "rank": 1
+    "rank": 1,
+    "earnings": 55559
   },
   {
     "value": "cyberkongz",
@@ -37,7 +41,8 @@
     "score": 351258,
     "totalRank": 5,
     "bracket": "Upper",
-    "rank": 4
+    "rank": 4,
+    "earnings": 5000
   },
   {
     "value": "insomnia",
@@ -45,7 +50,8 @@
     "score": 269025,
     "totalRank": 6,
     "bracket": "Upper",
-    "rank": 5
+    "rank": 5,
+    "earnings": 3333.33
   },
   {
     "value": "paldoclub",
@@ -53,7 +59,8 @@
     "score": 261897,
     "totalRank": 7,
     "bracket": "Upper",
-    "rank": 6
+    "rank": 6,
+    "earnings": 2778.33
   },
   {
     "value": "p2g",
@@ -61,7 +68,8 @@
     "score": 257218,
     "totalRank": 8,
     "bracket": "Middle",
-    "rank": 2
+    "rank": 2,
+    "earnings": 16666.7
   },
   {
     "value": "bch",
@@ -69,7 +77,8 @@
     "score": 242190,
     "totalRank": 9,
     "bracket": "Upper",
-    "rank": 7
+    "rank": 7,
+    "earnings": 2778.33
   },
   {
     "value": "4200",
@@ -77,7 +86,8 @@
     "score": 240501,
     "totalRank": 10,
     "bracket": "Lower",
-    "rank": 1
+    "rank": 1,
+    "earnings": "27783.33"
   },
   {
     "value": "tif",
@@ -85,7 +95,8 @@
     "score": 217301,
     "totalRank": 11,
     "bracket": "Upper",
-    "rank": 8
+    "rank": 8,
+    "earnings": 2778.33
   },
   {
     "value": "clover",
@@ -93,7 +104,8 @@
     "score": 185627,
     "totalRank": 12,
     "bracket": "Middle",
-    "rank": 3
+    "rank": 3,
+    "earnings": 5557
   },
   {
     "value": "suragaming",
@@ -101,7 +113,8 @@
     "score": 178380,
     "totalRank": 13,
     "bracket": "Lower",
-    "rank": 2
+    "rank": 2,
+    "earnings": 11333.33
   },
   {
     "value": "cg",
@@ -109,7 +122,8 @@
     "score": 176570,
     "totalRank": 14,
     "bracket": "Upper",
-    "rank": 9
+    "rank": 9,
+    "earnings": 2778.33
   },
   {
     "value": "c3r2d2",
@@ -117,7 +131,8 @@
     "score": 167961,
     "totalRank": 15,
     "bracket": "Lower",
-    "rank": 3
+    "rank": 3,
+    "earnings": 5566.67
   },
   {
     "value": "nerd",
@@ -125,7 +140,8 @@
     "score": 140808,
     "totalRank": 16,
     "bracket": "Upper",
-    "rank": 10
+    "rank": 10,
+    "earnings": 2778.33
   },
   {
     "value": "pixelsgg",
@@ -133,7 +149,8 @@
     "score": 140263,
     "totalRank": 17,
     "bracket": "Middle",
-    "rank": 4
+    "rank": 4,
+    "earnings": 3000
   },
   {
     "value": "pixelpals",
@@ -141,7 +158,8 @@
     "score": 132079,
     "totalRank": 18,
     "bracket": "Middle",
-    "rank": 5
+    "rank": 5,
+    "earnings": 2000
   },
   {
     "value": "degranoengrano",
@@ -149,7 +167,8 @@
     "score": 127331,
     "totalRank": 19,
     "bracket": "Lower",
-    "rank": 4
+    "rank": 4,
+    "earnings": 1666.67
   },
   {
     "value": "smg",
@@ -157,7 +176,8 @@
     "score": 112582,
     "totalRank": 20,
     "bracket": "Middle",
-    "rank": 6
+    "rank": 6,
+    "earnings": 1666.67
   },
   {
     "value": "pxf",
@@ -165,7 +185,8 @@
     "score": 108004,
     "totalRank": 21,
     "bracket": "Upper",
-    "rank": 11
+    "rank": 11,
+    "earnings": 0
   },
   {
     "value": "pixelatedpeople",
@@ -173,7 +194,8 @@
     "score": 106345,
     "totalRank": 22,
     "bracket": "Middle",
-    "rank": 7
+    "rank": 7,
+    "earnings": 1666.67
   },
   {
     "value": "hurugaming",
@@ -181,7 +203,8 @@
     "score": 103092,
     "totalRank": 23,
     "bracket": "Middle",
-    "rank": 8
+    "rank": 8,
+    "earnings": 1666.67
   },
   {
     "value": "ggs",
@@ -189,7 +212,8 @@
     "score": 94477,
     "totalRank": 24,
     "bracket": "Middle",
-    "rank": 9
+    "rank": 9,
+    "earnings": 1666.67
   },
   {
     "value": "magicfarm",
@@ -197,7 +221,8 @@
     "score": 93029,
     "totalRank": 25,
     "bracket": "Lower",
-    "rank": 5
+    "rank": 5,
+    "earnings": 1666.67
   },
   {
     "value": "pix",
@@ -205,7 +230,8 @@
     "score": 86187,
     "totalRank": 26,
     "bracket": "Lower",
-    "rank": 6
+    "rank": 6,
+    "earnings": 1111.13
   },
   {
     "value": "c3po",
@@ -213,7 +239,8 @@
     "score": 83148,
     "totalRank": 27,
     "bracket": "Middle",
-    "rank": 10
+    "rank": 10,
+    "earnings": 1666.67
   },
   {
     "value": "ferdysorphanage",
@@ -221,7 +248,8 @@
     "score": 77595,
     "totalRank": 28,
     "bracket": "Middle",
-    "rank": 11
+    "rank": 11,
+    "earnings": 1666.67
   },
   {
     "value": "ssow",
@@ -229,7 +257,8 @@
     "score": 73159,
     "totalRank": 29,
     "bracket": "Lower",
-    "rank": 7
+    "rank": 7,
+    "earnings": 1111.13
   },
   {
     "value": "markofthezeal",
@@ -237,7 +266,8 @@
     "score": 66283,
     "totalRank": 30,
     "bracket": "Lower",
-    "rank": 8
+    "rank": 8,
+    "earnings": 556.67
   },
   {
     "value": "anata",
@@ -245,7 +275,8 @@
     "score": 57092,
     "totalRank": 31,
     "bracket": "Middle",
-    "rank": 12
+    "rank": 12,
+    "earnings": 1666.67
   },
   {
     "value": "afarmerparadise",
@@ -253,7 +284,8 @@
     "score": 54295,
     "totalRank": 32,
     "bracket": "Upper",
-    "rank": 12
+    "rank": 12,
+    "earnings": 0
   },
   {
     "value": "renegadesph",
@@ -261,7 +293,8 @@
     "score": 53802,
     "totalRank": 33,
     "bracket": "Lower",
-    "rank": 9
+    "rank": 9,
+    "earnings": 556.67
   },
   {
     "value": "pyjamasclub",
@@ -269,7 +302,8 @@
     "score": 53524,
     "totalRank": 34,
     "bracket": "Middle",
-    "rank": 13
+    "rank": 13,
+    "earnings": 1666.67
   },
   {
     "value": "tbtteam",
@@ -277,7 +311,8 @@
     "score": 53018,
     "totalRank": 35,
     "bracket": "Upper",
-    "rank": 13
+    "rank": 13,
+    "earnings": 0
   },
   {
     "value": "zgg",
@@ -285,7 +320,8 @@
     "score": 49484,
     "totalRank": 36,
     "bracket": "Lower",
-    "rank": 10
+    "rank": 10,
+    "earnings": 556.67
   },
   {
     "value": "dizzy",
@@ -293,7 +329,8 @@
     "score": 46251,
     "totalRank": 37,
     "bracket": "Middle",
-    "rank": 14
+    "rank": 14,
+    "earnings": 1666.67
   },
   {
     "value": "p2gcn",
@@ -301,7 +338,8 @@
     "score": 46014,
     "totalRank": 38,
     "bracket": "Middle",
-    "rank": 15
+    "rank": 15,
+    "earnings": 1666.67
   },
   {
     "value": "breederdao",
@@ -309,7 +347,8 @@
     "score": 45219,
     "totalRank": 39,
     "bracket": "Upper",
-    "rank": 14
+    "rank": 14,
+    "earnings": 0
   },
   {
     "value": "farm",
@@ -317,7 +356,8 @@
     "score": 43569,
     "totalRank": 40,
     "bracket": "Lower",
-    "rank": 11
+    "rank": 11,
+    "earnings": 556.67
   },
   {
     "value": "moku",
@@ -325,7 +365,8 @@
     "score": 40996,
     "totalRank": 41,
     "bracket": "Lower",
-    "rank": 12
+    "rank": 12,
+    "earnings": 556.67
   },
   {
     "value": "farmhands",
@@ -333,7 +374,8 @@
     "score": 39375,
     "totalRank": 42,
     "bracket": "Middle",
-    "rank": 16
+    "rank": 16,
+    "earnings": 1666.67
   },
   {
     "value": "lemonheads",
@@ -341,7 +383,8 @@
     "score": 38945,
     "totalRank": 43,
     "bracket": "Lower",
-    "rank": 13
+    "rank": 13,
+    "earnings": 556.67
   },
   {
     "value": "ccx",
@@ -349,7 +392,8 @@
     "score": 37345,
     "totalRank": 44,
     "bracket": "Lower",
-    "rank": 14
+    "rank": 14,
+    "earnings": 556.67
   },
   {
     "value": "barracks",
@@ -357,7 +401,8 @@
     "score": 37126,
     "totalRank": 45,
     "bracket": "Middle",
-    "rank": 17
+    "rank": 17,
+    "earnings": 0
   },
   {
     "value": "pop",
@@ -365,7 +410,8 @@
     "score": 36973,
     "totalRank": 46,
     "bracket": "Upper",
-    "rank": 15
+    "rank": 15,
+    "earnings": 0
   },
   {
     "value": "5s",
@@ -373,7 +419,8 @@
     "score": 36812,
     "totalRank": 47,
     "bracket": "Lower",
-    "rank": 15
+    "rank": 15,
+    "earnings": 556.67
   },
   {
     "value": "catisland",
@@ -381,7 +428,8 @@
     "score": 36754,
     "totalRank": 48,
     "bracket": "Lower",
-    "rank": 16
+    "rank": 16,
+    "earnings": 556.67
   },
   {
     "value": "cookiemonsters",
@@ -389,7 +437,8 @@
     "score": 35313,
     "totalRank": 49,
     "bracket": "Lower",
-    "rank": 17
+    "rank": 17,
+    "earnings": 556.67
   },
   {
     "value": "manani",
@@ -397,7 +446,8 @@
     "score": 32887,
     "totalRank": 50,
     "bracket": "Middle",
-    "rank": 18
+    "rank": 18,
+    "earnings": 0
   },
   {
     "value": "dreamland",
@@ -405,7 +455,8 @@
     "score": 32768,
     "totalRank": 51,
     "bracket": "Middle",
-    "rank": 19
+    "rank": 19,
+    "earnings": 0
   },
   {
     "value": "byac",
@@ -413,7 +464,8 @@
     "score": 32534,
     "totalRank": 52,
     "bracket": "Lower",
-    "rank": 18
+    "rank": 18,
+    "earnings": 556.67
   },
   {
     "value": "covenant",
@@ -421,7 +473,8 @@
     "score": 31196,
     "totalRank": 53,
     "bracket": "Lower",
-    "rank": 19
+    "rank": 19,
+    "earnings": 556.67
   },
   {
     "value": "arcana",
@@ -429,7 +482,8 @@
     "score": 30020,
     "totalRank": 54,
     "bracket": "Middle",
-    "rank": 20
+    "rank": 20,
+    "earnings": 0
   },
   {
     "value": "luuu",
@@ -437,7 +491,8 @@
     "score": 29107,
     "totalRank": 55,
     "bracket": "Lower",
-    "rank": 20
+    "rank": 20,
+    "earnings": 556.67
   },
   {
     "value": "tropapipz",
@@ -445,7 +500,8 @@
     "score": 28584,
     "totalRank": 56,
     "bracket": "Lower",
-    "rank": 21
+    "rank": 21,
+    "earnings": 556.67
   },
   {
     "value": "doozie",
@@ -453,7 +509,8 @@
     "score": 24737,
     "totalRank": 57,
     "bracket": "Middle",
-    "rank": 21
+    "rank": 21,
+    "earnings": 0
   },
   {
     "value": "abood",
@@ -461,7 +518,8 @@
     "score": 23720,
     "totalRank": 58,
     "bracket": "Middle",
-    "rank": 22
+    "rank": 22,
+    "earnings": 0
   },
   {
     "value": "pixelprimates",
@@ -469,7 +527,8 @@
     "score": 22564,
     "totalRank": 59,
     "bracket": "Lower",
-    "rank": 22
+    "rank": 22,
+    "earnings": 556.67
   },
   {
     "value": "harvesthooligans",
@@ -477,7 +536,8 @@
     "score": 22369,
     "totalRank": 60,
     "bracket": "Lower",
-    "rank": 23
+    "rank": 23,
+    "earnings": 556.67
   },
   {
     "value": "namlong",
@@ -485,7 +545,8 @@
     "score": 22251,
     "totalRank": 61,
     "bracket": "Upper",
-    "rank": 16
+    "rank": 16,
+    "earnings": 0
   },
   {
     "value": "triads",
@@ -493,7 +554,8 @@
     "score": 22073,
     "totalRank": 62,
     "bracket": "Upper",
-    "rank": 17
+    "rank": 17,
+    "earnings": 0
   },
   {
     "value": "sky",
@@ -501,7 +563,8 @@
     "score": 21240,
     "totalRank": 63,
     "bracket": "Lower",
-    "rank": 24
+    "rank": 24,
+    "earnings": 556.67
   },
   {
     "value": "diwatapares",
@@ -509,7 +572,8 @@
     "score": 20534,
     "totalRank": 64,
     "bracket": "Lower",
-    "rank": 25
+    "rank": 25,
+    "earnings": 556.67
   },
   {
     "value": "kryptoclouds",
@@ -517,7 +581,8 @@
     "score": 19577,
     "totalRank": 65,
     "bracket": "Middle",
-    "rank": 23
+    "rank": 23,
+    "earnings": 0
   },
   {
     "value": "one",
@@ -525,7 +590,8 @@
     "score": 17761,
     "totalRank": 66,
     "bracket": "Middle",
-    "rank": 24
+    "rank": 24,
+    "earnings": 0
   },
   {
     "value": "cryptoogame",
@@ -533,7 +599,8 @@
     "score": 16474,
     "totalRank": 67,
     "bracket": "Middle",
-    "rank": 25
+    "rank": 25,
+    "earnings": 0
   },
   {
     "value": "lfg",
@@ -541,7 +608,8 @@
     "score": 15886,
     "totalRank": 68,
     "bracket": "Lower",
-    "rank": 26
+    "rank": 26,
+    "earnings": 556.67
   },
   {
     "value": "fire",
@@ -549,7 +617,8 @@
     "score": 15666,
     "totalRank": 69,
     "bracket": "Upper",
-    "rank": 18
+    "rank": 18,
+    "earnings": 0
   },
   {
     "value": "drakp",
@@ -557,7 +626,8 @@
     "score": 15047,
     "totalRank": 70,
     "bracket": "Lower",
-    "rank": 27
+    "rank": 27,
+    "earnings": 556.67
   },
   {
     "value": "tinys",
@@ -565,7 +635,8 @@
     "score": 14055,
     "totalRank": 71,
     "bracket": "Upper",
-    "rank": 19
+    "rank": 19,
+    "earnings": 0
   },
   {
     "value": "dts",
@@ -573,7 +644,8 @@
     "score": 13503,
     "totalRank": 72,
     "bracket": "Lower",
-    "rank": 28
+    "rank": 28,
+    "earnings": 556.67
   },
   {
     "value": "kuroiboshi",
@@ -581,7 +653,8 @@
     "score": 12638,
     "totalRank": 73,
     "bracket": "Lower",
-    "rank": 29
+    "rank": 29,
+    "earnings": 556.67
   },
   {
     "value": "cryptogamingfamily",
@@ -589,7 +662,8 @@
     "score": 12067,
     "totalRank": 74,
     "bracket": "Lower",
-    "rank": 30
+    "rank": 30,
+    "earnings": 556.67
   },
   {
     "value": "guildpal",
@@ -597,7 +671,8 @@
     "score": 11993,
     "totalRank": 75,
     "bracket": "Middle",
-    "rank": 26
+    "rank": 26,
+    "earnings": 0
   },
   {
     "value": "ghost",
@@ -605,7 +680,8 @@
     "score": 11241,
     "totalRank": 76,
     "bracket": "Lower",
-    "rank": 31
+    "rank": 31,
+    "earnings": 556.67
   },
   {
     "value": "gcd",
@@ -613,7 +689,8 @@
     "score": 10973,
     "totalRank": 77,
     "bracket": "Lower",
-    "rank": 32
+    "rank": 32,
+    "earnings": 556.67
   },
   {
     "value": "bx",
@@ -621,7 +698,8 @@
     "score": 10234,
     "totalRank": 78,
     "bracket": "Lower",
-    "rank": 33
+    "rank": 33,
+    "earnings": 556.67
   },
   {
     "value": "mysticlan",
@@ -629,7 +707,8 @@
     "score": 9984,
     "totalRank": 79,
     "bracket": "Lower",
-    "rank": 34
+    "rank": 34,
+    "earnings": 556.67
   },
   {
     "value": "sundaempire",
@@ -637,7 +716,8 @@
     "score": 9930,
     "totalRank": 80,
     "bracket": "Middle",
-    "rank": 27
+    "rank": 27,
+    "earnings": 0
   },
   {
     "value": "c3",
@@ -645,7 +725,8 @@
     "score": 9474,
     "totalRank": 81,
     "bracket": "Upper",
-    "rank": 20
+    "rank": 20,
+    "earnings": 0
   },
   {
     "value": "9gag",
@@ -653,7 +734,8 @@
     "score": 9293,
     "totalRank": 82,
     "bracket": "Middle",
-    "rank": 28
+    "rank": 28,
+    "earnings": 0
   },
   {
     "value": "oom",
@@ -661,7 +743,8 @@
     "score": 8976,
     "totalRank": 83,
     "bracket": "Middle",
-    "rank": 29
+    "rank": 29,
+    "earnings": 0
   },
   {
     "value": "juice",
@@ -669,7 +752,8 @@
     "score": 8564,
     "totalRank": 84,
     "bracket": "Lower",
-    "rank": 35
+    "rank": 35,
+    "earnings": 556.67
   },
   {
     "value": "ola",
@@ -677,7 +761,8 @@
     "score": 8432,
     "totalRank": 85,
     "bracket": "Lower",
-    "rank": 36
+    "rank": 36,
+    "earnings": 0
   },
   {
     "value": "stark",
@@ -685,7 +770,8 @@
     "score": 8432,
     "totalRank": 86,
     "bracket": "Lower",
-    "rank": 37
+    "rank": 37,
+    "earnings": 0
   },
   {
     "value": "prime",
@@ -693,7 +779,8 @@
     "score": 8122,
     "totalRank": 87,
     "bracket": "Lower",
-    "rank": 38
+    "rank": 38,
+    "earnings": 0
   },
   {
     "value": "nftitalia",
@@ -701,7 +788,8 @@
     "score": 8086,
     "totalRank": 88,
     "bracket": "Lower",
-    "rank": 39
+    "rank": 39,
+    "earnings": 0
   },
   {
     "value": "nic",
@@ -709,7 +797,8 @@
     "score": 7855,
     "totalRank": 89,
     "bracket": "Lower",
-    "rank": 40
+    "rank": 40,
+    "earnings": 0
   },
   {
     "value": "critterclubhouse",
@@ -717,7 +806,8 @@
     "score": 7729,
     "totalRank": 90,
     "bracket": "Middle",
-    "rank": 30
+    "rank": 30,
+    "earnings": 0
   },
   {
     "value": "brotherhood999",
@@ -725,7 +815,8 @@
     "score": 7367,
     "totalRank": 91,
     "bracket": "Lower",
-    "rank": 41
+    "rank": 41,
+    "earnings": 0
   },
   {
     "value": "geegee",
@@ -733,7 +824,8 @@
     "score": 6062,
     "totalRank": 92,
     "bracket": "Middle",
-    "rank": 31
+    "rank": 31,
+    "earnings": 0
   },
   {
     "value": "lesfermiers",
@@ -741,7 +833,8 @@
     "score": 5951,
     "totalRank": 93,
     "bracket": "Lower",
-    "rank": 42
+    "rank": 42,
+    "earnings": 0
   },
   {
     "value": "pixelsth",
@@ -749,7 +842,8 @@
     "score": 5774,
     "totalRank": 94,
     "bracket": "Lower",
-    "rank": 43
+    "rank": 43,
+    "earnings": 0
   },
   {
     "value": "difgamefi",
@@ -757,7 +851,8 @@
     "score": 5590,
     "totalRank": 95,
     "bracket": "Lower",
-    "rank": 44
+    "rank": 44,
+    "earnings": 0
   },
   {
     "value": "robkingdom",
@@ -765,7 +860,8 @@
     "score": 5529,
     "totalRank": 96,
     "bracket": "Lower",
-    "rank": 45
+    "rank": 45,
+    "earnings": 0
   },
   {
     "value": "pixeldreams",
@@ -773,7 +869,8 @@
     "score": 5245,
     "totalRank": 97,
     "bracket": "Lower",
-    "rank": 46
+    "rank": 46,
+    "earnings": 0
   },
   {
     "value": "luckyberry",
@@ -781,7 +878,8 @@
     "score": 5170,
     "totalRank": 98,
     "bracket": "Middle",
-    "rank": 32
+    "rank": 32,
+    "earnings": 0
   },
   {
     "value": "bracsquad",
@@ -789,7 +887,8 @@
     "score": 5157,
     "totalRank": 99,
     "bracket": "Middle",
-    "rank": 33
+    "rank": 33,
+    "earnings": 0
   },
   {
     "value": "serikat",
@@ -797,6 +896,7 @@
     "score": 5101,
     "totalRank": 100,
     "bracket": "Lower",
-    "rank": 47
+    "rank": 47,
+    "earnings": 0
   }
 ]

@@ -10,7 +10,7 @@ type LayoutProps = {
 };
 export default function PageLayout({ children, description, title }: LayoutProps) {
   return (
-    <div className="dark:bg-blue-300 dark:text-white min-h-full">
+    <div className="dark:bg-blue-900 dark:text-white min-h-full">
       <div className="pt-4 mx-auto pb-8 max-w-4xl px-4 md:px-8">
         <Head>
           <title>{title}</title>

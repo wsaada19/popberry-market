@@ -37,7 +37,7 @@ export const Leaderboard = ({ players, className, guildId }: TeamLeaderBoardProp
     return Number(val.toFixed(0)).toLocaleString();
   };
   return (
-    <div className={`text-base ${className} h-144 overflow-auto mb-2 w-full`}>
+    <div className={`text-base ${className} h-144 overflow-auto w-full`}>
       <table className="text-white w-full">
         <thead className="md:tex-sm  text-base text-white h-11 bg-blue-600 sticky top-0">
           <tr>

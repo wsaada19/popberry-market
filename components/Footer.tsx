@@ -4,20 +4,13 @@ export const Footer = (): JSX.Element => {
   return (
     <footer className="mt-4 text-base">
       <hr className="border-gray-300 mb-2" />
-      <p className="text-sm mb-2">
-        *Cost is estimated assuming that players used T2 spores, goo and fertilizer for 500 coins.
-      </p>
-      <p className="text-sm mb-2">
-        **If players stopped pledging their shard after the event they may not be reflected in the
-        data.
-      </p>
-      <p className="text-sm mb-2">
-        Not affiliated with{' '}
-        <Link passHref href="https://play.pixels.xyz">
-          Pixels
-        </Link>
-      </p>
-      <span className="flex float-right">
+      <span className="flex justify-between">
+        <p className="text-sm mb-2 mt-2">
+          Not affiliated with{' '}
+          <Link passHref href="https://play.pixels.xyz">
+            Pixels Online
+          </Link>
+        </p>
         {/* <Link passHref className="px-2" href="https://github.com">
           <Image
             src="/images/github.svg"
@@ -30,7 +23,11 @@ export const Footer = (): JSX.Element => {
             }}
           ></Image>
         </Link> */}
-        <Link passHref className="twitter-follow-button" href="https://x.com/GamingEtheria">
+        <Link
+          passHref
+          className="twitter-follow-button float-right"
+          href="https://x.com/GamingEtheria"
+        >
           @x
         </Link>
       </span>

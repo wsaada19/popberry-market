@@ -9,6 +9,7 @@ type NavigationProps = {
 export const Navigation = ({ hideLinks = false }: NavigationProps) => {
   return (
     <nav className="mt-2 mb-4 text-base h-6">
+      <span className="text-blue-600 text-base m-0 dark:text-white">Guild War Analytics</span>
       {!hideLinks && (
         <>
           <Link href="/" className="mr-2 md:mr-4">
