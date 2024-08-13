@@ -5,8 +5,10 @@ export type Player = {
   guildId: string;
   totalCost: number;
   totalRank?: number;
+  pixelsSpent: number;
   name: string;
   id: string;
+  wateringCanUse: string;
   fert: {
     value: number;
     rank: number;
@@ -82,7 +84,34 @@ export const Leaderboard = ({ players, className, guildId }: TeamLeaderBoardProp
                 }}
               ></Image>
             </th>
-            <th className="tex-sm md:text-base lg:text-lg">Total</th>
+            <th className="tex-sm md:text-base lg:text-lg">
+              <Image
+                src={`/images/watering-can.png`}
+                height={32}
+                width={32}
+                alt="watering can"
+                style={{
+                  maxWidth: '100%',
+                  height: 'auto',
+                  display: 'inline',
+                  paddingBottom: '4px',
+                }}
+              ></Image>
+            </th>
+            <th className="tex-sm md:text-base lg:text-lg">
+              <Image
+                src={`/images/pixel.webp`}
+                height={32}
+                width={32}
+                alt="Pixels"
+                style={{
+                  maxWidth: '100%',
+                  height: 'auto',
+                  display: 'inline',
+                  paddingBottom: '4px',
+                }}
+              ></Image>
+            </th>
             <th className="tex-sm md:text-base lg:text-lg">
               Cost{'* '}
               <Image
@@ -119,7 +148,10 @@ export const Leaderboard = ({ players, className, guildId }: TeamLeaderBoardProp
                     {player.spores.value.toLocaleString()}
                   </td>
                   <td className="text-sm w-10 text-center md:text-base">
-                    {player.total.value.toLocaleString()}
+                    {Number(player.wateringCanUse).toLocaleString()}
+                  </td>
+                  <td className="text-sm w-10 text-center md:text-base">
+                    {Number(player.pixelsSpent).toLocaleString()}
                   </td>
                   <td className="text-sm w-10 text-center md:text-base">
                     {Number(player.totalCost.toFixed(0)).toLocaleString()}

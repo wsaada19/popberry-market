@@ -31,6 +31,14 @@ export default function GuildWar() {
       }, 0);
   };
 
+  const getPixelsSpent = () => {
+    return pixelsData
+      .filter((p) => p.guildId == guildData.value)
+      .reduce((acc, curr) => {
+        return acc + curr.pixelsSpent;
+      }, 0);
+  };
+
   const getTop100InGuild = () => {
     return pixelsData.filter((p) => p.guildId == guildData.value).filter((p) => p.total.rank <= 100)
       .length;
@@ -63,7 +71,7 @@ export default function GuildWar() {
       <div className="pt-2 pb-3 bg-blue-600 shadow-2xl text-white grid grid-cols-4">
         <StatDisplay value={getTop100InGuild()} type="Top 100 players" />
         <StatDisplay value={getTotalGooUsed().toLocaleString()} type={'Goo Used'} />
-        <StatDisplay value={(getTotalCost() / guildData.score).toFixed(0)} type="Cost per point*" />
+        <StatDisplay value={getPixelsSpent().toLocaleString()} type="Pixels spent" />
         <StatDisplay value={guildData.earnings.toLocaleString()} type="Earnings" />
       </div>
       <div className="mt-4 mb-6 text-base h-6 flex justify-center">
@@ -86,6 +94,14 @@ export default function GuildWar() {
         <Tab
           title="Goo"
           imageUrl="goo.png"
+          graph={ref}
+          setSelected={setSelected}
+          selected={selected}
+          guildId={guildData.value}
+        />
+        <Tab
+          title="Watering"
+          imageUrl="watering-can.png"
           graph={ref}
           setSelected={setSelected}
           selected={selected}
@@ -124,7 +140,7 @@ const StatDisplay = ({ value, type }) => {
   return (
     <span>
       <div className="text-md text-center md:text-lg font-bold">
-        {type == 'Earnings' ? (
+        {type == 'Earnings' || type == 'Pixels spent' ? (
           <Image
             src={`/images/pixel.webp`}
             height={24}
@@ -173,14 +189,14 @@ const Tab = ({ title, imageUrl, graph, setSelected, selected, guildId }) => {
         addPixelsPlot(pixelsData, graph, guildId, title.toLowerCase());
         setSelected(title.toLowerCase());
       }}
-      className={`cursor-pointer h-9 px-1 mx-2 border-b-4 ${
+      className={`cursor-pointer h-9 px-2 mx-2 border-b-4 ${
         selected == title.toLowerCase() && 'border-blue-700'
       }`}
     >
       <Image
         src={`/images/${imageUrl}`}
-        height={title == 'Total' ? 22 : 26}
-        width={title == 'Total' ? 22 : 26}
+        height={title == 'Total' ? 28 : 32}
+        width={title == 'Total' ? 28 : 32}
         alt="Github logo"
         style={{
           maxWidth: '100%',
@@ -188,8 +204,10 @@ const Tab = ({ title, imageUrl, graph, setSelected, selected, guildId }) => {
           display: 'inline',
         }}
       ></Image>
-      <span className={`mr-2 md:mr-4 pl-2 font-semibold text-blue-700 dark:text-white`}>
-        {title}
+      <span
+        className={`font-semibold text-blue-700 dark:text-white ${title === 'Total' ? 'ml-2' : ''}`}
+      >
+        {title === 'Total' ? title : ''}
       </span>
     </button>
   );

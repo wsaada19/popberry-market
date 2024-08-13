@@ -8,6 +8,7 @@ type Player = {
   guildId: string;
   totalRank?: number;
   name: string;
+  wateringCanUse: string;
   id: string;
   fert: {
     value: number;
@@ -109,6 +110,10 @@ export function addPixelsPlot(
       getRank = (d: Player) => d.total.rank;
       getValue = (d: Player) => d.total.value;
       title = 'Total Spores, Guano, Goo Used';
+    } else if (type === 'watering') {
+      getValue = (d: Player) => parseInt(d.wateringCanUse);
+      getRank = (d: Player) => d.totalRank;
+      title = 'Watering Can Uses';
     }
 
     data = data.filter((d) => getValue(d) > 0);
