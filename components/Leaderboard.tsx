@@ -34,7 +34,7 @@ export type TeamLeaderBoardProps = {
   selected: string;
 };
 
-export const Leaderboard = ({ players, className, guildId, selected }: TeamLeaderBoardProps) => {
+export const Leaderboard = ({ players, className, guildId }: TeamLeaderBoardProps) => {
   // const sortyBy = (p: Player) => {
   //   switch (selected) {
   //     case 'fert':
