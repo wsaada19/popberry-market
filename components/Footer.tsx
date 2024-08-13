@@ -4,6 +4,9 @@ export const Footer = (): JSX.Element => {
   return (
     <footer className="mt-4 text-base">
       <hr className="border-gray-300 mb-2" />
+      <p className="text-sm">
+        *Cost is estimated assuming that players used T2 spores, goo and fertilizer for 500 coins.
+      </p>
       <span className="flex float-right">
         {/* <Link passHref className="px-2" href="https://github.com">
           <Image

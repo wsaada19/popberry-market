@@ -28,13 +28,18 @@ export type TeamLeaderBoardProps = {
   players: Player[];
   className?: string;
   guildId: string;
+  selected: string;
 };
 
 export const Leaderboard = ({ players, className, guildId }: TeamLeaderBoardProps) => {
+  const getCost = (total: number) => {
+    const val = (total / 3) * 500;
+    return Number(val.toFixed(0)).toLocaleString();
+  };
   return (
-    <div className={`text-base ${className} h-144 overflow-auto mb-2`}>
+    <div className={`text-base ${className} h-144 overflow-auto mb-2 w-full`}>
       <table className="text-white w-full">
-        <thead className="text-base text-white h-11 bg-blue-600 sticky top-0">
+        <thead className="md:tex-sm  text-base text-white h-11 bg-blue-600 sticky top-0">
           <tr>
             <th></th>
             <th></th>
@@ -80,7 +85,22 @@ export const Leaderboard = ({ players, className, guildId }: TeamLeaderBoardProp
                 }}
               ></Image>
             </th>
-            <th className="text-lg">Total</th>
+            <th className="tex-sm md:text-base lg:text-lg">Total</th>
+            <th className="tex-sm md:text-base lg:text-lg">
+              Cost{'* '}
+              <Image
+                src={`/images/coin.webp`}
+                height={18}
+                width={18}
+                alt="coin"
+                style={{
+                  maxWidth: '100%',
+                  height: 'auto',
+                  display: 'inline',
+                  paddingBottom: '4px',
+                }}
+              ></Image>
+            </th>
           </tr>
         </thead>
         <tbody>
@@ -90,12 +110,23 @@ export const Leaderboard = ({ players, className, guildId }: TeamLeaderBoardProp
             .map((player, index) => {
               return (
                 <tr className="h-11 text-black even:bg-light bg-white" key={player.name}>
-                  <td className="pl-4 w-1/12">#{index + 1}</td>
-                  <td className="w-10">{`${player.name}`}</td>
-                  <td className="w-10 text-center">{player.fert.value.toLocaleString()}</td>
-                  <td className="w-10 text-center">{player.goo.value.toLocaleString()}</td>
-                  <td className="w-10 text-center">{player.spores.value.toLocaleString()}</td>
-                  <td className="w-10 text-center">{player.total.value.toLocaleString()}</td>
+                  <td className="tex-sm pl-4 w-1/12 text-base md:text-base">#{index + 1}</td>
+                  <td className="text-sm w-10 md:text-base">{`${player.name}`}</td>
+                  <td className="text-sm w-10 text-center md:text-base">
+                    {player.fert.value.toLocaleString()}
+                  </td>
+                  <td className="text-sm w-10 text-center md:text-base">
+                    {player.goo.value.toLocaleString()}
+                  </td>
+                  <td className="text-sm w-10 text-center md:text-base">
+                    {player.spores.value.toLocaleString()}
+                  </td>
+                  <td className="text-sm w-10 text-center md:text-base">
+                    {player.total.value.toLocaleString()}
+                  </td>
+                  <td className="text-sm w-10 text-center md:text-base">
+                    {getCost(player.total.value)}
+                  </td>
                 </tr>
               );
             })}

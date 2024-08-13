@@ -12,6 +12,15 @@ export default function GuildWar() {
   const [selected, setSelected] = useState('spores');
   const [guildData, setGuildData] = useState(options[0]);
 
+  const getTotalCost = () => {
+    const res = pixelsData
+      .filter((p) => p.guildId == guildData.value)
+      .reduce((acc, curr) => acc + (curr.total.value / 3) * 500, 0)
+      .toFixed(0);
+
+    return Number(res).toLocaleString();
+  };
+
   useEffect(() => {
     // @ts-ignore relax
     addPixelsPlot(pixelsData, ref, options[0].value, 'spores');
@@ -28,15 +37,9 @@ export default function GuildWar() {
         }}
         className="w-1/3 float-right text-black border-purple"
         options={options}
-        styles={{
-          control: (baseStyles, state) => ({
-            ...baseStyles,
-            borderColor: state.isFocused || state.menuIsOpen ? '#805ad5' : baseStyles.borderColor,
-          }),
-        }}
       />
       <h1 className="mt-2 text-blue-800">{`${guildData.label} Stats`}</h1>
-      <div className="p-3 mt-4 rounded-2xl bg-blue-700 shadow-2xl   text-white flex justify-evenly">
+      <div className="p-3 mt-4 bg-blue-600 shadow-2xl text-white flex justify-evenly">
         <span>
           <div className="text-center text-lg font-bold">#{guildData.rank}</div>
           <div className="text-center text-xs">{guildData.bracket} Bracket</div>
@@ -50,8 +53,8 @@ export default function GuildWar() {
           <div className="text-center text-xs">Points scored</div>
         </span>
         <span>
-          <div className="text-center text-lg font-bold">200,453</div>
-          <div className="text-center text-xs">Goo used</div>
+          <div className="text-center text-lg font-bold">{getTotalCost()}</div>
+          <div className="text-center text-xs">Total Cost*</div>
         </span>
       </div>
       <div className="mt-4 mb-6 text-base h-6 flex justify-center">
@@ -90,7 +93,12 @@ export default function GuildWar() {
       </div>
       <div className="my-8" ref={ref}></div>
       {/* ts-ignore relax */}
-      <Leaderboard className="my-3" players={pixelsData as Player[]} guildId={guildData.value} />
+      <Leaderboard
+        className="my-3"
+        players={pixelsData as Player[]}
+        guildId={guildData.value}
+        selected={selected}
+      />
       {/* <TeamLeaderBoard
         className="m-y-3"
         teams={mostEfficientTeams(data === 'current' ? teamData : pastTeamData)}
