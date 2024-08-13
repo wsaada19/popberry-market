@@ -188,7 +188,7 @@ const Tab = ({ title, imageUrl, graph, setSelected, selected, guildId }) => {
           src={`/images/${imageUrl}`}
           height={title == 'Total' ? 28 : 32}
           width={title == 'Total' ? 28 : 32}
-          alt="Github logo"
+          alt={title}
           style={{
             maxWidth: '100%',
             height: 'auto',
