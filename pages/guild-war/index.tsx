@@ -58,8 +58,14 @@ export default function GuildWar() {
           addPixelsPlot(pixelsData, ref, result.value, selected);
         }}
         placeholder="Guild"
-        className="w-1/3 float-right text-black border-purple"
+        className="w-full sm:w-1/3 float-right text-black border-purple"
         options={options}
+        styles={{
+          control: (baseStyles) => ({
+            ...baseStyles,
+            marginBottom: '8px',
+          }),
+        }}
       />
       <h1 className="mt-2 text-blue-800">{`${guildData.label} Stats`}</h1>
       <div className="p-3 mt-4 bg-blue-600 shadow-2xl text-white grid grid-cols-2 md:grid-cols-4 gap-4">

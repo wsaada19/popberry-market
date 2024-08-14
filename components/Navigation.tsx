@@ -5,13 +5,13 @@ import { Switch } from './switch/Switch';
 export const Navigation = () => {
   return (
     <nav className="mt-2 mb-4 text-base h-6">
-      <span className="text-blue-700 font-bold text-lg m-0 dark:text-white mr-4">
+      <span className="text-base mr-2 text-blue-700 font-bold sm:text-lg m-0 dark:text-white sm:mr-4">
         Guild War Analysis
       </span>
       <Link href="/guild-war/top-players" className="mr-2 md:mr-4 text-sm">
         Top Players
       </Link>
-      <Link href="/" className="mr-2 md:mr-4 text-sm">
+      <Link href="/" className="text-sm">
         Guilds
       </Link>
       <span className="sm:block float-right">

@@ -99,9 +99,9 @@ export const SmallLeaderboard = ({ players, className, selected }: SmallLeaderbo
             .map((player, index) => {
               return (
                 <tr className="h-11 text-black even:bg-light bg-white" key={player.name}>
-                  <td className="text-xs sm:tex-sm pl-4 w-1/12 md:text-base">#{index + 1}</td>
-                  <td className="text-xs sm:text-sm w-10 md:text-base">{`${player.name}`}</td>
-                  <td className="text-xs sm:text-sm w-10 text-center md:text-base">
+                  <td className="tex-sm pl-4 w-1/12 md:text-base">#{index + 1}</td>
+                  <td className="text-sm w-10 md:text-base">{`${player.name}`}</td>
+                  <td className="text-sm w-10 text-center md:text-base">
                     {getValue(player).toLocaleString()}
                   </td>
                 </tr>

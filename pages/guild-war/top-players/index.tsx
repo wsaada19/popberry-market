@@ -64,7 +64,7 @@ export default function TopPlayer() {
             setSelected(result);
           }}
           placeholder="Select a task"
-          className="w-1/3 text-black mb-5"
+          className="w-full sm:w-1/2 text-black mb-5"
           options={options}
         />
         <div></div>
