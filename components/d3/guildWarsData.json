@@ -166,7 +166,7 @@
     "guildId": "suragaming",
     "totalCost": 3214900,
     "wateringCanUse": "109959",
-    "pixelsSpent": 95,
+    "pixelsSpent": 77,
     "wateringCanRank": 5
   },
   {
@@ -336,7 +336,7 @@
     "guildId": "comfortzone",
     "totalCost": 3052750,
     "wateringCanUse": "100125",
-    "pixelsSpent": 235,
+    "pixelsSpent": 141,
     "wateringCanRank": 10
   },
   {
@@ -404,7 +404,7 @@
     },
     "totalCost": 27379000,
     "wateringCanUse": "99830",
-    "pixelsSpent": 350,
+    "pixelsSpent": 250,
     "wateringCanRank": 12
   },
   {
@@ -608,7 +608,7 @@
     },
     "totalCost": 5570850,
     "wateringCanUse": "93681",
-    "pixelsSpent": 172.5,
+    "pixelsSpent": 138.5,
     "wateringCanRank": 18
   },
   {
@@ -642,7 +642,7 @@
     "guildId": "suragaming",
     "totalCost": 3524650,
     "wateringCanUse": "92824",
-    "pixelsSpent": 137.5,
+    "pixelsSpent": 117.5,
     "wateringCanRank": 19
   },
   {
@@ -812,7 +812,7 @@
     },
     "totalCost": 13126500,
     "wateringCanUse": "87033",
-    "pixelsSpent": 426.5,
+    "pixelsSpent": 268.5,
     "wateringCanRank": 24
   },
   {
@@ -880,7 +880,7 @@
     },
     "totalCost": 4485500,
     "wateringCanUse": "86488",
-    "pixelsSpent": 6,
+    "pixelsSpent": 4,
     "wateringCanRank": 26
   },
   {
@@ -914,7 +914,7 @@
     },
     "totalCost": 5572850,
     "wateringCanUse": "85826",
-    "pixelsSpent": 100,
+    "pixelsSpent": 60,
     "wateringCanRank": 27
   },
   {
@@ -982,7 +982,7 @@
     "guildId": "suragaming",
     "totalCost": 9472450,
     "wateringCanUse": "83902",
-    "pixelsSpent": 53,
+    "pixelsSpent": 33,
     "wateringCanRank": 29
   },
   {
@@ -1084,7 +1084,7 @@
     },
     "totalCost": 2091050,
     "wateringCanUse": "79446",
-    "pixelsSpent": 560,
+    "pixelsSpent": 460,
     "wateringCanRank": 32
   },
   {
@@ -1220,7 +1220,7 @@
     "guildId": "suragaming",
     "totalCost": 2675000,
     "wateringCanUse": "78323",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 36
   },
   {
@@ -1424,7 +1424,7 @@
     "guildId": "c3r2d2",
     "totalCost": 2625900,
     "wateringCanUse": "72910",
-    "pixelsSpent": 4499,
+    "pixelsSpent": 3299,
     "wateringCanRank": 42
   },
   {
@@ -1458,7 +1458,7 @@
     },
     "totalCost": 3215700,
     "wateringCanUse": "71852",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 43
   },
   {
@@ -1492,7 +1492,7 @@
     "guildId": "suragaming",
     "totalCost": 3595700,
     "wateringCanUse": "71345",
-    "pixelsSpent": 100,
+    "pixelsSpent": 60,
     "wateringCanRank": 44
   },
   {
@@ -1526,7 +1526,7 @@
     "guildId": "ggs",
     "totalCost": 2940800,
     "wateringCanUse": "70959",
-    "pixelsSpent": 87.5,
+    "pixelsSpent": 55.5,
     "wateringCanRank": 45
   },
   {
@@ -1696,7 +1696,7 @@
     },
     "totalCost": 4628450,
     "wateringCanUse": "69549",
-    "pixelsSpent": 327.5,
+    "pixelsSpent": 307.5,
     "wateringCanRank": 50
   },
   {
@@ -1764,7 +1764,7 @@
     },
     "totalCost": 980000,
     "wateringCanUse": "68677",
-    "pixelsSpent": 40,
+    "pixelsSpent": 24,
     "wateringCanRank": 52
   },
   {
@@ -1900,7 +1900,7 @@
     "guildId": "pixelatedpeople",
     "totalCost": 3873850,
     "wateringCanUse": "66653",
-    "pixelsSpent": 17129,
+    "pixelsSpent": 13565,
     "wateringCanRank": 56
   },
   {
@@ -2104,7 +2104,7 @@
     "guildId": "suragaming",
     "totalCost": 1351650,
     "wateringCanUse": "64844",
-    "pixelsSpent": 457,
+    "pixelsSpent": 287,
     "wateringCanRank": 62
   },
   {
@@ -2138,7 +2138,7 @@
     "guildId": "p2g",
     "totalCost": 9523850,
     "wateringCanUse": "64651",
-    "pixelsSpent": 5745,
+    "pixelsSpent": 4713,
     "wateringCanRank": 63
   },
   {
@@ -2308,7 +2308,7 @@
     },
     "totalCost": 2621050,
     "wateringCanUse": "62698",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 68
   },
   {
@@ -2410,7 +2410,7 @@
     "guildId": "insomnia",
     "totalCost": 3601550,
     "wateringCanUse": "60582",
-    "pixelsSpent": 187.5,
+    "pixelsSpent": 153.5,
     "wateringCanRank": 71
   },
   {
@@ -2444,7 +2444,7 @@
     },
     "totalCost": 8162350,
     "wateringCanUse": "60491",
-    "pixelsSpent": 185,
+    "pixelsSpent": 111,
     "wateringCanRank": 72
   },
   {
@@ -2648,7 +2648,7 @@
     "guildId": "hurugaming",
     "totalCost": 2853450,
     "wateringCanUse": "56562",
-    "pixelsSpent": 100,
+    "pixelsSpent": 60,
     "wateringCanRank": 78
   },
   {
@@ -2682,7 +2682,7 @@
     },
     "totalCost": 4602900,
     "wateringCanUse": "56532",
-    "pixelsSpent": 16,
+    "pixelsSpent": 14,
     "wateringCanRank": 79
   },
   {
@@ -2954,7 +2954,7 @@
     },
     "totalCost": 3025400,
     "wateringCanUse": "55073",
-    "pixelsSpent": 65,
+    "pixelsSpent": 43,
     "wateringCanRank": 87
   },
   {
@@ -2988,7 +2988,7 @@
     },
     "totalCost": 15910600,
     "wateringCanUse": "54578",
-    "pixelsSpent": 832.5,
+    "pixelsSpent": 532.5,
     "wateringCanRank": 88
   },
   {
@@ -3056,7 +3056,7 @@
     },
     "totalCost": 7271250,
     "wateringCanUse": "54211",
-    "pixelsSpent": 290,
+    "pixelsSpent": 258,
     "wateringCanRank": 90
   },
   {
@@ -3090,7 +3090,7 @@
     "guildId": "paldoclub",
     "totalCost": 4989150,
     "wateringCanUse": "54122",
-    "pixelsSpent": 163.5,
+    "pixelsSpent": 115.5,
     "wateringCanRank": 91
   },
   {
@@ -3192,7 +3192,7 @@
     "guildId": "tif",
     "totalCost": 1439150,
     "wateringCanUse": "53655",
-    "pixelsSpent": 20,
+    "pixelsSpent": 12,
     "wateringCanRank": 94
   },
   {
@@ -3260,7 +3260,7 @@
     "guildId": "pixelpals",
     "totalCost": 2476700,
     "wateringCanUse": "53445",
-    "pixelsSpent": 965,
+    "pixelsSpent": 591,
     "wateringCanRank": 96
   },
   {
@@ -3566,7 +3566,7 @@
     "guildId": "comfortzone",
     "totalCost": 4741300,
     "wateringCanUse": "50251",
-    "pixelsSpent": 197.5,
+    "pixelsSpent": 119.5,
     "wateringCanRank": 105
   },
   {
@@ -3600,7 +3600,7 @@
     },
     "totalCost": 5001750,
     "wateringCanUse": "49965",
-    "pixelsSpent": 212.5,
+    "pixelsSpent": 148.5,
     "wateringCanRank": 106
   },
   {
@@ -3702,7 +3702,7 @@
     },
     "totalCost": 5515450,
     "wateringCanUse": "49425",
-    "pixelsSpent": 9262.5,
+    "pixelsSpent": 5784.5,
     "wateringCanRank": 109
   },
   {
@@ -3736,7 +3736,7 @@
     },
     "totalCost": 1695900,
     "wateringCanUse": "49385",
-    "pixelsSpent": 160,
+    "pixelsSpent": 100,
     "wateringCanRank": 110
   },
   {
@@ -4008,7 +4008,7 @@
     "guildId": "smg",
     "totalCost": 7353400,
     "wateringCanUse": "47926",
-    "pixelsSpent": 1552,
+    "pixelsSpent": 1402,
     "wateringCanRank": 118
   },
   {
@@ -4314,7 +4314,7 @@
     },
     "totalCost": 8572600,
     "wateringCanUse": "46681",
-    "pixelsSpent": 157.5,
+    "pixelsSpent": 107.5,
     "wateringCanRank": 127
   },
   {
@@ -4416,7 +4416,7 @@
     },
     "totalCost": 12879300,
     "wateringCanUse": "46086",
-    "pixelsSpent": 75,
+    "pixelsSpent": 65,
     "wateringCanRank": 130
   },
   {
@@ -4518,7 +4518,7 @@
     },
     "totalCost": 2070750,
     "wateringCanUse": "45804",
-    "pixelsSpent": 20,
+    "pixelsSpent": 12,
     "wateringCanRank": 133
   },
   {
@@ -4586,7 +4586,7 @@
     },
     "totalCost": 1622250,
     "wateringCanUse": "45387",
-    "pixelsSpent": 202.5,
+    "pixelsSpent": 200.5,
     "wateringCanRank": 135
   },
   {
@@ -4688,7 +4688,7 @@
     },
     "totalCost": 6903000,
     "wateringCanUse": "44812",
-    "pixelsSpent": 242.5,
+    "pixelsSpent": 214.5,
     "wateringCanRank": 138
   },
   {
@@ -4722,7 +4722,7 @@
     "guildId": "suragaming",
     "totalCost": 891400,
     "wateringCanUse": "44296",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 139
   },
   {
@@ -4824,7 +4824,7 @@
     },
     "totalCost": 1456150,
     "wateringCanUse": "43887",
-    "pixelsSpent": 344.5,
+    "pixelsSpent": 212.5,
     "wateringCanRank": 142
   },
   {
@@ -4960,7 +4960,7 @@
     "guildId": "clover",
     "totalCost": 7291300,
     "wateringCanUse": "43328",
-    "pixelsSpent": 1830.5,
+    "pixelsSpent": 1446.5,
     "wateringCanRank": 146
   },
   {
@@ -5096,7 +5096,7 @@
     },
     "totalCost": 4476150,
     "wateringCanUse": "43157",
-    "pixelsSpent": 430,
+    "pixelsSpent": 428,
     "wateringCanRank": 150
   },
   {
@@ -5232,7 +5232,7 @@
     },
     "totalCost": 6345250,
     "wateringCanUse": "42287",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 154
   },
   {
@@ -5266,7 +5266,7 @@
     },
     "totalCost": 4177100,
     "wateringCanUse": "42146",
-    "pixelsSpent": 100,
+    "pixelsSpent": 60,
     "wateringCanRank": 155
   },
   {
@@ -5572,7 +5572,7 @@
     "guildId": "smg",
     "totalCost": 658000,
     "wateringCanUse": "41341",
-    "pixelsSpent": 2902.5,
+    "pixelsSpent": 1752.5,
     "wateringCanRank": 164
   },
   {
@@ -5674,7 +5674,7 @@
     "guildId": "paldoclub",
     "totalCost": 4056200,
     "wateringCanUse": "41146",
-    "pixelsSpent": 55,
+    "pixelsSpent": 33,
     "wateringCanRank": 167
   },
   {
@@ -5742,7 +5742,7 @@
     "guildId": "comfortzone",
     "totalCost": 5037100,
     "wateringCanUse": "40775",
-    "pixelsSpent": 250,
+    "pixelsSpent": 150,
     "wateringCanRank": 169
   },
   {
@@ -5810,7 +5810,7 @@
     "guildId": "comfortzone",
     "totalCost": 2257050,
     "wateringCanUse": "40644",
-    "pixelsSpent": 12.5,
+    "pixelsSpent": 8.5,
     "wateringCanRank": 171
   },
   {
@@ -6082,7 +6082,7 @@
     },
     "totalCost": 751700,
     "wateringCanUse": "40051",
-    "pixelsSpent": 20,
+    "pixelsSpent": 14,
     "wateringCanRank": 179
   },
   {
@@ -6320,7 +6320,7 @@
     },
     "totalCost": 3626250,
     "wateringCanUse": "39433",
-    "pixelsSpent": 495,
+    "pixelsSpent": 297,
     "wateringCanRank": 186
   },
   {
@@ -6456,7 +6456,7 @@
     },
     "totalCost": 2155350,
     "wateringCanUse": "39047",
-    "pixelsSpent": 120,
+    "pixelsSpent": 100,
     "wateringCanRank": 190
   },
   {
@@ -6490,7 +6490,7 @@
     "guildId": "p2g",
     "totalCost": 4784950,
     "wateringCanUse": "39023",
-    "pixelsSpent": 5845,
+    "pixelsSpent": 4833,
     "wateringCanRank": 191
   },
   {
@@ -6592,7 +6592,7 @@
     },
     "totalCost": 3265700,
     "wateringCanUse": "38865",
-    "pixelsSpent": 67.5,
+    "pixelsSpent": 45.5,
     "wateringCanRank": 194
   },
   {
@@ -6626,7 +6626,7 @@
     "guildId": "paldoclub",
     "totalCost": 1176450,
     "wateringCanUse": "38834",
-    "pixelsSpent": 7.5,
+    "pixelsSpent": 5.5,
     "wateringCanRank": 195
   },
   {
@@ -6864,7 +6864,7 @@
     "guildId": "pixelatedpeople",
     "totalCost": 1745900,
     "wateringCanUse": "38264",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 202
   },
   {
@@ -7000,7 +7000,7 @@
     "guildId": "ggs",
     "totalCost": 2504750,
     "wateringCanUse": "37710",
-    "pixelsSpent": 102.5,
+    "pixelsSpent": 62.5,
     "wateringCanRank": 206
   },
   {
@@ -7034,7 +7034,7 @@
     },
     "totalCost": 422200,
     "wateringCanUse": "37692",
-    "pixelsSpent": 1240,
+    "pixelsSpent": 880,
     "wateringCanRank": 207
   },
   {
@@ -7306,7 +7306,7 @@
     "guildId": "degranoengrano",
     "totalCost": 2129550,
     "wateringCanUse": "36364",
-    "pixelsSpent": 82.5,
+    "pixelsSpent": 80.5,
     "wateringCanRank": 215
   },
   {
@@ -7340,7 +7340,7 @@
     "guildId": "insomnia",
     "totalCost": 8066300,
     "wateringCanUse": "36324",
-    "pixelsSpent": 342,
+    "pixelsSpent": 300,
     "wateringCanRank": 216
   },
   {
@@ -7476,7 +7476,7 @@
     },
     "totalCost": 7983350,
     "wateringCanUse": "36065",
-    "pixelsSpent": 36,
+    "pixelsSpent": 26,
     "wateringCanRank": 220
   },
   {
@@ -8122,7 +8122,7 @@
     "guildId": "paldoclub",
     "totalCost": 6993750,
     "wateringCanUse": "34856",
-    "pixelsSpent": 100,
+    "pixelsSpent": 60,
     "wateringCanRank": 239
   },
   {
@@ -8190,7 +8190,7 @@
     },
     "totalCost": 200700,
     "wateringCanUse": "34813",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 241
   },
   {
@@ -8326,7 +8326,7 @@
     },
     "totalCost": 413700,
     "wateringCanUse": "34368",
-    "pixelsSpent": 20,
+    "pixelsSpent": 18,
     "wateringCanRank": 245
   },
   {
@@ -8632,7 +8632,7 @@
     "guildId": "tif",
     "totalCost": 5225500,
     "wateringCanUse": "33806",
-    "pixelsSpent": 115,
+    "pixelsSpent": 113,
     "wateringCanRank": 254
   },
   {
@@ -8700,7 +8700,7 @@
     },
     "totalCost": 1803400,
     "wateringCanUse": "33732",
-    "pixelsSpent": 57.5,
+    "pixelsSpent": 47.5,
     "wateringCanRank": 256
   },
   {
@@ -8870,7 +8870,7 @@
     },
     "totalCost": 3042350,
     "wateringCanUse": "33481",
-    "pixelsSpent": 305,
+    "pixelsSpent": 205,
     "wateringCanRank": 261
   },
   {
@@ -8904,7 +8904,7 @@
     },
     "totalCost": 1836450,
     "wateringCanUse": "33428",
-    "pixelsSpent": 747.5,
+    "pixelsSpent": 727.5,
     "wateringCanRank": 262
   },
   {
@@ -8938,7 +8938,7 @@
     },
     "totalCost": 20000,
     "wateringCanUse": "33307",
-    "pixelsSpent": 270,
+    "pixelsSpent": 162,
     "wateringCanRank": 263
   },
   {
@@ -9040,7 +9040,7 @@
     },
     "totalCost": 2696850,
     "wateringCanUse": "33237",
-    "pixelsSpent": 250,
+    "pixelsSpent": 150,
     "wateringCanRank": 266
   },
   {
@@ -9176,7 +9176,7 @@
     "guildId": "degranoengrano",
     "totalCost": 294500,
     "wateringCanUse": "32947",
-    "pixelsSpent": 65,
+    "pixelsSpent": 55,
     "wateringCanRank": 270
   },
   {
@@ -9244,7 +9244,7 @@
     "guildId": "paldoclub",
     "totalCost": 6235700,
     "wateringCanUse": "32759",
-    "pixelsSpent": 107.5,
+    "pixelsSpent": 105.5,
     "wateringCanRank": 272
   },
   {
@@ -9482,7 +9482,7 @@
     },
     "totalCost": 369150,
     "wateringCanUse": "32124",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 279
   },
   {
@@ -9516,7 +9516,7 @@
     },
     "totalCost": 1573100,
     "wateringCanUse": "32070",
-    "pixelsSpent": 7.5,
+    "pixelsSpent": 5.5,
     "wateringCanRank": 280
   },
   {
@@ -9584,7 +9584,7 @@
     "guildId": "ggs",
     "totalCost": 3364250,
     "wateringCanUse": "31986",
-    "pixelsSpent": 1217,
+    "pixelsSpent": 1057,
     "wateringCanRank": 282
   },
   {
@@ -9686,7 +9686,7 @@
     "guildId": "pixelatedpeople",
     "totalCost": 1579350,
     "wateringCanUse": "31755",
-    "pixelsSpent": 37.5,
+    "pixelsSpent": 25.5,
     "wateringCanRank": 285
   },
   {
@@ -9720,7 +9720,7 @@
     "guildId": "bch",
     "totalCost": 181350,
     "wateringCanUse": "31698",
-    "pixelsSpent": 47.5,
+    "pixelsSpent": 37.5,
     "wateringCanRank": 286
   },
   {
@@ -9822,7 +9822,7 @@
     },
     "totalCost": 1192650,
     "wateringCanUse": "31596",
-    "pixelsSpent": 11,
+    "pixelsSpent": 7,
     "wateringCanRank": 289
   },
   {
@@ -10094,7 +10094,7 @@
     "guildId": "ggs",
     "totalCost": 9747450,
     "wateringCanUse": "30966",
-    "pixelsSpent": 347.5,
+    "pixelsSpent": 325.5,
     "wateringCanRank": 297
   },
   {
@@ -10298,7 +10298,7 @@
     "guildId": "suragaming",
     "totalCost": 1160000,
     "wateringCanUse": "30626",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 303
   },
   {
@@ -10366,7 +10366,7 @@
     },
     "totalCost": 8627400,
     "wateringCanUse": "30561",
-    "pixelsSpent": 11657,
+    "pixelsSpent": 7165,
     "wateringCanRank": 305
   },
   {
@@ -10468,7 +10468,7 @@
     },
     "totalCost": 1923100,
     "wateringCanUse": "30487",
-    "pixelsSpent": 10,
+    "pixelsSpent": 8,
     "wateringCanRank": 308
   },
   {
@@ -10502,7 +10502,7 @@
     },
     "totalCost": 9277850,
     "wateringCanUse": "30486",
-    "pixelsSpent": 71,
+    "pixelsSpent": 47,
     "wateringCanRank": 309
   },
   {
@@ -10536,7 +10536,7 @@
     },
     "totalCost": 641600,
     "wateringCanUse": "30478",
-    "pixelsSpent": 10,
+    "pixelsSpent": 6,
     "wateringCanRank": 310
   },
   {
@@ -10604,7 +10604,7 @@
     },
     "totalCost": 1534450,
     "wateringCanUse": "30343",
-    "pixelsSpent": 345,
+    "pixelsSpent": 255,
     "wateringCanRank": 312
   },
   {
@@ -10808,7 +10808,7 @@
     },
     "totalCost": 1224250,
     "wateringCanUse": "29827",
-    "pixelsSpent": 10,
+    "pixelsSpent": 8,
     "wateringCanRank": 318
   },
   {
@@ -10944,7 +10944,7 @@
     "guildId": "bch",
     "totalCost": 449100,
     "wateringCanUse": "29757",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 322
   },
   {
@@ -11182,7 +11182,7 @@
     },
     "totalCost": 4595000,
     "wateringCanUse": "29258",
-    "pixelsSpent": 1291,
+    "pixelsSpent": 1097,
     "wateringCanRank": 329
   },
   {
@@ -11624,7 +11624,7 @@
     "guildId": "4200",
     "totalCost": 5267000,
     "wateringCanUse": "28504",
-    "pixelsSpent": 26,
+    "pixelsSpent": 20,
     "wateringCanRank": 342
   },
   {
@@ -11760,7 +11760,7 @@
     },
     "totalCost": 61550,
     "wateringCanUse": "28427",
-    "pixelsSpent": 25,
+    "pixelsSpent": 15,
     "wateringCanRank": 346
   },
   {
@@ -11828,7 +11828,7 @@
     "guildId": "cyberkongz",
     "totalCost": 5236050,
     "wateringCanUse": "28331",
-    "pixelsSpent": 642.5,
+    "pixelsSpent": 580.5,
     "wateringCanRank": 348
   },
   {
@@ -11862,7 +11862,7 @@
     "guildId": "pixelpals",
     "totalCost": 2733250,
     "wateringCanUse": "28314",
-    "pixelsSpent": 35,
+    "pixelsSpent": 21,
     "wateringCanRank": 349
   },
   {
@@ -11930,7 +11930,7 @@
     },
     "totalCost": 2266500,
     "wateringCanUse": "28253",
-    "pixelsSpent": 125,
+    "pixelsSpent": 79,
     "wateringCanRank": 351
   },
   {
@@ -11964,7 +11964,7 @@
     },
     "totalCost": 4653950,
     "wateringCanUse": "28223",
-    "pixelsSpent": 107.5,
+    "pixelsSpent": 97.5,
     "wateringCanRank": 352
   },
   {
@@ -12032,7 +12032,7 @@
     },
     "totalCost": 6045600,
     "wateringCanUse": "28220",
-    "pixelsSpent": 1182.5,
+    "pixelsSpent": 1148.5,
     "wateringCanRank": 354
   },
   {
@@ -12134,7 +12134,7 @@
     "guildId": "cyberkongz",
     "totalCost": 9146500,
     "wateringCanUse": "28166",
-    "pixelsSpent": 305,
+    "pixelsSpent": 205,
     "wateringCanRank": 357
   },
   {
@@ -12236,7 +12236,7 @@
     },
     "totalCost": 3894350,
     "wateringCanUse": "28042",
-    "pixelsSpent": 252.5,
+    "pixelsSpent": 154.5,
     "wateringCanRank": 360
   },
   {
@@ -12338,7 +12338,7 @@
     },
     "totalCost": 2075800,
     "wateringCanUse": "27886",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 363
   },
   {
@@ -12474,7 +12474,7 @@
     },
     "totalCost": 141900,
     "wateringCanUse": "27668",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 367
   },
   {
@@ -12508,7 +12508,7 @@
     },
     "totalCost": 99650,
     "wateringCanUse": "27652",
-    "pixelsSpent": 25,
+    "pixelsSpent": 15,
     "wateringCanRank": 368
   },
   {
@@ -12576,7 +12576,7 @@
     },
     "totalCost": 1638300,
     "wateringCanUse": "27588",
-    "pixelsSpent": 45,
+    "pixelsSpent": 29,
     "wateringCanRank": 370
   },
   {
@@ -12814,7 +12814,7 @@
     "guildId": "cyberkongz",
     "totalCost": 10349250,
     "wateringCanUse": "27403",
-    "pixelsSpent": 485,
+    "pixelsSpent": 291,
     "wateringCanRank": 377
   },
   {
@@ -12916,7 +12916,7 @@
     },
     "totalCost": 1335300,
     "wateringCanUse": "27334",
-    "pixelsSpent": 185,
+    "pixelsSpent": 125,
     "wateringCanRank": 380
   },
   {
@@ -12950,7 +12950,7 @@
     "guildId": "4200",
     "totalCost": 7240750,
     "wateringCanUse": "27234",
-    "pixelsSpent": 75,
+    "pixelsSpent": 55,
     "wateringCanRank": 381
   },
   {
@@ -13086,7 +13086,7 @@
     },
     "totalCost": 2183600,
     "wateringCanUse": "27073",
-    "pixelsSpent": 30,
+    "pixelsSpent": 18,
     "wateringCanRank": 385
   },
   {
@@ -13120,7 +13120,7 @@
     "guildId": "smg",
     "totalCost": 6724800,
     "wateringCanUse": "27024",
-    "pixelsSpent": 11350.5,
+    "pixelsSpent": 10048.5,
     "wateringCanRank": 386
   },
   {
@@ -13188,7 +13188,7 @@
     "guildId": "cyberkongz",
     "totalCost": 1664250,
     "wateringCanUse": "26915",
-    "pixelsSpent": 15,
+    "pixelsSpent": 9,
     "wateringCanRank": 388
   },
   {
@@ -13256,7 +13256,7 @@
     },
     "totalCost": 2709050,
     "wateringCanUse": "26829",
-    "pixelsSpent": 2995,
+    "pixelsSpent": 1835,
     "wateringCanRank": 390
   },
   {
@@ -13324,7 +13324,7 @@
     },
     "totalCost": 3596400,
     "wateringCanUse": "26742",
-    "pixelsSpent": 8140,
+    "pixelsSpent": 5962,
     "wateringCanRank": 392
   },
   {
@@ -13426,7 +13426,7 @@
     },
     "totalCost": 1975350,
     "wateringCanUse": "26635",
-    "pixelsSpent": 155,
+    "pixelsSpent": 135,
     "wateringCanRank": 395
   },
   {
@@ -13528,7 +13528,7 @@
     },
     "totalCost": 931850,
     "wateringCanUse": "26434",
-    "pixelsSpent": 17.5,
+    "pixelsSpent": 11.5,
     "wateringCanRank": 398
   },
   {
@@ -13698,7 +13698,7 @@
     "guildId": "insomnia",
     "totalCost": 1129200,
     "wateringCanUse": "26302",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 403
   },
   {
@@ -13834,7 +13834,7 @@
     "guildId": "clover",
     "totalCost": 3989050,
     "wateringCanUse": "26138",
-    "pixelsSpent": 75,
+    "pixelsSpent": 45,
     "wateringCanRank": 407
   },
   {
@@ -13936,7 +13936,7 @@
     },
     "totalCost": 10393550,
     "wateringCanUse": "26094",
-    "pixelsSpent": 170,
+    "pixelsSpent": 110,
     "wateringCanRank": 410
   },
   {
@@ -14208,7 +14208,7 @@
     "guildId": "4200",
     "totalCost": 4872100,
     "wateringCanUse": "25636",
-    "pixelsSpent": 495,
+    "pixelsSpent": 297,
     "wateringCanRank": 418
   },
   {
@@ -14344,7 +14344,7 @@
     "guildId": "comfortzone",
     "totalCost": 3119400,
     "wateringCanUse": "25517",
-    "pixelsSpent": 10,
+    "pixelsSpent": 8,
     "wateringCanRank": 422
   },
   {
@@ -14378,7 +14378,7 @@
     "guildId": "paldoclub",
     "totalCost": 1068250,
     "wateringCanUse": "25506",
-    "pixelsSpent": 57.5,
+    "pixelsSpent": 35.5,
     "wateringCanRank": 423
   },
   {
@@ -14446,7 +14446,7 @@
     },
     "totalCost": 1351400,
     "wateringCanUse": "25490",
-    "pixelsSpent": 15,
+    "pixelsSpent": 11,
     "wateringCanRank": 425
   },
   {
@@ -14480,7 +14480,7 @@
     },
     "totalCost": 3147750,
     "wateringCanUse": "25375",
-    "pixelsSpent": 10,
+    "pixelsSpent": 6,
     "wateringCanRank": 426
   },
   {
@@ -14548,7 +14548,7 @@
     },
     "totalCost": 200700,
     "wateringCanUse": "25148",
-    "pixelsSpent": 160.5,
+    "pixelsSpent": 108.5,
     "wateringCanRank": 428
   },
   {
@@ -14718,7 +14718,7 @@
     },
     "totalCost": 3554300,
     "wateringCanUse": "24988",
-    "pixelsSpent": 197.5,
+    "pixelsSpent": 157.5,
     "wateringCanRank": 433
   },
   {
@@ -14752,7 +14752,7 @@
     },
     "totalCost": 3462200,
     "wateringCanUse": "24981",
-    "pixelsSpent": 85,
+    "pixelsSpent": 81,
     "wateringCanRank": 434
   },
   {
@@ -15330,7 +15330,7 @@
     },
     "totalCost": 618700,
     "wateringCanUse": "24076",
-    "pixelsSpent": 44,
+    "pixelsSpent": 28,
     "wateringCanRank": 451
   },
   {
@@ -15466,7 +15466,7 @@
     },
     "totalCost": 1888300,
     "wateringCanUse": "23969",
-    "pixelsSpent": 75,
+    "pixelsSpent": 55,
     "wateringCanRank": 455
   },
   {
@@ -15534,7 +15534,7 @@
     "guildId": "p2g",
     "totalCost": 3761800,
     "wateringCanUse": "23960",
-    "pixelsSpent": 2687.5,
+    "pixelsSpent": 2091.5,
     "wateringCanRank": 457
   },
   {
@@ -15568,7 +15568,7 @@
     "guildId": "cyberkongz",
     "totalCost": 4031550,
     "wateringCanUse": "23897",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 458
   },
   {
@@ -15602,7 +15602,7 @@
     "guildId": "pixelpals",
     "totalCost": 2323450,
     "wateringCanUse": "23886",
-    "pixelsSpent": 75,
+    "pixelsSpent": 45,
     "wateringCanRank": 459
   },
   {
@@ -15908,7 +15908,7 @@
     },
     "totalCost": 593800,
     "wateringCanUse": "23410",
-    "pixelsSpent": 50,
+    "pixelsSpent": 30,
     "wateringCanRank": 468
   },
   {
@@ -15942,7 +15942,7 @@
     },
     "totalCost": 88350,
     "wateringCanUse": "23402",
-    "pixelsSpent": 50,
+    "pixelsSpent": 30,
     "wateringCanRank": 469
   },
   {
@@ -16316,7 +16316,7 @@
     },
     "totalCost": 1092300,
     "wateringCanUse": "22795",
-    "pixelsSpent": 1640,
+    "pixelsSpent": 1630,
     "wateringCanRank": 480
   },
   {
@@ -16962,7 +16962,7 @@
     },
     "totalCost": 1418450,
     "wateringCanUse": "22218",
-    "pixelsSpent": 57.5,
+    "pixelsSpent": 41.5,
     "wateringCanRank": 499
   },
   {
@@ -17166,7 +17166,7 @@
     },
     "totalCost": 4446050,
     "wateringCanUse": "21997",
-    "pixelsSpent": 75,
+    "pixelsSpent": 63,
     "wateringCanRank": 505
   },
   {
@@ -17336,7 +17336,7 @@
     "guildId": "farmhub",
     "totalCost": 2259550,
     "wateringCanUse": "21803",
-    "pixelsSpent": 212.5,
+    "pixelsSpent": 132.5,
     "wateringCanRank": 510
   },
   {
@@ -17608,7 +17608,7 @@
     "guildId": "pixelatedpeople",
     "totalCost": 5164700,
     "wateringCanUse": "21632",
-    "pixelsSpent": 5367.5,
+    "pixelsSpent": 4167.5,
     "wateringCanRank": 518
   },
   {
@@ -17642,7 +17642,7 @@
     },
     "totalCost": 6365200,
     "wateringCanUse": "21592",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 519
   },
   {
@@ -17710,7 +17710,7 @@
     },
     "totalCost": 591550,
     "wateringCanUse": "21567",
-    "pixelsSpent": 12.5,
+    "pixelsSpent": 10.5,
     "wateringCanRank": 521
   },
   {
@@ -17948,7 +17948,7 @@
     },
     "totalCost": 477400,
     "wateringCanUse": "21367",
-    "pixelsSpent": 105,
+    "pixelsSpent": 69,
     "wateringCanRank": 528
   },
   {
@@ -18118,7 +18118,7 @@
     "guildId": "pixelsgg",
     "totalCost": 249800,
     "wateringCanUse": "21127",
-    "pixelsSpent": 25,
+    "pixelsSpent": 15,
     "wateringCanRank": 533
   },
   {
@@ -18254,7 +18254,7 @@
     "guildId": "pixelatedpeople",
     "totalCost": 1493500,
     "wateringCanUse": "20986",
-    "pixelsSpent": 16,
+    "pixelsSpent": 14,
     "wateringCanRank": 537
   },
   {
@@ -18322,7 +18322,7 @@
     },
     "totalCost": 1480600,
     "wateringCanUse": "20942",
-    "pixelsSpent": 50,
+    "pixelsSpent": 30,
     "wateringCanRank": 539
   },
   {
@@ -18560,7 +18560,7 @@
     },
     "totalCost": 3534550,
     "wateringCanUse": "20807",
-    "pixelsSpent": 25,
+    "pixelsSpent": 23,
     "wateringCanRank": 546
   },
   {
@@ -18594,7 +18594,7 @@
     },
     "totalCost": 4555100,
     "wateringCanUse": "20722",
-    "pixelsSpent": 1805,
+    "pixelsSpent": 1105,
     "wateringCanRank": 547
   },
   {
@@ -18662,7 +18662,7 @@
     "guildId": "paldoclub",
     "totalCost": 2641500,
     "wateringCanUse": "20684",
-    "pixelsSpent": 75,
+    "pixelsSpent": 45,
     "wateringCanRank": 549
   },
   {
@@ -18832,7 +18832,7 @@
     },
     "totalCost": 7068850,
     "wateringCanUse": "20423",
-    "pixelsSpent": 46,
+    "pixelsSpent": 40,
     "wateringCanRank": 554
   },
   {
@@ -18866,7 +18866,7 @@
     },
     "totalCost": 248900,
     "wateringCanUse": "20416",
-    "pixelsSpent": 15,
+    "pixelsSpent": 13,
     "wateringCanRank": 555
   },
   {
@@ -19274,7 +19274,7 @@
     "guildId": "comfortzone",
     "totalCost": 15385750,
     "wateringCanUse": "20162",
-    "pixelsSpent": 3870,
+    "pixelsSpent": 3270,
     "wateringCanRank": 567
   },
   {
@@ -19512,7 +19512,7 @@
     },
     "totalCost": 15011350,
     "wateringCanUse": "19824",
-    "pixelsSpent": 1630,
+    "pixelsSpent": 1030,
     "wateringCanRank": 574
   },
   {
@@ -19546,7 +19546,7 @@
     },
     "totalCost": 503400,
     "wateringCanUse": "19757",
-    "pixelsSpent": 85,
+    "pixelsSpent": 73,
     "wateringCanRank": 575
   },
   {
@@ -19614,7 +19614,7 @@
     "guildId": "lfg",
     "totalCost": 938550,
     "wateringCanUse": "19751",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 577
   },
   {
@@ -19648,7 +19648,7 @@
     "guildId": "pixelsgg",
     "totalCost": 5244650,
     "wateringCanUse": "19699",
-    "pixelsSpent": 397.5,
+    "pixelsSpent": 377.5,
     "wateringCanRank": 578
   },
   {
@@ -19716,7 +19716,7 @@
     },
     "totalCost": 360700,
     "wateringCanUse": "19649",
-    "pixelsSpent": 62.5,
+    "pixelsSpent": 40.5,
     "wateringCanRank": 580
   },
   {
@@ -19784,7 +19784,7 @@
     "guildId": "cyberkongz",
     "totalCost": 3913600,
     "wateringCanUse": "19583",
-    "pixelsSpent": 185,
+    "pixelsSpent": 123,
     "wateringCanRank": 582
   },
   {
@@ -19886,7 +19886,7 @@
     },
     "totalCost": 1291000,
     "wateringCanUse": "19556",
-    "pixelsSpent": 25,
+    "pixelsSpent": 15,
     "wateringCanRank": 585
   },
   {
@@ -19920,7 +19920,7 @@
     "guildId": "ggs",
     "totalCost": 842200,
     "wateringCanUse": "19484",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 586
   },
   {
@@ -19954,7 +19954,7 @@
     },
     "totalCost": 1188200,
     "wateringCanUse": "19432",
-    "pixelsSpent": 552.5,
+    "pixelsSpent": 338.5,
     "wateringCanRank": 587
   },
   {
@@ -20260,7 +20260,7 @@
     "guildId": "suragaming",
     "totalCost": 11700,
     "wateringCanUse": "19250",
-    "pixelsSpent": 20,
+    "pixelsSpent": 12,
     "wateringCanRank": 596
   },
   {
@@ -20464,7 +20464,7 @@
     },
     "totalCost": 1459400,
     "wateringCanUse": "19145",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 602
   },
   {
@@ -20498,7 +20498,7 @@
     "guildId": "hurugaming",
     "totalCost": 1185900,
     "wateringCanUse": "19140",
-    "pixelsSpent": 1302.5,
+    "pixelsSpent": 822.5,
     "wateringCanRank": 603
   },
   {
@@ -20532,7 +20532,7 @@
     },
     "totalCost": 3414500,
     "wateringCanUse": "19124",
-    "pixelsSpent": 802.5,
+    "pixelsSpent": 514.5,
     "wateringCanRank": 604
   },
   {
@@ -20566,7 +20566,7 @@
     "guildId": "hurugaming",
     "totalCost": 1267700,
     "wateringCanUse": "19010",
-    "pixelsSpent": 152.5,
+    "pixelsSpent": 92.5,
     "wateringCanRank": 605
   },
   {
@@ -20600,7 +20600,7 @@
     "guildId": "4200",
     "totalCost": 2818300,
     "wateringCanUse": "18991",
-    "pixelsSpent": 10,
+    "pixelsSpent": 6,
     "wateringCanRank": 606
   },
   {
@@ -20668,7 +20668,7 @@
     },
     "totalCost": 5885550,
     "wateringCanUse": "18924",
-    "pixelsSpent": 5966,
+    "pixelsSpent": 5648,
     "wateringCanRank": 608
   },
   {
@@ -20804,7 +20804,7 @@
     },
     "totalCost": 1849250,
     "wateringCanUse": "18884",
-    "pixelsSpent": 630,
+    "pixelsSpent": 426,
     "wateringCanRank": 612
   },
   {
@@ -20974,7 +20974,7 @@
     "guildId": "smg",
     "totalCost": 209150,
     "wateringCanUse": "18804",
-    "pixelsSpent": 702.5,
+    "pixelsSpent": 518.5,
     "wateringCanRank": 617
   },
   {
@@ -21042,7 +21042,7 @@
     },
     "totalCost": 2021150,
     "wateringCanUse": "18798",
-    "pixelsSpent": 130,
+    "pixelsSpent": 108,
     "wateringCanRank": 619
   },
   {
@@ -21144,7 +21144,7 @@
     },
     "totalCost": 123300,
     "wateringCanUse": "18780",
-    "pixelsSpent": 62.5,
+    "pixelsSpent": 52.5,
     "wateringCanRank": 622
   },
   {
@@ -21416,7 +21416,7 @@
     },
     "totalCost": 2859250,
     "wateringCanUse": "18659",
-    "pixelsSpent": 671,
+    "pixelsSpent": 407,
     "wateringCanRank": 630
   },
   {
@@ -21790,7 +21790,7 @@
     },
     "totalCost": 421200,
     "wateringCanUse": "18482",
-    "pixelsSpent": 55,
+    "pixelsSpent": 35,
     "wateringCanRank": 641
   },
   {
@@ -22028,7 +22028,7 @@
     },
     "totalCost": 1011750,
     "wateringCanUse": "18395",
-    "pixelsSpent": 7,
+    "pixelsSpent": 5,
     "wateringCanRank": 648
   },
   {
@@ -22164,7 +22164,7 @@
     "guildId": "comfortzone",
     "totalCost": 941400,
     "wateringCanUse": "18300",
-    "pixelsSpent": 11,
+    "pixelsSpent": 9,
     "wateringCanRank": 652
   },
   {
@@ -22198,7 +22198,7 @@
     },
     "totalCost": 5581250,
     "wateringCanUse": "18267",
-    "pixelsSpent": 1042.5,
+    "pixelsSpent": 960.5,
     "wateringCanRank": 653
   },
   {
@@ -22300,7 +22300,7 @@
     },
     "totalCost": 206350,
     "wateringCanUse": "18196",
-    "pixelsSpent": 15,
+    "pixelsSpent": 9,
     "wateringCanRank": 656
   },
   {
@@ -22402,7 +22402,7 @@
     },
     "totalCost": 2119950,
     "wateringCanUse": "18107",
-    "pixelsSpent": 423.5,
+    "pixelsSpent": 381.5,
     "wateringCanRank": 659
   },
   {
@@ -22436,7 +22436,7 @@
     },
     "totalCost": 594900,
     "wateringCanUse": "18104",
-    "pixelsSpent": 10,
+    "pixelsSpent": 6,
     "wateringCanRank": 660
   },
   {
@@ -22572,7 +22572,7 @@
     },
     "totalCost": 1410350,
     "wateringCanUse": "18040",
-    "pixelsSpent": 10,
+    "pixelsSpent": 8,
     "wateringCanRank": 664
   },
   {
@@ -22776,7 +22776,7 @@
     },
     "totalCost": 1683950,
     "wateringCanUse": "17954",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 670
   },
   {
@@ -22878,7 +22878,7 @@
     },
     "totalCost": 446850,
     "wateringCanUse": "17856",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 673
   },
   {
@@ -23150,7 +23150,7 @@
     },
     "totalCost": 2017350,
     "wateringCanUse": "17621",
-    "pixelsSpent": 110,
+    "pixelsSpent": 90,
     "wateringCanRank": 681
   },
   {
@@ -23252,7 +23252,7 @@
     },
     "totalCost": 1386650,
     "wateringCanUse": "17590",
-    "pixelsSpent": 62.5,
+    "pixelsSpent": 42.5,
     "wateringCanRank": 684
   },
   {
@@ -23354,7 +23354,7 @@
     "guildId": "cg",
     "totalCost": 15680200,
     "wateringCanUse": "17487",
-    "pixelsSpent": 12498,
+    "pixelsSpent": 11948,
     "wateringCanRank": 687
   },
   {
@@ -23490,7 +23490,7 @@
     },
     "totalCost": 1388300,
     "wateringCanUse": "17408",
-    "pixelsSpent": 20,
+    "pixelsSpent": 12,
     "wateringCanRank": 691
   },
   {
@@ -24000,7 +24000,7 @@
     },
     "totalCost": 1549900,
     "wateringCanUse": "17143",
-    "pixelsSpent": 85,
+    "pixelsSpent": 55,
     "wateringCanRank": 706
   },
   {
@@ -24034,7 +24034,7 @@
     },
     "totalCost": 2357500,
     "wateringCanUse": "17124",
-    "pixelsSpent": 112.5,
+    "pixelsSpent": 68.5,
     "wateringCanRank": 707
   },
   {
@@ -24170,7 +24170,7 @@
     },
     "totalCost": 1186700,
     "wateringCanUse": "17035",
-    "pixelsSpent": 185,
+    "pixelsSpent": 111,
     "wateringCanRank": 711
   },
   {
@@ -24374,7 +24374,7 @@
     },
     "totalCost": 374500,
     "wateringCanUse": "16962",
-    "pixelsSpent": 627.5,
+    "pixelsSpent": 399.5,
     "wateringCanRank": 717
   },
   {
@@ -24476,7 +24476,7 @@
     },
     "totalCost": 1215550,
     "wateringCanUse": "16915",
-    "pixelsSpent": 162.5,
+    "pixelsSpent": 154.5,
     "wateringCanRank": 720
   },
   {
@@ -24510,7 +24510,7 @@
     },
     "totalCost": 547200,
     "wateringCanUse": "16902",
-    "pixelsSpent": 15,
+    "pixelsSpent": 9,
     "wateringCanRank": 721
   },
   {
@@ -24646,7 +24646,7 @@
     },
     "totalCost": 2151500,
     "wateringCanUse": "16868",
-    "pixelsSpent": 35,
+    "pixelsSpent": 21,
     "wateringCanRank": 725
   },
   {
@@ -24680,7 +24680,7 @@
     },
     "totalCost": 13934700,
     "wateringCanUse": "16842",
-    "pixelsSpent": 233.5,
+    "pixelsSpent": 197.5,
     "wateringCanRank": 726
   },
   {
@@ -24714,7 +24714,7 @@
     },
     "totalCost": 187500,
     "wateringCanUse": "16842",
-    "pixelsSpent": 50,
+    "pixelsSpent": 30,
     "wateringCanRank": 727
   },
   {
@@ -24918,7 +24918,7 @@
     },
     "totalCost": 176050,
     "wateringCanUse": "16706",
-    "pixelsSpent": 175,
+    "pixelsSpent": 127,
     "wateringCanRank": 733
   },
   {
@@ -24952,7 +24952,7 @@
     },
     "totalCost": 49300,
     "wateringCanUse": "16706",
-    "pixelsSpent": 10,
+    "pixelsSpent": 8,
     "wateringCanRank": 734
   },
   {
@@ -25122,7 +25122,7 @@
     },
     "totalCost": 640450,
     "wateringCanUse": "16658",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 739
   },
   {
@@ -25156,7 +25156,7 @@
     "guildId": "bch",
     "totalCost": 1072600,
     "wateringCanUse": "16625",
-    "pixelsSpent": 7.5,
+    "pixelsSpent": 5.5,
     "wateringCanRank": 740
   },
   {
@@ -25258,7 +25258,7 @@
     },
     "totalCost": 1553800,
     "wateringCanUse": "16556",
-    "pixelsSpent": 67.5,
+    "pixelsSpent": 45.5,
     "wateringCanRank": 743
   },
   {
@@ -25292,7 +25292,7 @@
     },
     "totalCost": 463950,
     "wateringCanUse": "16553",
-    "pixelsSpent": 165,
+    "pixelsSpent": 159,
     "wateringCanRank": 744
   },
   {
@@ -25360,7 +25360,7 @@
     "guildId": "smg",
     "totalCost": 3410750,
     "wateringCanUse": "16540",
-    "pixelsSpent": 35,
+    "pixelsSpent": 21,
     "wateringCanRank": 746
   },
   {
@@ -25428,7 +25428,7 @@
     },
     "totalCost": 3621750,
     "wateringCanUse": "16491",
-    "pixelsSpent": 80,
+    "pixelsSpent": 78,
     "wateringCanRank": 748
   },
   {
@@ -25496,7 +25496,7 @@
     },
     "totalCost": 1331500,
     "wateringCanUse": "16481",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 750
   },
   {
@@ -25598,7 +25598,7 @@
     },
     "totalCost": 496200,
     "wateringCanUse": "16450",
-    "pixelsSpent": 40,
+    "pixelsSpent": 24,
     "wateringCanRank": 753
   },
   {
@@ -25972,7 +25972,7 @@
     "guildId": "clover",
     "totalCost": 1873950,
     "wateringCanUse": "16217",
-    "pixelsSpent": 295,
+    "pixelsSpent": 177,
     "wateringCanRank": 764
   },
   {
@@ -26006,7 +26006,7 @@
     "guildId": "paldoclub",
     "totalCost": 1446050,
     "wateringCanUse": "16215",
-    "pixelsSpent": 57.5,
+    "pixelsSpent": 37.5,
     "wateringCanRank": 765
   },
   {
@@ -26108,7 +26108,7 @@
     "guildId": "pixelpals",
     "totalCost": 23212400,
     "wateringCanUse": "16155",
-    "pixelsSpent": 9362.5,
+    "pixelsSpent": 7812.5,
     "wateringCanRank": 768
   },
   {
@@ -26312,7 +26312,7 @@
     },
     "totalCost": 786600,
     "wateringCanUse": "16084",
-    "pixelsSpent": 255,
+    "pixelsSpent": 153,
     "wateringCanRank": 774
   },
   {
@@ -26448,7 +26448,7 @@
     "guildId": "clover",
     "totalCost": 19711900,
     "wateringCanUse": "16017",
-    "pixelsSpent": 6420,
+    "pixelsSpent": 3864,
     "wateringCanRank": 778
   },
   {
@@ -26482,7 +26482,7 @@
     "guildId": "smg",
     "totalCost": 1553400,
     "wateringCanUse": "16016",
-    "pixelsSpent": 28327.5,
+    "pixelsSpent": 18285.5,
     "wateringCanRank": 779
   },
   {
@@ -26516,7 +26516,7 @@
     "guildId": "cyberkongz",
     "totalCost": 961600,
     "wateringCanUse": "15916",
-    "pixelsSpent": 110,
+    "pixelsSpent": 76,
     "wateringCanRank": 780
   },
   {
@@ -26788,7 +26788,7 @@
     },
     "totalCost": 491800,
     "wateringCanUse": "15756",
-    "pixelsSpent": 25,
+    "pixelsSpent": 15,
     "wateringCanRank": 788
   },
   {
@@ -27978,7 +27978,7 @@
     "guildId": "comfortzone",
     "totalCost": 6710500,
     "wateringCanUse": "15113",
-    "pixelsSpent": 1488.5,
+    "pixelsSpent": 894.5,
     "wateringCanRank": 823
   },
   {
@@ -28148,7 +28148,7 @@
     },
     "totalCost": 1198450,
     "wateringCanUse": "15030",
-    "pixelsSpent": 32.5,
+    "pixelsSpent": 30.5,
     "wateringCanRank": 828
   },
   {
@@ -28488,7 +28488,7 @@
     "guildId": "p2g",
     "totalCost": 18170600,
     "wateringCanUse": "14793",
-    "pixelsSpent": 3952.5,
+    "pixelsSpent": 3176.5,
     "wateringCanRank": 838
   },
   {
@@ -28522,7 +28522,7 @@
     "guildId": "hurugaming",
     "totalCost": 537500,
     "wateringCanUse": "14788",
-    "pixelsSpent": 14,
+    "pixelsSpent": 12,
     "wateringCanRank": 839
   },
   {
@@ -28726,7 +28726,7 @@
     },
     "totalCost": 1538300,
     "wateringCanUse": "14632",
-    "pixelsSpent": 372.5,
+    "pixelsSpent": 272.5,
     "wateringCanRank": 845
   },
   {
@@ -28896,7 +28896,7 @@
     },
     "totalCost": 45000,
     "wateringCanUse": "14536",
-    "pixelsSpent": 15,
+    "pixelsSpent": 9,
     "wateringCanRank": 850
   },
   {
@@ -28998,7 +28998,7 @@
     },
     "totalCost": 269900,
     "wateringCanUse": "14456",
-    "pixelsSpent": 7.5,
+    "pixelsSpent": 5.5,
     "wateringCanRank": 853
   },
   {
@@ -29304,7 +29304,7 @@
     "guildId": "cyberkongz",
     "totalCost": 1513700,
     "wateringCanUse": "14345",
-    "pixelsSpent": 55,
+    "pixelsSpent": 33,
     "wateringCanRank": 862
   },
   {
@@ -29814,7 +29814,7 @@
     },
     "totalCost": 976200,
     "wateringCanUse": "14131",
-    "pixelsSpent": 25,
+    "pixelsSpent": 15,
     "wateringCanRank": 877
   },
   {
@@ -30086,7 +30086,7 @@
     },
     "totalCost": 985000,
     "wateringCanUse": "14075",
-    "pixelsSpent": 38,
+    "pixelsSpent": 30,
     "wateringCanRank": 885
   },
   {
@@ -30188,7 +30188,7 @@
     },
     "totalCost": 1045500,
     "wateringCanUse": "14061",
-    "pixelsSpent": 245,
+    "pixelsSpent": 175,
     "wateringCanRank": 888
   },
   {
@@ -30324,7 +30324,7 @@
     },
     "totalCost": 1581800,
     "wateringCanUse": "13957",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 892
   },
   {
@@ -30426,7 +30426,7 @@
     },
     "totalCost": 796300,
     "wateringCanUse": "13879",
-    "pixelsSpent": 141.5,
+    "pixelsSpent": 107.5,
     "wateringCanRank": 895
   },
   {
@@ -30528,7 +30528,7 @@
     },
     "totalCost": 1870600,
     "wateringCanUse": "13778",
-    "pixelsSpent": 115,
+    "pixelsSpent": 69,
     "wateringCanRank": 898
   },
   {
@@ -30834,7 +30834,7 @@
     },
     "totalCost": 1724450,
     "wateringCanUse": "13662",
-    "pixelsSpent": 205,
+    "pixelsSpent": 185,
     "wateringCanRank": 907
   },
   {
@@ -30868,7 +30868,7 @@
     },
     "totalCost": 1372900,
     "wateringCanUse": "13650",
-    "pixelsSpent": 50,
+    "pixelsSpent": 30,
     "wateringCanRank": 908
   },
   {
@@ -30936,7 +30936,7 @@
     "guildId": "paldoclub",
     "totalCost": 731750,
     "wateringCanUse": "13626",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 910
   },
   {
@@ -31208,7 +31208,7 @@
     },
     "totalCost": 1565250,
     "wateringCanUse": "13498",
-    "pixelsSpent": 51,
+    "pixelsSpent": 39,
     "wateringCanRank": 918
   },
   {
@@ -31242,7 +31242,7 @@
     "guildId": "tif",
     "totalCost": 3676600,
     "wateringCanUse": "13494",
-    "pixelsSpent": 51,
+    "pixelsSpent": 31,
     "wateringCanRank": 919
   },
   {
@@ -31344,7 +31344,7 @@
     "guildId": "comfortzone",
     "totalCost": 1164850,
     "wateringCanUse": "13467",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 922
   },
   {
@@ -31752,7 +31752,7 @@
     },
     "totalCost": 199900,
     "wateringCanUse": "13300",
-    "pixelsSpent": 265,
+    "pixelsSpent": 179,
     "wateringCanRank": 934
   },
   {
@@ -31786,7 +31786,7 @@
     },
     "totalCost": 2040450,
     "wateringCanUse": "13298",
-    "pixelsSpent": 165,
+    "pixelsSpent": 99,
     "wateringCanRank": 935
   },
   {
@@ -31888,7 +31888,7 @@
     "guildId": "insomnia",
     "totalCost": 1668750,
     "wateringCanUse": "13282",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 938
   },
   {
@@ -32024,7 +32024,7 @@
     },
     "totalCost": 807800,
     "wateringCanUse": "13226",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 942
   },
   {
@@ -32058,7 +32058,7 @@
     },
     "totalCost": 320300,
     "wateringCanUse": "13201",
-    "pixelsSpent": 50,
+    "pixelsSpent": 30,
     "wateringCanRank": 943
   },
   {
@@ -32092,7 +32092,7 @@
     },
     "totalCost": 284600,
     "wateringCanUse": "13201",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 944
   },
   {
@@ -32364,7 +32364,7 @@
     "guildId": "pixelsgg",
     "totalCost": 514400,
     "wateringCanUse": "13091",
-    "pixelsSpent": 30,
+    "pixelsSpent": 20,
     "wateringCanRank": 952
   },
   {
@@ -32432,7 +32432,7 @@
     },
     "totalCost": 61500,
     "wateringCanUse": "13053",
-    "pixelsSpent": 20,
+    "pixelsSpent": 12,
     "wateringCanRank": 954
   },
   {
@@ -32534,7 +32534,7 @@
     },
     "totalCost": 1185950,
     "wateringCanUse": "13033",
-    "pixelsSpent": 25,
+    "pixelsSpent": 19,
     "wateringCanRank": 957
   },
   {
@@ -32636,7 +32636,7 @@
     "guildId": "bch",
     "totalCost": 450700,
     "wateringCanUse": "13009",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 960
   },
   {
@@ -32806,7 +32806,7 @@
     },
     "totalCost": 1325500,
     "wateringCanUse": "12946",
-    "pixelsSpent": 210,
+    "pixelsSpent": 190,
     "wateringCanRank": 965
   },
   {
@@ -32908,7 +32908,7 @@
     },
     "totalCost": 521450,
     "wateringCanUse": "12931",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 968
   },
   {
@@ -33282,7 +33282,7 @@
     },
     "totalCost": 1475150,
     "wateringCanUse": "12774",
-    "pixelsSpent": 102.5,
+    "pixelsSpent": 84.5,
     "wateringCanRank": 979
   },
   {
@@ -33384,7 +33384,7 @@
     },
     "totalCost": 1394100,
     "wateringCanUse": "12697",
-    "pixelsSpent": 76,
+    "pixelsSpent": 58,
     "wateringCanRank": 982
   },
   {
@@ -33996,7 +33996,7 @@
     "guildId": "comfortzone",
     "totalCost": 850550,
     "wateringCanUse": "12496",
-    "pixelsSpent": 90,
+    "pixelsSpent": 88,
     "wateringCanRank": 1000
   },
   {
@@ -34030,7 +34030,7 @@
     "guildId": "cg",
     "totalCost": 1013250,
     "wateringCanUse": "12469",
-    "pixelsSpent": 175,
+    "pixelsSpent": 155,
     "wateringCanRank": 1001
   },
   {
@@ -34098,7 +34098,7 @@
     "guildId": "comfortzone",
     "totalCost": 808750,
     "wateringCanUse": "12444",
-    "pixelsSpent": 70,
+    "pixelsSpent": 42,
     "wateringCanRank": 1003
   },
   {
@@ -34166,7 +34166,7 @@
     },
     "totalCost": 683500,
     "wateringCanUse": "12428",
-    "pixelsSpent": 55,
+    "pixelsSpent": 35,
     "wateringCanRank": 1005
   },
   {
@@ -34404,7 +34404,7 @@
     },
     "totalCost": 89250,
     "wateringCanUse": "12377",
-    "pixelsSpent": 50,
+    "pixelsSpent": 30,
     "wateringCanRank": 1012
   },
   {
@@ -34472,7 +34472,7 @@
     },
     "totalCost": 116800,
     "wateringCanUse": "12367",
-    "pixelsSpent": 32.5,
+    "pixelsSpent": 22.5,
     "wateringCanRank": 1014
   },
   {
@@ -34642,7 +34642,7 @@
     "guildId": "lfg",
     "totalCost": 306150,
     "wateringCanUse": "12334",
-    "pixelsSpent": 26,
+    "pixelsSpent": 18,
     "wateringCanRank": 1019
   },
   {
@@ -34676,7 +34676,7 @@
     "guildId": "comfortzone",
     "totalCost": 1552800,
     "wateringCanUse": "12331",
-    "pixelsSpent": 107.5,
+    "pixelsSpent": 87.5,
     "wateringCanRank": 1020
   },
   {
@@ -34846,7 +34846,7 @@
     },
     "totalCost": 4947650,
     "wateringCanUse": "12242",
-    "pixelsSpent": 4337.5,
+    "pixelsSpent": 3603.5,
     "wateringCanRank": 1025
   },
   {
@@ -34982,7 +34982,7 @@
     },
     "totalCost": 705200,
     "wateringCanUse": "12199",
-    "pixelsSpent": 17.5,
+    "pixelsSpent": 11.5,
     "wateringCanRank": 1029
   },
   {
@@ -35050,7 +35050,7 @@
     },
     "totalCost": 8025550,
     "wateringCanUse": "12157",
-    "pixelsSpent": 4777,
+    "pixelsSpent": 4183,
     "wateringCanRank": 1031
   },
   {
@@ -35084,7 +35084,7 @@
     },
     "totalCost": 1702200,
     "wateringCanUse": "12137",
-    "pixelsSpent": 27.5,
+    "pixelsSpent": 21.5,
     "wateringCanRank": 1032
   },
   {
@@ -35118,7 +35118,7 @@
     },
     "totalCost": 762250,
     "wateringCanUse": "12099",
-    "pixelsSpent": 587.5,
+    "pixelsSpent": 355.5,
     "wateringCanRank": 1033
   },
   {
@@ -35560,7 +35560,7 @@
     "guildId": "suragaming",
     "totalCost": 2502600,
     "wateringCanUse": "11971",
-    "pixelsSpent": 125,
+    "pixelsSpent": 83,
     "wateringCanRank": 1046
   },
   {
@@ -35662,7 +35662,7 @@
     },
     "totalCost": 69250,
     "wateringCanUse": "11950",
-    "pixelsSpent": 10,
+    "pixelsSpent": 6,
     "wateringCanRank": 1049
   },
   {
@@ -35832,7 +35832,7 @@
     },
     "totalCost": 2841650,
     "wateringCanUse": "11886",
-    "pixelsSpent": 467.5,
+    "pixelsSpent": 291.5,
     "wateringCanRank": 1054
   },
   {
@@ -36070,7 +36070,7 @@
     },
     "totalCost": 2305150,
     "wateringCanUse": "11781",
-    "pixelsSpent": 182.5,
+    "pixelsSpent": 116.5,
     "wateringCanRank": 1061
   },
   {
@@ -36138,7 +36138,7 @@
     "guildId": "comfortzone",
     "totalCost": 1179600,
     "wateringCanUse": "11769",
-    "pixelsSpent": 17.5,
+    "pixelsSpent": 15.5,
     "wateringCanRank": 1063
   },
   {
@@ -36206,7 +36206,7 @@
     },
     "totalCost": 1959650,
     "wateringCanUse": "11736",
-    "pixelsSpent": 200,
+    "pixelsSpent": 140,
     "wateringCanRank": 1065
   },
   {
@@ -36478,7 +36478,7 @@
     },
     "totalCost": 1516250,
     "wateringCanUse": "11608",
-    "pixelsSpent": 237.5,
+    "pixelsSpent": 173.5,
     "wateringCanRank": 1073
   },
   {
@@ -36648,7 +36648,7 @@
     },
     "totalCost": 667300,
     "wateringCanUse": "11534",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 1078
   },
   {
@@ -36784,7 +36784,7 @@
     },
     "totalCost": 505600,
     "wateringCanUse": "11521",
-    "pixelsSpent": 50,
+    "pixelsSpent": 30,
     "wateringCanRank": 1082
   },
   {
@@ -37090,7 +37090,7 @@
     },
     "totalCost": 456050,
     "wateringCanUse": "11455",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 1091
   },
   {
@@ -37124,7 +37124,7 @@
     },
     "totalCost": 232400,
     "wateringCanUse": "11454",
-    "pixelsSpent": 10,
+    "pixelsSpent": 8,
     "wateringCanRank": 1092
   },
   {
@@ -37600,7 +37600,7 @@
     },
     "totalCost": 264200,
     "wateringCanUse": "11305",
-    "pixelsSpent": 40,
+    "pixelsSpent": 24,
     "wateringCanRank": 1106
   },
   {
@@ -37974,7 +37974,7 @@
     },
     "totalCost": 639600,
     "wateringCanUse": "11148",
-    "pixelsSpent": 978.5,
+    "pixelsSpent": 626.5,
     "wateringCanRank": 1117
   },
   {
@@ -38246,7 +38246,7 @@
     },
     "totalCost": 148750,
     "wateringCanUse": "11052",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 1125
   },
   {
@@ -38552,7 +38552,7 @@
     },
     "totalCost": 552500,
     "wateringCanUse": "10932",
-    "pixelsSpent": 17.5,
+    "pixelsSpent": 11.5,
     "wateringCanRank": 1134
   },
   {
@@ -39028,7 +39028,7 @@
     },
     "totalCost": 267150,
     "wateringCanUse": "10830",
-    "pixelsSpent": 180,
+    "pixelsSpent": 120,
     "wateringCanRank": 1148
   },
   {
@@ -39300,7 +39300,7 @@
     "guildId": "comfortzone",
     "totalCost": 878550,
     "wateringCanUse": "10772",
-    "pixelsSpent": 220,
+    "pixelsSpent": 176,
     "wateringCanRank": 1156
   },
   {
@@ -39368,7 +39368,7 @@
     },
     "totalCost": 1192550,
     "wateringCanUse": "10758",
-    "pixelsSpent": 747.5,
+    "pixelsSpent": 687.5,
     "wateringCanRank": 1158
   },
   {
@@ -39436,7 +39436,7 @@
     },
     "totalCost": 128700,
     "wateringCanUse": "10755",
-    "pixelsSpent": 7.5,
+    "pixelsSpent": 5.5,
     "wateringCanRank": 1160
   },
   {
@@ -39708,7 +39708,7 @@
     "guildId": "pixelpals",
     "totalCost": 169600,
     "wateringCanUse": "10609",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 1168
   },
   {
@@ -39742,7 +39742,7 @@
     },
     "totalCost": 74200,
     "wateringCanUse": "10600",
-    "pixelsSpent": 503.5,
+    "pixelsSpent": 303.5,
     "wateringCanRank": 1169
   },
   {
@@ -40048,7 +40048,7 @@
     },
     "totalCost": 298650,
     "wateringCanUse": "10519",
-    "pixelsSpent": 10,
+    "pixelsSpent": 6,
     "wateringCanRank": 1178
   },
   {
@@ -40354,7 +40354,7 @@
     "guildId": "comfortzone",
     "totalCost": 2592850,
     "wateringCanUse": "10417",
-    "pixelsSpent": 30,
+    "pixelsSpent": 18,
     "wateringCanRank": 1187
   },
   {
@@ -40422,7 +40422,7 @@
     },
     "totalCost": 1592450,
     "wateringCanUse": "10414",
-    "pixelsSpent": 120,
+    "pixelsSpent": 98,
     "wateringCanRank": 1189
   },
   {
@@ -40626,7 +40626,7 @@
     },
     "totalCost": 946950,
     "wateringCanUse": "10359",
-    "pixelsSpent": 40,
+    "pixelsSpent": 24,
     "wateringCanRank": 1195
   },
   {
@@ -41000,7 +41000,7 @@
     },
     "totalCost": 1465050,
     "wateringCanUse": "10296",
-    "pixelsSpent": 64.5,
+    "pixelsSpent": 54.5,
     "wateringCanRank": 1206
   },
   {
@@ -41272,7 +41272,7 @@
     "guildId": "bch",
     "totalCost": 270200,
     "wateringCanUse": "10176",
-    "pixelsSpent": 6,
+    "pixelsSpent": 4,
     "wateringCanRank": 1214
   },
   {
@@ -41476,7 +41476,7 @@
     },
     "totalCost": 470000,
     "wateringCanUse": "10162",
-    "pixelsSpent": 10,
+    "pixelsSpent": 6,
     "wateringCanRank": 1220
   },
   {
@@ -41714,7 +41714,7 @@
     },
     "totalCost": 181000,
     "wateringCanUse": "10077",
-    "pixelsSpent": 15,
+    "pixelsSpent": 9,
     "wateringCanRank": 1227
   },
   {
@@ -41816,7 +41816,7 @@
     "guildId": "ggs",
     "totalCost": 209100,
     "wateringCanUse": "10067",
-    "pixelsSpent": 13,
+    "pixelsSpent": 11,
     "wateringCanRank": 1230
   },
   {
@@ -42190,7 +42190,7 @@
     "guildId": "cyberkongz",
     "totalCost": 3142200,
     "wateringCanUse": "9986",
-    "pixelsSpent": 131,
+    "pixelsSpent": 129,
     "wateringCanRank": 1241
   },
   {
@@ -42428,7 +42428,7 @@
     },
     "totalCost": 104500,
     "wateringCanUse": "9886",
-    "pixelsSpent": 7.5,
+    "pixelsSpent": 5.5,
     "wateringCanRank": 1248
   },
   {
@@ -42496,7 +42496,7 @@
     },
     "totalCost": 139750,
     "wateringCanUse": "9877",
-    "pixelsSpent": 15,
+    "pixelsSpent": 13,
     "wateringCanRank": 1250
   },
   {
@@ -42734,7 +42734,7 @@
     "guildId": "clover",
     "totalCost": 3027600,
     "wateringCanUse": "9809",
-    "pixelsSpent": 20,
+    "pixelsSpent": 14,
     "wateringCanRank": 1257
   },
   {
@@ -42870,7 +42870,7 @@
     },
     "totalCost": 100650,
     "wateringCanUse": "9787",
-    "pixelsSpent": 32.5,
+    "pixelsSpent": 24.5,
     "wateringCanRank": 1261
   },
   {
@@ -43482,7 +43482,7 @@
     },
     "totalCost": 964400,
     "wateringCanUse": "9613",
-    "pixelsSpent": 652.5,
+    "pixelsSpent": 510.5,
     "wateringCanRank": 1279
   },
   {
@@ -43720,7 +43720,7 @@
     },
     "totalCost": 250650,
     "wateringCanUse": "9559",
-    "pixelsSpent": 25,
+    "pixelsSpent": 15,
     "wateringCanRank": 1286
   },
   {
@@ -43958,7 +43958,7 @@
     },
     "totalCost": 1596750,
     "wateringCanUse": "9508",
-    "pixelsSpent": 955,
+    "pixelsSpent": 667,
     "wateringCanRank": 1293
   },
   {
@@ -43992,7 +43992,7 @@
     "guildId": "bch",
     "totalCost": 1902800,
     "wateringCanUse": "9506",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 1294
   },
   {
@@ -44196,7 +44196,7 @@
     "guildId": "comfortzone",
     "totalCost": 3491450,
     "wateringCanUse": "9442",
-    "pixelsSpent": 4550.5,
+    "pixelsSpent": 3758.5,
     "wateringCanRank": 1300
   },
   {
@@ -44230,7 +44230,7 @@
     },
     "totalCost": 2654400,
     "wateringCanUse": "9440",
-    "pixelsSpent": 125,
+    "pixelsSpent": 79,
     "wateringCanRank": 1301
   },
   {
@@ -44366,7 +44366,7 @@
     },
     "totalCost": 222850,
     "wateringCanUse": "9408",
-    "pixelsSpent": 65,
+    "pixelsSpent": 39,
     "wateringCanRank": 1305
   },
   {
@@ -44502,7 +44502,7 @@
     "guildId": "p2g",
     "totalCost": 758300,
     "wateringCanUse": "9388",
-    "pixelsSpent": 917.5,
+    "pixelsSpent": 719.5,
     "wateringCanRank": 1309
   },
   {
@@ -44570,7 +44570,7 @@
     },
     "totalCost": 744000,
     "wateringCanUse": "9375",
-    "pixelsSpent": 167.5,
+    "pixelsSpent": 107.5,
     "wateringCanRank": 1311
   },
   {
@@ -45624,7 +45624,7 @@
     "guildId": "pixelpals",
     "totalCost": 176500,
     "wateringCanUse": "9099",
-    "pixelsSpent": 36,
+    "pixelsSpent": 24,
     "wateringCanRank": 1342
   },
   {
@@ -45964,7 +45964,7 @@
     },
     "totalCost": 206300,
     "wateringCanUse": "8956",
-    "pixelsSpent": 30,
+    "pixelsSpent": 22,
     "wateringCanRank": 1352
   },
   {
@@ -46032,7 +46032,7 @@
     },
     "totalCost": 2386600,
     "wateringCanUse": "8936",
-    "pixelsSpent": 85,
+    "pixelsSpent": 57,
     "wateringCanRank": 1354
   },
   {
@@ -46236,7 +46236,7 @@
     "guildId": "clover",
     "totalCost": 3799400,
     "wateringCanUse": "8878",
-    "pixelsSpent": 265,
+    "pixelsSpent": 175,
     "wateringCanRank": 1360
   },
   {
@@ -46270,7 +46270,7 @@
     "guildId": "cyberkongz",
     "totalCost": 862150,
     "wateringCanUse": "8870",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 1361
   },
   {
@@ -46304,7 +46304,7 @@
     },
     "totalCost": 27200,
     "wateringCanUse": "8867",
-    "pixelsSpent": 7.5,
+    "pixelsSpent": 5.5,
     "wateringCanRank": 1362
   },
   {
@@ -46406,7 +46406,7 @@
     "guildId": "bch",
     "totalCost": 592150,
     "wateringCanUse": "8848",
-    "pixelsSpent": 6,
+    "pixelsSpent": 4,
     "wateringCanRank": 1365
   },
   {
@@ -46508,7 +46508,7 @@
     },
     "totalCost": 846300,
     "wateringCanUse": "8832",
-    "pixelsSpent": 60,
+    "pixelsSpent": 50,
     "wateringCanRank": 1368
   },
   {
@@ -46848,7 +46848,7 @@
     },
     "totalCost": 444650,
     "wateringCanUse": "8791",
-    "pixelsSpent": 18.5,
+    "pixelsSpent": 12.5,
     "wateringCanRank": 1378
   },
   {
@@ -46984,7 +46984,7 @@
     "guildId": "bch",
     "totalCost": 450150,
     "wateringCanUse": "8763",
-    "pixelsSpent": 15,
+    "pixelsSpent": 11,
     "wateringCanRank": 1382
   },
   {
@@ -47086,7 +47086,7 @@
     },
     "totalCost": 6975450,
     "wateringCanUse": "8733",
-    "pixelsSpent": 70.5,
+    "pixelsSpent": 54.5,
     "wateringCanRank": 1385
   },
   {
@@ -48480,7 +48480,7 @@
     },
     "totalCost": 408900,
     "wateringCanUse": "8308",
-    "pixelsSpent": 17.5,
+    "pixelsSpent": 13.5,
     "wateringCanRank": 1426
   },
   {
@@ -48650,7 +48650,7 @@
     },
     "totalCost": 466300,
     "wateringCanUse": "8251",
-    "pixelsSpent": 155,
+    "pixelsSpent": 101,
     "wateringCanRank": 1431
   },
   {
@@ -48888,7 +48888,7 @@
     "guildId": "prime",
     "totalCost": 4334400,
     "wateringCanUse": "8207",
-    "pixelsSpent": 302.5,
+    "pixelsSpent": 250.5,
     "wateringCanRank": 1438
   },
   {
@@ -49092,7 +49092,7 @@
     },
     "totalCost": 120800,
     "wateringCanUse": "8176",
-    "pixelsSpent": 10,
+    "pixelsSpent": 8,
     "wateringCanRank": 1444
   },
   {
@@ -49364,7 +49364,7 @@
     },
     "totalCost": 150750,
     "wateringCanUse": "8123",
-    "pixelsSpent": 160,
+    "pixelsSpent": 96,
     "wateringCanRank": 1452
   },
   {
@@ -49432,7 +49432,7 @@
     },
     "totalCost": 183150,
     "wateringCanUse": "8112",
-    "pixelsSpent": 25,
+    "pixelsSpent": 17,
     "wateringCanRank": 1454
   },
   {
@@ -49534,7 +49534,7 @@
     },
     "totalCost": 1867100,
     "wateringCanUse": "8095",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 1457
   },
   {
@@ -49670,7 +49670,7 @@
     },
     "totalCost": 460800,
     "wateringCanUse": "8061",
-    "pixelsSpent": 21,
+    "pixelsSpent": 19,
     "wateringCanRank": 1461
   },
   {
@@ -49840,7 +49840,7 @@
     },
     "totalCost": 119200,
     "wateringCanUse": "8028",
-    "pixelsSpent": 12.5,
+    "pixelsSpent": 10.5,
     "wateringCanRank": 1466
   },
   {
@@ -49942,7 +49942,7 @@
     },
     "totalCost": 327700,
     "wateringCanUse": "7985",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 1469
   },
   {
@@ -50384,7 +50384,7 @@
     "guildId": "pixelpals",
     "totalCost": 438500,
     "wateringCanUse": "7909",
-    "pixelsSpent": 415,
+    "pixelsSpent": 255,
     "wateringCanRank": 1482
   },
   {
@@ -50656,7 +50656,7 @@
     "guildId": "paldoclub",
     "totalCost": 328450,
     "wateringCanUse": "7852",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 1490
   },
   {
@@ -50928,7 +50928,7 @@
     },
     "totalCost": 139500,
     "wateringCanUse": "7801",
-    "pixelsSpent": 20,
+    "pixelsSpent": 14,
     "wateringCanRank": 1498
   },
   {
@@ -50962,7 +50962,7 @@
     },
     "totalCost": 161050,
     "wateringCanUse": "7785",
-    "pixelsSpent": 35,
+    "pixelsSpent": 25,
     "wateringCanRank": 1499
   },
   {
@@ -51132,7 +51132,7 @@
     },
     "totalCost": 122100,
     "wateringCanUse": "7739",
-    "pixelsSpent": 10,
+    "pixelsSpent": 6,
     "wateringCanRank": 1504
   },
   {
@@ -51268,7 +51268,7 @@
     "guildId": "cyberkongz",
     "totalCost": 714950,
     "wateringCanUse": "7716",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 1508
   },
   {
@@ -51540,7 +51540,7 @@
     "guildId": "pixelpals",
     "totalCost": 482050,
     "wateringCanUse": "7658",
-    "pixelsSpent": 15,
+    "pixelsSpent": 9,
     "wateringCanRank": 1516
   },
   {
@@ -51914,7 +51914,7 @@
     },
     "totalCost": 224400,
     "wateringCanUse": "7582",
-    "pixelsSpent": 45,
+    "pixelsSpent": 31,
     "wateringCanRank": 1527
   },
   {
@@ -52118,7 +52118,7 @@
     },
     "totalCost": 108300,
     "wateringCanUse": "7540",
-    "pixelsSpent": 69,
+    "pixelsSpent": 47,
     "wateringCanRank": 1533
   },
   {
@@ -52186,7 +52186,7 @@
     "guildId": "pixelpals",
     "totalCost": 119900,
     "wateringCanUse": "7533",
-    "pixelsSpent": 15,
+    "pixelsSpent": 11,
     "wateringCanRank": 1535
   },
   {
@@ -52288,7 +52288,7 @@
     },
     "totalCost": 49900,
     "wateringCanUse": "7504",
-    "pixelsSpent": 12.5,
+    "pixelsSpent": 8.5,
     "wateringCanRank": 1538
   },
   {
@@ -52390,7 +52390,7 @@
     },
     "totalCost": 496500,
     "wateringCanUse": "7470",
-    "pixelsSpent": 53,
+    "pixelsSpent": 33,
     "wateringCanRank": 1541
   },
   {
@@ -52764,7 +52764,7 @@
     },
     "totalCost": 3600050,
     "wateringCanUse": "7431",
-    "pixelsSpent": 580,
+    "pixelsSpent": 490,
     "wateringCanRank": 1552
   },
   {
@@ -52832,7 +52832,7 @@
     },
     "totalCost": 590550,
     "wateringCanUse": "7427",
-    "pixelsSpent": 222.5,
+    "pixelsSpent": 198.5,
     "wateringCanRank": 1554
   },
   {
@@ -53002,7 +53002,7 @@
     "guildId": "pxf",
     "totalCost": 716800,
     "wateringCanUse": "7399",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 1559
   },
   {
@@ -53104,7 +53104,7 @@
     "guildId": "smg",
     "totalCost": 2277650,
     "wateringCanUse": "7380",
-    "pixelsSpent": 7.5,
+    "pixelsSpent": 5.5,
     "wateringCanRank": 1562
   },
   {
@@ -53376,7 +53376,7 @@
     },
     "totalCost": 25300,
     "wateringCanUse": "7324",
-    "pixelsSpent": 10,
+    "pixelsSpent": 6,
     "wateringCanRank": 1570
   },
   {
@@ -53410,7 +53410,7 @@
     },
     "totalCost": 114000,
     "wateringCanUse": "7301",
-    "pixelsSpent": 1075,
+    "pixelsSpent": 731,
     "wateringCanRank": 1571
   },
   {
@@ -53444,7 +53444,7 @@
     },
     "totalCost": 251950,
     "wateringCanUse": "7292",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 1572
   },
   {
@@ -53784,7 +53784,7 @@
     },
     "totalCost": 5314900,
     "wateringCanUse": "7238",
-    "pixelsSpent": 252.5,
+    "pixelsSpent": 174.5,
     "wateringCanRank": 1582
   },
   {
@@ -54226,7 +54226,7 @@
     "guildId": "bch",
     "totalCost": 879150,
     "wateringCanUse": "7139",
-    "pixelsSpent": 30,
+    "pixelsSpent": 20,
     "wateringCanRank": 1595
   },
   {
@@ -54294,7 +54294,7 @@
     "guildId": "clover",
     "totalCost": 1246050,
     "wateringCanUse": "7105",
-    "pixelsSpent": 70,
+    "pixelsSpent": 48,
     "wateringCanRank": 1597
   },
   {
@@ -54396,7 +54396,7 @@
     },
     "totalCost": 540150,
     "wateringCanUse": "7101",
-    "pixelsSpent": 49.5,
+    "pixelsSpent": 47.5,
     "wateringCanRank": 1600
   },
   {
@@ -54430,7 +54430,7 @@
     },
     "totalCost": 86150,
     "wateringCanUse": "7098",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 1601
   },
   {
@@ -54464,7 +54464,7 @@
     "guildId": "pixelpals",
     "totalCost": 196300,
     "wateringCanUse": "7092",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 1602
   },
   {
@@ -54566,7 +54566,7 @@
     },
     "totalCost": 478550,
     "wateringCanUse": "7081",
-    "pixelsSpent": 37.5,
+    "pixelsSpent": 25.5,
     "wateringCanRank": 1605
   },
   {
@@ -54702,7 +54702,7 @@
     },
     "totalCost": 1047550,
     "wateringCanUse": "7066",
-    "pixelsSpent": 21,
+    "pixelsSpent": 17,
     "wateringCanRank": 1609
   },
   {
@@ -54906,7 +54906,7 @@
     },
     "totalCost": 1386100,
     "wateringCanUse": "7040",
-    "pixelsSpent": 40,
+    "pixelsSpent": 30,
     "wateringCanRank": 1615
   },
   {
@@ -54940,7 +54940,7 @@
     "guildId": "pixelpals",
     "totalCost": 68350,
     "wateringCanUse": "7019",
-    "pixelsSpent": 20,
+    "pixelsSpent": 12,
     "wateringCanRank": 1616
   },
   {
@@ -54974,7 +54974,7 @@
     },
     "totalCost": 162450,
     "wateringCanUse": "7009",
-    "pixelsSpent": 80,
+    "pixelsSpent": 48,
     "wateringCanRank": 1617
   },
   {
@@ -55042,7 +55042,7 @@
     "guildId": "paldoclub",
     "totalCost": 346250,
     "wateringCanUse": "7006",
-    "pixelsSpent": 597.5,
+    "pixelsSpent": 375.5,
     "wateringCanRank": 1619
   },
   {
@@ -55178,7 +55178,7 @@
     "guildId": "tif",
     "totalCost": 1098000,
     "wateringCanUse": "6996",
-    "pixelsSpent": 15,
+    "pixelsSpent": 11,
     "wateringCanRank": 1623
   },
   {
@@ -55212,7 +55212,7 @@
     },
     "totalCost": 753300,
     "wateringCanUse": "6996",
-    "pixelsSpent": 7.5,
+    "pixelsSpent": 5.5,
     "wateringCanRank": 1624
   },
   {
@@ -55552,7 +55552,7 @@
     },
     "totalCost": 74100,
     "wateringCanUse": "6912",
-    "pixelsSpent": 15,
+    "pixelsSpent": 9,
     "wateringCanRank": 1634
   },
   {
@@ -55620,7 +55620,7 @@
     },
     "totalCost": 667500,
     "wateringCanUse": "6898",
-    "pixelsSpent": 60,
+    "pixelsSpent": 36,
     "wateringCanRank": 1636
   },
   {
@@ -55722,7 +55722,7 @@
     "guildId": "insomnia",
     "totalCost": 380750,
     "wateringCanUse": "6877",
-    "pixelsSpent": 7,
+    "pixelsSpent": 5,
     "wateringCanRank": 1639
   },
   {
@@ -56062,7 +56062,7 @@
     },
     "totalCost": 270450,
     "wateringCanUse": "6814",
-    "pixelsSpent": 17,
+    "pixelsSpent": 13,
     "wateringCanRank": 1649
   },
   {
@@ -56504,7 +56504,7 @@
     },
     "totalCost": 33150,
     "wateringCanUse": "6729",
-    "pixelsSpent": 40,
+    "pixelsSpent": 32,
     "wateringCanRank": 1662
   },
   {
@@ -56538,7 +56538,7 @@
     "guildId": "bch",
     "totalCost": 383900,
     "wateringCanUse": "6726",
-    "pixelsSpent": 282,
+    "pixelsSpent": 242,
     "wateringCanRank": 1663
   },
   {
@@ -56640,7 +56640,7 @@
     "guildId": "cyberkongz",
     "totalCost": 1753200,
     "wateringCanUse": "6679",
-    "pixelsSpent": 485,
+    "pixelsSpent": 301,
     "wateringCanRank": 1666
   },
   {
@@ -56776,7 +56776,7 @@
     "guildId": "suragaming",
     "totalCost": 2830150,
     "wateringCanUse": "6665",
-    "pixelsSpent": 132.5,
+    "pixelsSpent": 82.5,
     "wateringCanRank": 1670
   },
   {
@@ -57558,7 +57558,7 @@
     "guildId": "paldoclub",
     "totalCost": 1115750,
     "wateringCanUse": "6538",
-    "pixelsSpent": 330,
+    "pixelsSpent": 230,
     "wateringCanRank": 1693
   },
   {
@@ -57660,7 +57660,7 @@
     },
     "totalCost": 419150,
     "wateringCanUse": "6519",
-    "pixelsSpent": 30.5,
+    "pixelsSpent": 20.5,
     "wateringCanRank": 1696
   },
   {
@@ -57728,7 +57728,7 @@
     },
     "totalCost": 223700,
     "wateringCanUse": "6504",
-    "pixelsSpent": 15,
+    "pixelsSpent": 9,
     "wateringCanRank": 1698
   },
   {
@@ -57932,7 +57932,7 @@
     },
     "totalCost": 351700,
     "wateringCanUse": "6446",
-    "pixelsSpent": 16,
+    "pixelsSpent": 14,
     "wateringCanRank": 1704
   },
   {
@@ -57966,7 +57966,7 @@
     },
     "totalCost": 12100,
     "wateringCanUse": "6441",
-    "pixelsSpent": 8,
+    "pixelsSpent": 6,
     "wateringCanRank": 1705
   },
   {
@@ -58238,7 +58238,7 @@
     },
     "totalCost": 279650,
     "wateringCanUse": "6375",
-    "pixelsSpent": 8.5,
+    "pixelsSpent": 6.5,
     "wateringCanRank": 1713
   },
   {
@@ -58306,7 +58306,7 @@
     },
     "totalCost": 323950,
     "wateringCanUse": "6363",
-    "pixelsSpent": 50,
+    "pixelsSpent": 30,
     "wateringCanRank": 1715
   },
   {
@@ -58374,7 +58374,7 @@
     "guildId": "ggs",
     "totalCost": 105700,
     "wateringCanUse": "6355",
-    "pixelsSpent": 7.5,
+    "pixelsSpent": 5.5,
     "wateringCanRank": 1717
   },
   {
@@ -58408,7 +58408,7 @@
     },
     "totalCost": 4397500,
     "wateringCanUse": "6354",
-    "pixelsSpent": 34055.5,
+    "pixelsSpent": 28175.5,
     "wateringCanRank": 1718
   },
   {
@@ -58510,7 +58510,7 @@
     },
     "totalCost": 1316550,
     "wateringCanUse": "6324",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 1721
   },
   {
@@ -58646,7 +58646,7 @@
     },
     "totalCost": 1212250,
     "wateringCanUse": "6299",
-    "pixelsSpent": 55,
+    "pixelsSpent": 35,
     "wateringCanRank": 1725
   },
   {
@@ -58680,7 +58680,7 @@
     "guildId": "bch",
     "totalCost": 1012300,
     "wateringCanUse": "6296",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 1726
   },
   {
@@ -58816,7 +58816,7 @@
     },
     "totalCost": 15104600,
     "wateringCanUse": "6257",
-    "pixelsSpent": 137,
+    "pixelsSpent": 95,
     "wateringCanRank": 1730
   },
   {
@@ -58986,7 +58986,7 @@
     "guildId": "paldoclub",
     "totalCost": 4767150,
     "wateringCanUse": "6241",
-    "pixelsSpent": 1203,
+    "pixelsSpent": 905,
     "wateringCanRank": 1735
   },
   {
@@ -59054,7 +59054,7 @@
     },
     "totalCost": 402150,
     "wateringCanUse": "6238",
-    "pixelsSpent": 10,
+    "pixelsSpent": 6,
     "wateringCanRank": 1737
   },
   {
@@ -59326,7 +59326,7 @@
     "guildId": "pxf",
     "totalCost": 16044100,
     "wateringCanUse": "6198",
-    "pixelsSpent": 49478.5,
+    "pixelsSpent": 39298.5,
     "wateringCanRank": 1745
   },
   {
@@ -59564,7 +59564,7 @@
     "guildId": "comfortzone",
     "totalCost": 1994450,
     "wateringCanUse": "6166",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 1752
   },
   {
@@ -59666,7 +59666,7 @@
     },
     "totalCost": 1155650,
     "wateringCanUse": "6143",
-    "pixelsSpent": 40,
+    "pixelsSpent": 24,
     "wateringCanRank": 1755
   },
   {
@@ -59904,7 +59904,7 @@
     },
     "totalCost": 388450,
     "wateringCanUse": "6084",
-    "pixelsSpent": 172.5,
+    "pixelsSpent": 144.5,
     "wateringCanRank": 1762
   },
   {
@@ -59972,7 +59972,7 @@
     "guildId": "cyberkongz",
     "totalCost": 1227050,
     "wateringCanUse": "6074",
-    "pixelsSpent": 150,
+    "pixelsSpent": 90,
     "wateringCanRank": 1764
   },
   {
@@ -60244,7 +60244,7 @@
     },
     "totalCost": 304800,
     "wateringCanUse": "6039",
-    "pixelsSpent": 53.5,
+    "pixelsSpent": 43.5,
     "wateringCanRank": 1772
   },
   {
@@ -60346,7 +60346,7 @@
     },
     "totalCost": 328100,
     "wateringCanUse": "6024",
-    "pixelsSpent": 10,
+    "pixelsSpent": 6,
     "wateringCanRank": 1775
   },
   {
@@ -60516,7 +60516,7 @@
     },
     "totalCost": 797750,
     "wateringCanUse": "5981",
-    "pixelsSpent": 100,
+    "pixelsSpent": 60,
     "wateringCanRank": 1780
   },
   {
@@ -60890,7 +60890,7 @@
     },
     "totalCost": 390600,
     "wateringCanUse": "5889",
-    "pixelsSpent": 35.5,
+    "pixelsSpent": 27.5,
     "wateringCanRank": 1791
   },
   {
@@ -60924,7 +60924,7 @@
     "guildId": "bch",
     "totalCost": 460200,
     "wateringCanUse": "5887",
-    "pixelsSpent": 11,
+    "pixelsSpent": 7,
     "wateringCanRank": 1792
   },
   {
@@ -61298,7 +61298,7 @@
     },
     "totalCost": 325150,
     "wateringCanUse": "5809",
-    "pixelsSpent": 110,
+    "pixelsSpent": 70,
     "wateringCanRank": 1803
   },
   {
@@ -61434,7 +61434,7 @@
     "guildId": "c3r2d2",
     "totalCost": 1447500,
     "wateringCanUse": "5800",
-    "pixelsSpent": 542.5,
+    "pixelsSpent": 344.5,
     "wateringCanRank": 1807
   },
   {
@@ -61468,7 +61468,7 @@
     "guildId": "cyberkongz",
     "totalCost": 1356500,
     "wateringCanUse": "5776",
-    "pixelsSpent": 130,
+    "pixelsSpent": 88,
     "wateringCanRank": 1808
   },
   {
@@ -61706,7 +61706,7 @@
     "guildId": "bch",
     "totalCost": 85450,
     "wateringCanUse": "5735",
-    "pixelsSpent": 28,
+    "pixelsSpent": 18,
     "wateringCanRank": 1815
   },
   {
@@ -61740,7 +61740,7 @@
     },
     "totalCost": 715850,
     "wateringCanUse": "5720",
-    "pixelsSpent": 20,
+    "pixelsSpent": 14,
     "wateringCanRank": 1816
   },
   {
@@ -62080,7 +62080,7 @@
     },
     "totalCost": 61050,
     "wateringCanUse": "5634",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 1826
   },
   {
@@ -62318,7 +62318,7 @@
     "guildId": "cyberkongz",
     "totalCost": 4754450,
     "wateringCanUse": "5554",
-    "pixelsSpent": 30,
+    "pixelsSpent": 18,
     "wateringCanRank": 1833
   },
   {
@@ -62794,7 +62794,7 @@
     },
     "totalCost": 1481500,
     "wateringCanUse": "5450",
-    "pixelsSpent": 620,
+    "pixelsSpent": 440,
     "wateringCanRank": 1847
   },
   {
@@ -63066,7 +63066,7 @@
     },
     "totalCost": 269150,
     "wateringCanUse": "5432",
-    "pixelsSpent": 55,
+    "pixelsSpent": 35,
     "wateringCanRank": 1855
   },
   {
@@ -63576,7 +63576,7 @@
     "guildId": "cyberkongz",
     "totalCost": 1703600,
     "wateringCanUse": "5348",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 1870
   },
   {
@@ -64222,7 +64222,7 @@
     },
     "totalCost": 1873400,
     "wateringCanUse": "5246",
-    "pixelsSpent": 1499,
+    "pixelsSpent": 949,
     "wateringCanRank": 1889
   },
   {
@@ -64392,7 +64392,7 @@
     },
     "totalCost": 972450,
     "wateringCanUse": "5215",
-    "pixelsSpent": 136,
+    "pixelsSpent": 94,
     "wateringCanRank": 1894
   },
   {
@@ -64426,7 +64426,7 @@
     },
     "totalCost": 969350,
     "wateringCanUse": "5209",
-    "pixelsSpent": 110,
+    "pixelsSpent": 80,
     "wateringCanRank": 1895
   },
   {
@@ -64630,7 +64630,7 @@
     },
     "totalCost": 880850,
     "wateringCanUse": "5190",
-    "pixelsSpent": 80,
+    "pixelsSpent": 68,
     "wateringCanRank": 1901
   },
   {
@@ -64664,7 +64664,7 @@
     },
     "totalCost": 593000,
     "wateringCanUse": "5186",
-    "pixelsSpent": 10,
+    "pixelsSpent": 6,
     "wateringCanRank": 1902
   },
   {
@@ -64902,7 +64902,7 @@
     },
     "totalCost": 172500,
     "wateringCanUse": "5147",
-    "pixelsSpent": 160,
+    "pixelsSpent": 98,
     "wateringCanRank": 1909
   },
   {
@@ -64936,7 +64936,7 @@
     },
     "totalCost": 2233450,
     "wateringCanUse": "5146",
-    "pixelsSpent": 80,
+    "pixelsSpent": 60,
     "wateringCanRank": 1910
   },
   {
@@ -64970,7 +64970,7 @@
     },
     "totalCost": 199400,
     "wateringCanUse": "5139",
-    "pixelsSpent": 10,
+    "pixelsSpent": 6,
     "wateringCanRank": 1911
   },
   {
@@ -65038,7 +65038,7 @@
     "guildId": "4200",
     "totalCost": 1481050,
     "wateringCanUse": "5113",
-    "pixelsSpent": 35,
+    "pixelsSpent": 25,
     "wateringCanRank": 1913
   },
   {
@@ -65412,7 +65412,7 @@
     },
     "totalCost": 185650,
     "wateringCanUse": "5030",
-    "pixelsSpent": 21,
+    "pixelsSpent": 13,
     "wateringCanRank": 1924
   },
   {
@@ -65514,7 +65514,7 @@
     "guildId": "insomnia",
     "totalCost": 314650,
     "wateringCanUse": "5005",
-    "pixelsSpent": 85,
+    "pixelsSpent": 53,
     "wateringCanRank": 1927
   },
   {
@@ -65616,7 +65616,7 @@
     "guildId": "tif",
     "totalCost": 1199400,
     "wateringCanUse": "4977",
-    "pixelsSpent": 760.5,
+    "pixelsSpent": 590.5,
     "wateringCanRank": 1930
   },
   {
@@ -65888,7 +65888,7 @@
     },
     "totalCost": 190750,
     "wateringCanUse": "4963",
-    "pixelsSpent": 20,
+    "pixelsSpent": 16,
     "wateringCanRank": 1938
   },
   {
@@ -66194,7 +66194,7 @@
     },
     "totalCost": 556400,
     "wateringCanUse": "4935",
-    "pixelsSpent": 39.5,
+    "pixelsSpent": 27.5,
     "wateringCanRank": 1947
   },
   {
@@ -66466,7 +66466,7 @@
     },
     "totalCost": 245900,
     "wateringCanUse": "4908",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 1955
   },
   {
@@ -66534,7 +66534,7 @@
     },
     "totalCost": 32500,
     "wateringCanUse": "4901",
-    "pixelsSpent": 50,
+    "pixelsSpent": 30,
     "wateringCanRank": 1957
   },
   {
@@ -67316,7 +67316,7 @@
     },
     "totalCost": 975050,
     "wateringCanUse": "4806",
-    "pixelsSpent": 161,
+    "pixelsSpent": 101,
     "wateringCanRank": 1980
   },
   {
@@ -67520,7 +67520,7 @@
     },
     "totalCost": 664850,
     "wateringCanUse": "4768",
-    "pixelsSpent": 50,
+    "pixelsSpent": 30,
     "wateringCanRank": 1986
   },
   {
@@ -67962,7 +67962,7 @@
     },
     "totalCost": 241800,
     "wateringCanUse": "4712",
-    "pixelsSpent": 155,
+    "pixelsSpent": 103,
     "wateringCanRank": 1999
   },
   {
@@ -68234,7 +68234,7 @@
     },
     "totalCost": 478800,
     "wateringCanUse": "4657",
-    "pixelsSpent": 212,
+    "pixelsSpent": 192,
     "wateringCanRank": 2007
   },
   {
@@ -68370,7 +68370,7 @@
     },
     "totalCost": 14700,
     "wateringCanUse": "4640",
-    "pixelsSpent": 202,
+    "pixelsSpent": 192,
     "wateringCanRank": 2011
   },
   {
@@ -68472,7 +68472,7 @@
     },
     "totalCost": 278250,
     "wateringCanUse": "4624",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 2014
   },
   {
@@ -69526,7 +69526,7 @@
     },
     "totalCost": 952150,
     "wateringCanUse": "4495",
-    "pixelsSpent": 207.5,
+    "pixelsSpent": 139.5,
     "wateringCanRank": 2045
   },
   {
@@ -70308,7 +70308,7 @@
     },
     "totalCost": 984850,
     "wateringCanUse": "4380",
-    "pixelsSpent": 10,
+    "pixelsSpent": 8,
     "wateringCanRank": 2068
   },
   {
@@ -70342,7 +70342,7 @@
     },
     "totalCost": 39600,
     "wateringCanUse": "4379",
-    "pixelsSpent": 10,
+    "pixelsSpent": 6,
     "wateringCanRank": 2069
   },
   {
@@ -70376,7 +70376,7 @@
     "guildId": "paldoclub",
     "totalCost": 469000,
     "wateringCanUse": "4377",
-    "pixelsSpent": 1200,
+    "pixelsSpent": 822,
     "wateringCanRank": 2070
   },
   {
@@ -70750,7 +70750,7 @@
     },
     "totalCost": 1572950,
     "wateringCanUse": "4319",
-    "pixelsSpent": 162.5,
+    "pixelsSpent": 116.5,
     "wateringCanRank": 2081
   },
   {
@@ -70784,7 +70784,7 @@
     },
     "totalCost": 1077800,
     "wateringCanUse": "4318",
-    "pixelsSpent": 275,
+    "pixelsSpent": 225,
     "wateringCanRank": 2082
   },
   {
@@ -70954,7 +70954,7 @@
     },
     "totalCost": 9800,
     "wateringCanUse": "4306",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 2087
   },
   {
@@ -72008,7 +72008,7 @@
     },
     "totalCost": 190200,
     "wateringCanUse": "4169",
-    "pixelsSpent": 15,
+    "pixelsSpent": 11,
     "wateringCanRank": 2118
   },
   {
@@ -72246,7 +72246,7 @@
     },
     "totalCost": 48850,
     "wateringCanUse": "4143",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 2125
   },
   {
@@ -72382,7 +72382,7 @@
     "guildId": "hurugaming",
     "totalCost": 157100,
     "wateringCanUse": "4140",
-    "pixelsSpent": 110,
+    "pixelsSpent": 66,
     "wateringCanRank": 2129
   },
   {
@@ -72518,7 +72518,7 @@
     },
     "totalCost": 17500,
     "wateringCanUse": "4127",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 2133
   },
   {
@@ -73334,7 +73334,7 @@
     },
     "totalCost": 210800,
     "wateringCanUse": "4023",
-    "pixelsSpent": 25,
+    "pixelsSpent": 15,
     "wateringCanRank": 2157
   },
   {
@@ -73640,7 +73640,7 @@
     },
     "totalCost": 394550,
     "wateringCanUse": "3990",
-    "pixelsSpent": 87.5,
+    "pixelsSpent": 57.5,
     "wateringCanRank": 2166
   },
   {
@@ -74422,7 +74422,7 @@
     },
     "totalCost": 500,
     "wateringCanUse": "3878",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 2189
   },
   {
@@ -74898,7 +74898,7 @@
     },
     "totalCost": 749250,
     "wateringCanUse": "3797",
-    "pixelsSpent": 250,
+    "pixelsSpent": 150,
     "wateringCanRank": 2203
   },
   {
@@ -75102,7 +75102,7 @@
     },
     "totalCost": 1735150,
     "wateringCanUse": "3781",
-    "pixelsSpent": 82.5,
+    "pixelsSpent": 62.5,
     "wateringCanRank": 2209
   },
   {
@@ -76122,7 +76122,7 @@
     "guildId": "tif",
     "totalCost": 259850,
     "wateringCanUse": "3683",
-    "pixelsSpent": 50,
+    "pixelsSpent": 30,
     "wateringCanRank": 2239
   },
   {
@@ -76292,7 +76292,7 @@
     },
     "totalCost": 10950,
     "wateringCanUse": "3670",
-    "pixelsSpent": 15,
+    "pixelsSpent": 9,
     "wateringCanRank": 2244
   },
   {
@@ -76564,7 +76564,7 @@
     "guildId": "smg",
     "totalCost": 56050,
     "wateringCanUse": "3633",
-    "pixelsSpent": 50,
+    "pixelsSpent": 30,
     "wateringCanRank": 2252
   },
   {
@@ -77584,7 +77584,7 @@
     },
     "totalCost": 285450,
     "wateringCanUse": "3538",
-    "pixelsSpent": 25,
+    "pixelsSpent": 19,
     "wateringCanRank": 2282
   },
   {
@@ -77754,7 +77754,7 @@
     },
     "totalCost": 51900,
     "wateringCanUse": "3514",
-    "pixelsSpent": 10,
+    "pixelsSpent": 6,
     "wateringCanRank": 2287
   },
   {
@@ -78060,7 +78060,7 @@
     "guildId": "tif",
     "totalCost": 1573950,
     "wateringCanUse": "3499",
-    "pixelsSpent": 10,
+    "pixelsSpent": 6,
     "wateringCanRank": 2296
   },
   {
@@ -78094,7 +78094,7 @@
     },
     "totalCost": 1351050,
     "wateringCanUse": "3496",
-    "pixelsSpent": 50,
+    "pixelsSpent": 30,
     "wateringCanRank": 2297
   },
   {
@@ -78740,7 +78740,7 @@
     },
     "totalCost": 337350,
     "wateringCanUse": "3405",
-    "pixelsSpent": 172.5,
+    "pixelsSpent": 104.5,
     "wateringCanRank": 2316
   },
   {
@@ -80134,7 +80134,7 @@
     "guildId": "comfortzone",
     "totalCost": 1606350,
     "wateringCanUse": "3258",
-    "pixelsSpent": 3310,
+    "pixelsSpent": 3172,
     "wateringCanRank": 2357
   },
   {
@@ -80542,7 +80542,7 @@
     },
     "totalCost": 24900,
     "wateringCanUse": "3227",
-    "pixelsSpent": 6,
+    "pixelsSpent": 4,
     "wateringCanRank": 2369
   },
   {
@@ -80780,7 +80780,7 @@
     },
     "totalCost": 35450,
     "wateringCanUse": "3218",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 2376
   },
   {
@@ -80916,7 +80916,7 @@
     },
     "totalCost": 116650,
     "wateringCanUse": "3212",
-    "pixelsSpent": 57.5,
+    "pixelsSpent": 39.5,
     "wateringCanRank": 2380
   },
   {
@@ -81222,7 +81222,7 @@
     },
     "totalCost": 5079950,
     "wateringCanUse": "3190",
-    "pixelsSpent": 30,
+    "pixelsSpent": 18,
     "wateringCanRank": 2389
   },
   {
@@ -81358,7 +81358,7 @@
     },
     "totalCost": 93850,
     "wateringCanUse": "3180",
-    "pixelsSpent": 17.5,
+    "pixelsSpent": 15.5,
     "wateringCanRank": 2393
   },
   {
@@ -81392,7 +81392,7 @@
     },
     "totalCost": 270100,
     "wateringCanUse": "3174",
-    "pixelsSpent": 25,
+    "pixelsSpent": 23,
     "wateringCanRank": 2394
   },
   {
@@ -81630,7 +81630,7 @@
     },
     "totalCost": 80200,
     "wateringCanUse": "3150",
-    "pixelsSpent": 30,
+    "pixelsSpent": 18,
     "wateringCanRank": 2401
   },
   {
@@ -81664,7 +81664,7 @@
     },
     "totalCost": 389900,
     "wateringCanUse": "3147",
-    "pixelsSpent": 33.5,
+    "pixelsSpent": 21.5,
     "wateringCanRank": 2402
   },
   {
@@ -82310,7 +82310,7 @@
     },
     "totalCost": 315750,
     "wateringCanUse": "3100",
-    "pixelsSpent": 15,
+    "pixelsSpent": 9,
     "wateringCanRank": 2421
   },
   {
@@ -83024,7 +83024,7 @@
     },
     "totalCost": 27400,
     "wateringCanUse": "3044",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 2442
   },
   {
@@ -83228,7 +83228,7 @@
     "guildId": "bch",
     "totalCost": 1223150,
     "wateringCanUse": "3029",
-    "pixelsSpent": 67.5,
+    "pixelsSpent": 43.5,
     "wateringCanRank": 2448
   },
   {
@@ -83908,7 +83908,7 @@
     },
     "totalCost": 246900,
     "wateringCanUse": "2985",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 2468
   },
   {
@@ -84044,7 +84044,7 @@
     "guildId": "cyberkongz",
     "totalCost": 4395150,
     "wateringCanUse": "2957",
-    "pixelsSpent": 828.5,
+    "pixelsSpent": 730.5,
     "wateringCanRank": 2472
   },
   {
@@ -84452,7 +84452,7 @@
     },
     "totalCost": 482000,
     "wateringCanUse": "2921",
-    "pixelsSpent": 207.5,
+    "pixelsSpent": 187.5,
     "wateringCanRank": 2484
   },
   {
@@ -84588,7 +84588,7 @@
     },
     "totalCost": 145500,
     "wateringCanUse": "2911",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 2488
   },
   {
@@ -84690,7 +84690,7 @@
     },
     "totalCost": 139000,
     "wateringCanUse": "2901",
-    "pixelsSpent": 25,
+    "pixelsSpent": 15,
     "wateringCanRank": 2491
   },
   {
@@ -84758,7 +84758,7 @@
     },
     "totalCost": 47250,
     "wateringCanUse": "2899",
-    "pixelsSpent": 134,
+    "pixelsSpent": 102,
     "wateringCanRank": 2493
   },
   {
@@ -84962,7 +84962,7 @@
     },
     "totalCost": 257550,
     "wateringCanUse": "2873",
-    "pixelsSpent": 10,
+    "pixelsSpent": 6,
     "wateringCanRank": 2499
   },
   {
@@ -85336,7 +85336,7 @@
     },
     "totalCost": 41150,
     "wateringCanUse": "2851",
-    "pixelsSpent": 10,
+    "pixelsSpent": 6,
     "wateringCanRank": 2510
   },
   {
@@ -85846,7 +85846,7 @@
     },
     "totalCost": 34000,
     "wateringCanUse": "2814",
-    "pixelsSpent": 20,
+    "pixelsSpent": 12,
     "wateringCanRank": 2525
   },
   {
@@ -86220,7 +86220,7 @@
     },
     "totalCost": 992250,
     "wateringCanUse": "2771",
-    "pixelsSpent": 37.5,
+    "pixelsSpent": 31.5,
     "wateringCanRank": 2536
   },
   {
@@ -86424,7 +86424,7 @@
     },
     "totalCost": 137650,
     "wateringCanUse": "2754",
-    "pixelsSpent": 56,
+    "pixelsSpent": 54,
     "wateringCanRank": 2542
   },
   {
@@ -86628,7 +86628,7 @@
     "guildId": "insomnia",
     "totalCost": 0,
     "wateringCanUse": "2735",
-    "pixelsSpent": 30,
+    "pixelsSpent": 18,
     "wateringCanRank": 2548
   },
   {
@@ -87172,7 +87172,7 @@
     },
     "totalCost": 36000,
     "wateringCanUse": "2691",
-    "pixelsSpent": 50,
+    "pixelsSpent": 30,
     "wateringCanRank": 2564
   },
   {
@@ -87410,7 +87410,7 @@
     },
     "totalCost": 431350,
     "wateringCanUse": "2680",
-    "pixelsSpent": 27.5,
+    "pixelsSpent": 21.5,
     "wateringCanRank": 2571
   },
   {
@@ -87478,7 +87478,7 @@
     },
     "totalCost": 290400,
     "wateringCanUse": "2674",
-    "pixelsSpent": 70,
+    "pixelsSpent": 42,
     "wateringCanRank": 2573
   },
   {
@@ -87580,7 +87580,7 @@
     },
     "totalCost": 894250,
     "wateringCanUse": "2669",
-    "pixelsSpent": 652.5,
+    "pixelsSpent": 392.5,
     "wateringCanRank": 2576
   },
   {
@@ -87750,7 +87750,7 @@
     },
     "totalCost": 148250,
     "wateringCanUse": "2657",
-    "pixelsSpent": 15,
+    "pixelsSpent": 9,
     "wateringCanRank": 2581
   },
   {
@@ -88124,7 +88124,7 @@
     },
     "totalCost": 128700,
     "wateringCanUse": "2630",
-    "pixelsSpent": 34,
+    "pixelsSpent": 30,
     "wateringCanRank": 2592
   },
   {
@@ -88600,7 +88600,7 @@
     "guildId": "bch",
     "totalCost": 605200,
     "wateringCanUse": "2604",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 2606
   },
   {
@@ -89076,7 +89076,7 @@
     },
     "totalCost": 606350,
     "wateringCanUse": "2567",
-    "pixelsSpent": 60,
+    "pixelsSpent": 40,
     "wateringCanRank": 2620
   },
   {
@@ -89178,7 +89178,7 @@
     },
     "totalCost": 234000,
     "wateringCanUse": "2564",
-    "pixelsSpent": 725,
+    "pixelsSpent": 477,
     "wateringCanRank": 2623
   },
   {
@@ -89450,7 +89450,7 @@
     },
     "totalCost": 67750,
     "wateringCanUse": "2545",
-    "pixelsSpent": 25,
+    "pixelsSpent": 15,
     "wateringCanRank": 2631
   },
   {
@@ -89688,7 +89688,7 @@
     },
     "totalCost": 632500,
     "wateringCanUse": "2526",
-    "pixelsSpent": 260,
+    "pixelsSpent": 160,
     "wateringCanRank": 2638
   },
   {
@@ -89756,7 +89756,7 @@
     },
     "totalCost": 1257250,
     "wateringCanUse": "2521",
-    "pixelsSpent": 123,
+    "pixelsSpent": 77,
     "wateringCanRank": 2640
   },
   {
@@ -89858,7 +89858,7 @@
     },
     "totalCost": 221500,
     "wateringCanUse": "2519",
-    "pixelsSpent": 162.5,
+    "pixelsSpent": 122.5,
     "wateringCanRank": 2643
   },
   {
@@ -90572,7 +90572,7 @@
     },
     "totalCost": 241700,
     "wateringCanUse": "2449",
-    "pixelsSpent": 15,
+    "pixelsSpent": 9,
     "wateringCanRank": 2664
   },
   {
@@ -90844,7 +90844,7 @@
     },
     "totalCost": 6100650,
     "wateringCanUse": "2435",
-    "pixelsSpent": 87.5,
+    "pixelsSpent": 67.5,
     "wateringCanRank": 2672
   },
   {
@@ -91388,7 +91388,7 @@
     "guildId": "pixelpals",
     "totalCost": 413650,
     "wateringCanUse": "2401",
-    "pixelsSpent": 75,
+    "pixelsSpent": 55,
     "wateringCanRank": 2688
   },
   {
@@ -91796,7 +91796,7 @@
     },
     "totalCost": 326450,
     "wateringCanUse": "2363",
-    "pixelsSpent": 105,
+    "pixelsSpent": 67,
     "wateringCanRank": 2700
   },
   {
@@ -92068,7 +92068,7 @@
     },
     "totalCost": 1958950,
     "wateringCanUse": "2341",
-    "pixelsSpent": 56,
+    "pixelsSpent": 54,
     "wateringCanRank": 2708
   },
   {
@@ -92238,7 +92238,7 @@
     },
     "totalCost": 159300,
     "wateringCanUse": "2321",
-    "pixelsSpent": 55,
+    "pixelsSpent": 33,
     "wateringCanRank": 2713
   },
   {
@@ -92272,7 +92272,7 @@
     },
     "totalCost": 152250,
     "wateringCanUse": "2320",
-    "pixelsSpent": 1072.5,
+    "pixelsSpent": 832.5,
     "wateringCanRank": 2714
   },
   {
@@ -92476,7 +92476,7 @@
     },
     "totalCost": 178850,
     "wateringCanUse": "2306",
-    "pixelsSpent": 7.5,
+    "pixelsSpent": 5.5,
     "wateringCanRank": 2720
   },
   {
@@ -92510,7 +92510,7 @@
     },
     "totalCost": 493150,
     "wateringCanUse": "2298",
-    "pixelsSpent": 60,
+    "pixelsSpent": 36,
     "wateringCanRank": 2721
   },
   {
@@ -92782,7 +92782,7 @@
     },
     "totalCost": 204800,
     "wateringCanUse": "2278",
-    "pixelsSpent": 75,
+    "pixelsSpent": 45,
     "wateringCanRank": 2729
   },
   {
@@ -92816,7 +92816,7 @@
     },
     "totalCost": 71750,
     "wateringCanUse": "2278",
-    "pixelsSpent": 25,
+    "pixelsSpent": 15,
     "wateringCanRank": 2730
   },
   {
@@ -93020,7 +93020,7 @@
     },
     "totalCost": 383500,
     "wateringCanUse": "2267",
-    "pixelsSpent": 90,
+    "pixelsSpent": 60,
     "wateringCanRank": 2736
   },
   {
@@ -93190,7 +93190,7 @@
     },
     "totalCost": 213300,
     "wateringCanUse": "2254",
-    "pixelsSpent": 610,
+    "pixelsSpent": 382,
     "wateringCanRank": 2741
   },
   {
@@ -93564,7 +93564,7 @@
     "guildId": "tif",
     "totalCost": 811850,
     "wateringCanUse": "2222",
-    "pixelsSpent": 32.5,
+    "pixelsSpent": 20.5,
     "wateringCanRank": 2752
   },
   {
@@ -94278,7 +94278,7 @@
     },
     "totalCost": 104800,
     "wateringCanUse": "2184",
-    "pixelsSpent": 47.5,
+    "pixelsSpent": 33.5,
     "wateringCanRank": 2773
   },
   {
@@ -94822,7 +94822,7 @@
     },
     "totalCost": 51550,
     "wateringCanUse": "2154",
-    "pixelsSpent": 10,
+    "pixelsSpent": 6,
     "wateringCanRank": 2789
   },
   {
@@ -94890,7 +94890,7 @@
     },
     "totalCost": 80050,
     "wateringCanUse": "2149",
-    "pixelsSpent": 10,
+    "pixelsSpent": 8,
     "wateringCanRank": 2791
   },
   {
@@ -95162,7 +95162,7 @@
     },
     "totalCost": 193600,
     "wateringCanUse": "2123",
-    "pixelsSpent": 205,
+    "pixelsSpent": 139,
     "wateringCanRank": 2799
   },
   {
@@ -95706,7 +95706,7 @@
     },
     "totalCost": 444450,
     "wateringCanUse": "2093",
-    "pixelsSpent": 87.5,
+    "pixelsSpent": 59.5,
     "wateringCanRank": 2815
   },
   {
@@ -95910,7 +95910,7 @@
     },
     "totalCost": 51500,
     "wateringCanUse": "2076",
-    "pixelsSpent": 6,
+    "pixelsSpent": 4,
     "wateringCanRank": 2821
   },
   {
@@ -96862,7 +96862,7 @@
     },
     "totalCost": 671350,
     "wateringCanUse": "1997",
-    "pixelsSpent": 27.5,
+    "pixelsSpent": 17.5,
     "wateringCanRank": 2849
   },
   {
@@ -97134,7 +97134,7 @@
     },
     "totalCost": 45250,
     "wateringCanUse": "1986",
-    "pixelsSpent": 45,
+    "pixelsSpent": 33,
     "wateringCanRank": 2857
   },
   {
@@ -97576,7 +97576,7 @@
     },
     "totalCost": 45500,
     "wateringCanUse": "1961",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 2870
   },
   {
@@ -97610,7 +97610,7 @@
     },
     "totalCost": 57450,
     "wateringCanUse": "1958",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 2871
   },
   {
@@ -98120,7 +98120,7 @@
     },
     "totalCost": 111450,
     "wateringCanUse": "1928",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 2886
   },
   {
@@ -98222,7 +98222,7 @@
     },
     "totalCost": 746250,
     "wateringCanUse": "1921",
-    "pixelsSpent": 32.5,
+    "pixelsSpent": 22.5,
     "wateringCanRank": 2889
   },
   {
@@ -98698,7 +98698,7 @@
     },
     "totalCost": 239000,
     "wateringCanUse": "1893",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 2903
   },
   {
@@ -98800,7 +98800,7 @@
     },
     "totalCost": 52300,
     "wateringCanUse": "1889",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 2906
   },
   {
@@ -99684,7 +99684,7 @@
     },
     "totalCost": 14900,
     "wateringCanUse": "1831",
-    "pixelsSpent": 88,
+    "pixelsSpent": 78,
     "wateringCanRank": 2932
   },
   {
@@ -100228,7 +100228,7 @@
     },
     "totalCost": 112300,
     "wateringCanUse": "1802",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 2948
   },
   {
@@ -100262,7 +100262,7 @@
     },
     "totalCost": 160000,
     "wateringCanUse": "1800",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 2949
   },
   {
@@ -100398,7 +100398,7 @@
     },
     "totalCost": 117250,
     "wateringCanUse": "1792",
-    "pixelsSpent": 80,
+    "pixelsSpent": 68,
     "wateringCanRank": 2953
   },
   {
@@ -100772,7 +100772,7 @@
     },
     "totalCost": 178500,
     "wateringCanUse": "1774",
-    "pixelsSpent": 131,
+    "pixelsSpent": 81,
     "wateringCanRank": 2964
   },
   {
@@ -101078,7 +101078,7 @@
     },
     "totalCost": 105450,
     "wateringCanUse": "1755",
-    "pixelsSpent": 15,
+    "pixelsSpent": 9,
     "wateringCanRank": 2973
   },
   {
@@ -101520,7 +101520,7 @@
     },
     "totalCost": 94350,
     "wateringCanUse": "1731",
-    "pixelsSpent": 227.5,
+    "pixelsSpent": 173.5,
     "wateringCanRank": 2986
   },
   {
@@ -101826,7 +101826,7 @@
     },
     "totalCost": 103400,
     "wateringCanUse": "1721",
-    "pixelsSpent": 140,
+    "pixelsSpent": 84,
     "wateringCanRank": 2995
   },
   {
@@ -101894,7 +101894,7 @@
     },
     "totalCost": 95450,
     "wateringCanUse": "1718",
-    "pixelsSpent": 10,
+    "pixelsSpent": 6,
     "wateringCanRank": 2997
   },
   {
@@ -102574,7 +102574,7 @@
     },
     "totalCost": 68000,
     "wateringCanUse": "1687",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 3017
   },
   {
@@ -102812,7 +102812,7 @@
     },
     "totalCost": 99950,
     "wateringCanUse": "1677",
-    "pixelsSpent": 120,
+    "pixelsSpent": 84,
     "wateringCanRank": 3024
   },
   {
@@ -102846,7 +102846,7 @@
     },
     "totalCost": 53250,
     "wateringCanUse": "1677",
-    "pixelsSpent": 20,
+    "pixelsSpent": 12,
     "wateringCanRank": 3025
   },
   {
@@ -102982,7 +102982,7 @@
     },
     "totalCost": 72500,
     "wateringCanUse": "1674",
-    "pixelsSpent": 10,
+    "pixelsSpent": 6,
     "wateringCanRank": 3029
   },
   {
@@ -103084,7 +103084,7 @@
     },
     "totalCost": 222800,
     "wateringCanUse": "1671",
-    "pixelsSpent": 82.5,
+    "pixelsSpent": 52.5,
     "wateringCanRank": 3032
   },
   {
@@ -103458,7 +103458,7 @@
     },
     "totalCost": 247700,
     "wateringCanUse": "1650",
-    "pixelsSpent": 150,
+    "pixelsSpent": 90,
     "wateringCanRank": 3043
   },
   {
@@ -104342,7 +104342,7 @@
     },
     "totalCost": 22150,
     "wateringCanUse": "1612",
-    "pixelsSpent": 65,
+    "pixelsSpent": 49,
     "wateringCanRank": 3069
   },
   {
@@ -104376,7 +104376,7 @@
     "guildId": "pxf",
     "totalCost": 446450,
     "wateringCanUse": "1609",
-    "pixelsSpent": 2062.5,
+    "pixelsSpent": 1262.5,
     "wateringCanRank": 3070
   },
   {
@@ -104614,7 +104614,7 @@
     },
     "totalCost": 3900,
     "wateringCanUse": "1594",
-    "pixelsSpent": 10,
+    "pixelsSpent": 6,
     "wateringCanRank": 3077
   },
   {
@@ -104988,7 +104988,7 @@
     },
     "totalCost": 15950,
     "wateringCanUse": "1573",
-    "pixelsSpent": 12.5,
+    "pixelsSpent": 8.5,
     "wateringCanRank": 3088
   },
   {
@@ -105226,7 +105226,7 @@
     "guildId": "cg",
     "totalCost": 1308200,
     "wateringCanUse": "1559",
-    "pixelsSpent": 255,
+    "pixelsSpent": 155,
     "wateringCanRank": 3095
   },
   {
@@ -105464,7 +105464,7 @@
     },
     "totalCost": 315700,
     "wateringCanUse": "1544",
-    "pixelsSpent": 10,
+    "pixelsSpent": 6,
     "wateringCanRank": 3102
   },
   {
@@ -105770,7 +105770,7 @@
     },
     "totalCost": 165300,
     "wateringCanUse": "1527",
-    "pixelsSpent": 102.5,
+    "pixelsSpent": 62.5,
     "wateringCanRank": 3111
   },
   {
@@ -105974,7 +105974,7 @@
     },
     "totalCost": 44200,
     "wateringCanUse": "1519",
-    "pixelsSpent": 50,
+    "pixelsSpent": 46,
     "wateringCanRank": 3117
   },
   {
@@ -106314,7 +106314,7 @@
     },
     "totalCost": 151150,
     "wateringCanUse": "1501",
-    "pixelsSpent": 7.5,
+    "pixelsSpent": 5.5,
     "wateringCanRank": 3127
   },
   {
@@ -106994,7 +106994,7 @@
     },
     "totalCost": 1301450,
     "wateringCanUse": "1465",
-    "pixelsSpent": 40,
+    "pixelsSpent": 24,
     "wateringCanRank": 3147
   },
   {
@@ -107504,7 +107504,7 @@
     },
     "totalCost": 100050,
     "wateringCanUse": "1434",
-    "pixelsSpent": 7.5,
+    "pixelsSpent": 5.5,
     "wateringCanRank": 3162
   },
   {
@@ -107640,7 +107640,7 @@
     },
     "totalCost": 324350,
     "wateringCanUse": "1431",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 3166
   },
   {
@@ -107878,7 +107878,7 @@
     },
     "totalCost": 58250,
     "wateringCanUse": "1422",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 3173
   },
   {
@@ -108150,7 +108150,7 @@
     },
     "totalCost": 41200,
     "wateringCanUse": "1410",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 3181
   },
   {
@@ -108252,7 +108252,7 @@
     },
     "totalCost": 16850,
     "wateringCanUse": "1408",
-    "pixelsSpent": 13,
+    "pixelsSpent": 11,
     "wateringCanRank": 3184
   },
   {
@@ -108320,7 +108320,7 @@
     },
     "totalCost": 110700,
     "wateringCanUse": "1407",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 3186
   },
   {
@@ -108422,7 +108422,7 @@
     "guildId": "cg",
     "totalCost": 2023250,
     "wateringCanUse": "1405",
-    "pixelsSpent": 135,
+    "pixelsSpent": 133,
     "wateringCanRank": 3189
   },
   {
@@ -108626,7 +108626,7 @@
     },
     "totalCost": 30350,
     "wateringCanUse": "1400",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 3195
   },
   {
@@ -109238,7 +109238,7 @@
     },
     "totalCost": 209850,
     "wateringCanUse": "1364",
-    "pixelsSpent": 17.5,
+    "pixelsSpent": 11.5,
     "wateringCanRank": 3213
   },
   {
@@ -110020,7 +110020,7 @@
     },
     "totalCost": 1025350,
     "wateringCanUse": "1331",
-    "pixelsSpent": 147.5,
+    "pixelsSpent": 97.5,
     "wateringCanRank": 3236
   },
   {
@@ -110190,7 +110190,7 @@
     },
     "totalCost": 376800,
     "wateringCanUse": "1325",
-    "pixelsSpent": 20,
+    "pixelsSpent": 12,
     "wateringCanRank": 3241
   },
   {
@@ -110734,7 +110734,7 @@
     },
     "totalCost": 112550,
     "wateringCanUse": "1297",
-    "pixelsSpent": 2364.5,
+    "pixelsSpent": 2166.5,
     "wateringCanRank": 3257
   },
   {
@@ -111040,7 +111040,7 @@
     },
     "totalCost": 17100,
     "wateringCanUse": "1283",
-    "pixelsSpent": 50,
+    "pixelsSpent": 30,
     "wateringCanRank": 3266
   },
   {
@@ -111856,7 +111856,7 @@
     },
     "totalCost": 11550,
     "wateringCanUse": "1239",
-    "pixelsSpent": 57,
+    "pixelsSpent": 37,
     "wateringCanRank": 3290
   },
   {
@@ -112094,7 +112094,7 @@
     },
     "totalCost": 69050,
     "wateringCanUse": "1227",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 3297
   },
   {
@@ -112400,7 +112400,7 @@
     },
     "totalCost": 0,
     "wateringCanUse": "1212",
-    "pixelsSpent": 150,
+    "pixelsSpent": 130,
     "wateringCanRank": 3306
   },
   {
@@ -112468,7 +112468,7 @@
     },
     "totalCost": 434200,
     "wateringCanUse": "1206",
-    "pixelsSpent": 20,
+    "pixelsSpent": 12,
     "wateringCanRank": 3308
   },
   {
@@ -112672,7 +112672,7 @@
     },
     "totalCost": 0,
     "wateringCanUse": "1195",
-    "pixelsSpent": 81,
+    "pixelsSpent": 55,
     "wateringCanRank": 3314
   },
   {
@@ -112842,7 +112842,7 @@
     },
     "totalCost": 110000,
     "wateringCanUse": "1188",
-    "pixelsSpent": 25,
+    "pixelsSpent": 15,
     "wateringCanRank": 3319
   },
   {
@@ -113012,7 +113012,7 @@
     },
     "totalCost": 431250,
     "wateringCanUse": "1184",
-    "pixelsSpent": 50,
+    "pixelsSpent": 30,
     "wateringCanRank": 3324
   },
   {
@@ -113080,7 +113080,7 @@
     },
     "totalCost": 263250,
     "wateringCanUse": "1179",
-    "pixelsSpent": 20,
+    "pixelsSpent": 12,
     "wateringCanRank": 3326
   },
   {
@@ -113862,7 +113862,7 @@
     },
     "totalCost": 35550,
     "wateringCanUse": "1145",
-    "pixelsSpent": 22.5,
+    "pixelsSpent": 14.5,
     "wateringCanRank": 3349
   },
   {
@@ -114066,7 +114066,7 @@
     "guildId": "comfortzone",
     "totalCost": 332450,
     "wateringCanUse": "1139",
-    "pixelsSpent": 15,
+    "pixelsSpent": 9,
     "wateringCanRank": 3355
   },
   {
@@ -114168,7 +114168,7 @@
     },
     "totalCost": 63150,
     "wateringCanUse": "1132",
-    "pixelsSpent": 150,
+    "pixelsSpent": 120,
     "wateringCanRank": 3358
   },
   {
@@ -114814,7 +114814,7 @@
     },
     "totalCost": 40500,
     "wateringCanUse": "1112",
-    "pixelsSpent": 20,
+    "pixelsSpent": 14,
     "wateringCanRank": 3377
   },
   {
@@ -115766,7 +115766,7 @@
     },
     "totalCost": 12850,
     "wateringCanUse": "1080",
-    "pixelsSpent": 75,
+    "pixelsSpent": 55,
     "wateringCanRank": 3405
   },
   {
@@ -115834,7 +115834,7 @@
     },
     "totalCost": 62450,
     "wateringCanUse": "1079",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 3407
   },
   {
@@ -117330,7 +117330,7 @@
     },
     "totalCost": 30200,
     "wateringCanUse": "1016",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 3451
   },
   {
@@ -117874,7 +117874,7 @@
     },
     "totalCost": 55650,
     "wateringCanUse": "991",
-    "pixelsSpent": 8.5,
+    "pixelsSpent": 6.5,
     "wateringCanRank": 3467
   },
   {
@@ -118758,7 +118758,7 @@
     },
     "totalCost": 59400,
     "wateringCanUse": "961",
-    "pixelsSpent": 15,
+    "pixelsSpent": 9,
     "wateringCanRank": 3493
   },
   {
@@ -118894,7 +118894,7 @@
     },
     "totalCost": 68200,
     "wateringCanUse": "957",
-    "pixelsSpent": 7.5,
+    "pixelsSpent": 5.5,
     "wateringCanRank": 3497
   },
   {
@@ -119132,7 +119132,7 @@
     },
     "totalCost": 38250,
     "wateringCanUse": "950",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 3504
   },
   {
@@ -120288,7 +120288,7 @@
     },
     "totalCost": 125450,
     "wateringCanUse": "908",
-    "pixelsSpent": 25,
+    "pixelsSpent": 15,
     "wateringCanRank": 3538
   },
   {
@@ -120628,7 +120628,7 @@
     },
     "totalCost": 59600,
     "wateringCanUse": "896",
-    "pixelsSpent": 7.5,
+    "pixelsSpent": 5.5,
     "wateringCanRank": 3548
   },
   {
@@ -121138,7 +121138,7 @@
     "guildId": "paldoclub",
     "totalCost": 36150,
     "wateringCanUse": "876",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 3563
   },
   {
@@ -122056,7 +122056,7 @@
     },
     "totalCost": 110800,
     "wateringCanUse": "838",
-    "pixelsSpent": 30,
+    "pixelsSpent": 28,
     "wateringCanRank": 3590
   },
   {
@@ -122804,7 +122804,7 @@
     },
     "totalCost": 750800,
     "wateringCanUse": "814",
-    "pixelsSpent": 1100,
+    "pixelsSpent": 1060,
     "wateringCanRank": 3612
   },
   {
@@ -123722,7 +123722,7 @@
     },
     "totalCost": 72000,
     "wateringCanUse": "784",
-    "pixelsSpent": 27.5,
+    "pixelsSpent": 21.5,
     "wateringCanRank": 3639
   },
   {
@@ -124912,7 +124912,7 @@
     },
     "totalCost": 5247550,
     "wateringCanUse": "739",
-    "pixelsSpent": 852.5,
+    "pixelsSpent": 832.5,
     "wateringCanRank": 3674
   },
   {
@@ -124980,7 +124980,7 @@
     },
     "totalCost": 136000,
     "wateringCanUse": "736",
-    "pixelsSpent": 49.5,
+    "pixelsSpent": 39.5,
     "wateringCanRank": 3676
   },
   {
@@ -125898,7 +125898,7 @@
     "guildId": "ggs",
     "totalCost": 35000,
     "wateringCanUse": "703",
-    "pixelsSpent": 35,
+    "pixelsSpent": 31,
     "wateringCanRank": 3703
   },
   {
@@ -126306,7 +126306,7 @@
     },
     "totalCost": 27000,
     "wateringCanUse": "692",
-    "pixelsSpent": 32.5,
+    "pixelsSpent": 22.5,
     "wateringCanRank": 3715
   },
   {
@@ -126544,7 +126544,7 @@
     "guildId": "cyberkongz",
     "totalCost": 145250,
     "wateringCanUse": "683",
-    "pixelsSpent": 51,
+    "pixelsSpent": 33,
     "wateringCanRank": 3722
   },
   {
@@ -127020,7 +127020,7 @@
     },
     "totalCost": 32800,
     "wateringCanUse": "669",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 3736
   },
   {
@@ -127054,7 +127054,7 @@
     },
     "totalCost": 76050,
     "wateringCanUse": "667",
-    "pixelsSpent": 250,
+    "pixelsSpent": 150,
     "wateringCanRank": 3737
   },
   {
@@ -129026,7 +129026,7 @@
     },
     "totalCost": 53200,
     "wateringCanUse": "609",
-    "pixelsSpent": 20,
+    "pixelsSpent": 18,
     "wateringCanRank": 3795
   },
   {
@@ -129910,7 +129910,7 @@
     "guildId": "4200",
     "totalCost": 73647650,
     "wateringCanUse": "589",
-    "pixelsSpent": 2862.5,
+    "pixelsSpent": 2232.5,
     "wateringCanRank": 3821
   },
   {
@@ -130182,7 +130182,7 @@
     },
     "totalCost": 292050,
     "wateringCanUse": "581",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 3829
   },
   {
@@ -130318,7 +130318,7 @@
     },
     "totalCost": 173600,
     "wateringCanUse": "577",
-    "pixelsSpent": 10,
+    "pixelsSpent": 8,
     "wateringCanRank": 3833
   },
   {
@@ -131372,7 +131372,7 @@
     },
     "totalCost": 21700,
     "wateringCanUse": "546",
-    "pixelsSpent": 25,
+    "pixelsSpent": 15,
     "wateringCanRank": 3864
   },
   {
@@ -131712,7 +131712,7 @@
     },
     "totalCost": 38150,
     "wateringCanUse": "530",
-    "pixelsSpent": 1505,
+    "pixelsSpent": 1503,
     "wateringCanRank": 3874
   },
   {
@@ -132188,7 +132188,7 @@
     },
     "totalCost": 29650,
     "wateringCanUse": "521",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 3888
   },
   {
@@ -132324,7 +132324,7 @@
     },
     "totalCost": 166950,
     "wateringCanUse": "513",
-    "pixelsSpent": 20,
+    "pixelsSpent": 12,
     "wateringCanRank": 3892
   },
   {
@@ -132494,7 +132494,7 @@
     "guildId": "cg",
     "totalCost": 322700,
     "wateringCanUse": "509",
-    "pixelsSpent": 50,
+    "pixelsSpent": 30,
     "wateringCanRank": 3897
   },
   {
@@ -132528,7 +132528,7 @@
     },
     "totalCost": 46650,
     "wateringCanUse": "509",
-    "pixelsSpent": 45,
+    "pixelsSpent": 27,
     "wateringCanRank": 3898
   },
   {
@@ -133004,7 +133004,7 @@
     },
     "totalCost": 420500,
     "wateringCanUse": "497",
-    "pixelsSpent": 6,
+    "pixelsSpent": 4,
     "wateringCanRank": 3912
   },
   {
@@ -134194,7 +134194,7 @@
     },
     "totalCost": 56700,
     "wateringCanUse": "468",
-    "pixelsSpent": 22.5,
+    "pixelsSpent": 14.5,
     "wateringCanRank": 3947
   },
   {
@@ -134228,7 +134228,7 @@
     },
     "totalCost": 42100,
     "wateringCanUse": "468",
-    "pixelsSpent": 7,
+    "pixelsSpent": 5,
     "wateringCanRank": 3948
   },
   {
@@ -135146,7 +135146,7 @@
     },
     "totalCost": 70000,
     "wateringCanUse": "443",
-    "pixelsSpent": 60,
+    "pixelsSpent": 40,
     "wateringCanRank": 3975
   },
   {
@@ -135452,7 +135452,7 @@
     },
     "totalCost": 5200,
     "wateringCanUse": "433",
-    "pixelsSpent": 20,
+    "pixelsSpent": 12,
     "wateringCanRank": 3984
   },
   {
@@ -135520,7 +135520,7 @@
     "guildId": "paldoclub",
     "totalCost": 86150,
     "wateringCanUse": "432",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 3986
   },
   {
@@ -136166,7 +136166,7 @@
     "guildId": "cyberkongz",
     "totalCost": 96200,
     "wateringCanUse": "417",
-    "pixelsSpent": 55,
+    "pixelsSpent": 35,
     "wateringCanRank": 4005
   },
   {
@@ -136234,7 +136234,7 @@
     },
     "totalCost": 16000,
     "wateringCanUse": "416",
-    "pixelsSpent": 12.5,
+    "pixelsSpent": 10.5,
     "wateringCanRank": 4007
   },
   {
@@ -136574,7 +136574,7 @@
     },
     "totalCost": 82300,
     "wateringCanUse": "408",
-    "pixelsSpent": 36,
+    "pixelsSpent": 22,
     "wateringCanRank": 4017
   },
   {
@@ -137356,7 +137356,7 @@
     },
     "totalCost": 112600,
     "wateringCanUse": "392",
-    "pixelsSpent": 20,
+    "pixelsSpent": 12,
     "wateringCanRank": 4040
   },
   {
@@ -137492,7 +137492,7 @@
     },
     "totalCost": 7800,
     "wateringCanUse": "391",
-    "pixelsSpent": 106,
+    "pixelsSpent": 86,
     "wateringCanRank": 4044
   },
   {
@@ -137628,7 +137628,7 @@
     },
     "totalCost": 55850,
     "wateringCanUse": "389",
-    "pixelsSpent": 15,
+    "pixelsSpent": 11,
     "wateringCanRank": 4048
   },
   {
@@ -137968,7 +137968,7 @@
     },
     "totalCost": 78600,
     "wateringCanUse": "381",
-    "pixelsSpent": 75,
+    "pixelsSpent": 55,
     "wateringCanRank": 4058
   },
   {
@@ -139430,7 +139430,7 @@
     },
     "totalCost": 90500,
     "wateringCanUse": "353",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 4101
   },
   {
@@ -139838,7 +139838,7 @@
     "guildId": "cyberkongz",
     "totalCost": 244700,
     "wateringCanUse": "344",
-    "pixelsSpent": 300,
+    "pixelsSpent": 200,
     "wateringCanRank": 4113
   },
   {
@@ -142898,7 +142898,7 @@
     },
     "totalCost": 57900,
     "wateringCanUse": "283",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 4203
   },
   {
@@ -143204,7 +143204,7 @@
     },
     "totalCost": 1000,
     "wateringCanUse": "279",
-    "pixelsSpent": 10,
+    "pixelsSpent": 6,
     "wateringCanRank": 4212
   },
   {
@@ -144088,7 +144088,7 @@
     },
     "totalCost": 71900,
     "wateringCanUse": "264",
-    "pixelsSpent": 30.5,
+    "pixelsSpent": 24.5,
     "wateringCanRank": 4238
   },
   {
@@ -144190,7 +144190,7 @@
     },
     "totalCost": 49000,
     "wateringCanUse": "263",
-    "pixelsSpent": 80,
+    "pixelsSpent": 48,
     "wateringCanRank": 4241
   },
   {
@@ -145006,7 +145006,7 @@
     },
     "totalCost": 40700,
     "wateringCanUse": "251",
-    "pixelsSpent": 12.5,
+    "pixelsSpent": 10.5,
     "wateringCanRank": 4265
   },
   {
@@ -148304,7 +148304,7 @@
     "guildId": "pixelpals",
     "totalCost": 69800,
     "wateringCanUse": "197",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 4362
   },
   {
@@ -148338,7 +148338,7 @@
     },
     "totalCost": 21100,
     "wateringCanUse": "197",
-    "pixelsSpent": 30,
+    "pixelsSpent": 18,
     "wateringCanRank": 4363
   },
   {
@@ -148814,7 +148814,7 @@
     },
     "totalCost": 2400,
     "wateringCanUse": "190",
-    "pixelsSpent": 40,
+    "pixelsSpent": 30,
     "wateringCanRank": 4377
   },
   {
@@ -148848,7 +148848,7 @@
     },
     "totalCost": 211400,
     "wateringCanUse": "189",
-    "pixelsSpent": 122.5,
+    "pixelsSpent": 82.5,
     "wateringCanRank": 4378
   },
   {
@@ -149120,7 +149120,7 @@
     },
     "totalCost": 10450,
     "wateringCanUse": "187",
-    "pixelsSpent": 125,
+    "pixelsSpent": 75,
     "wateringCanRank": 4386
   },
   {
@@ -149358,7 +149358,7 @@
     },
     "totalCost": 37150,
     "wateringCanUse": "185",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 4393
   },
   {
@@ -149868,7 +149868,7 @@
     },
     "totalCost": 6200,
     "wateringCanUse": "178",
-    "pixelsSpent": 17.5,
+    "pixelsSpent": 13.5,
     "wateringCanRank": 4408
   },
   {
@@ -151262,7 +151262,7 @@
     },
     "totalCost": 54000,
     "wateringCanUse": "162",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 4449
   },
   {
@@ -151432,7 +151432,7 @@
     },
     "totalCost": 38300,
     "wateringCanUse": "160",
-    "pixelsSpent": 73.5,
+    "pixelsSpent": 65.5,
     "wateringCanRank": 4454
   },
   {
@@ -153098,7 +153098,7 @@
     },
     "totalCost": 32650,
     "wateringCanUse": "141",
-    "pixelsSpent": 20,
+    "pixelsSpent": 12,
     "wateringCanRank": 4503
   },
   {
@@ -153404,7 +153404,7 @@
     },
     "totalCost": 17150,
     "wateringCanUse": "138",
-    "pixelsSpent": 60,
+    "pixelsSpent": 46,
     "wateringCanRank": 4512
   },
   {
@@ -153744,7 +153744,7 @@
     "guildId": "cyberkongz",
     "totalCost": 92250,
     "wateringCanUse": "133",
-    "pixelsSpent": 40,
+    "pixelsSpent": 38,
     "wateringCanRank": 4522
   },
   {
@@ -154390,7 +154390,7 @@
     },
     "totalCost": 18550,
     "wateringCanUse": "126",
-    "pixelsSpent": 22.5,
+    "pixelsSpent": 20.5,
     "wateringCanRank": 4541
   },
   {
@@ -155784,7 +155784,7 @@
     },
     "totalCost": 38350,
     "wateringCanUse": "109",
-    "pixelsSpent": 20,
+    "pixelsSpent": 12,
     "wateringCanRank": 4582
   },
   {
@@ -155852,7 +155852,7 @@
     },
     "totalCost": 41900,
     "wateringCanUse": "108",
-    "pixelsSpent": 50,
+    "pixelsSpent": 30,
     "wateringCanRank": 4584
   },
   {
@@ -157110,7 +157110,7 @@
     },
     "totalCost": 1126450,
     "wateringCanUse": "97",
-    "pixelsSpent": 1001.5,
+    "pixelsSpent": 999.5,
     "wateringCanRank": 4621
   },
   {
@@ -158096,7 +158096,7 @@
     },
     "totalCost": 19050,
     "wateringCanUse": "89",
-    "pixelsSpent": 19.5,
+    "pixelsSpent": 17.5,
     "wateringCanRank": 4650
   },
   {
@@ -158402,7 +158402,7 @@
     },
     "totalCost": 2453050,
     "wateringCanUse": "85",
-    "pixelsSpent": 37.5,
+    "pixelsSpent": 35.5,
     "wateringCanRank": 4659
   },
   {
@@ -158504,7 +158504,7 @@
     },
     "totalCost": 14750,
     "wateringCanUse": "85",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 4662
   },
   {
@@ -159354,7 +159354,7 @@
     },
     "totalCost": 10450,
     "wateringCanUse": "77",
-    "pixelsSpent": 18,
+    "pixelsSpent": 12,
     "wateringCanRank": 4687
   },
   {
@@ -160000,7 +160000,7 @@
     },
     "totalCost": 31650,
     "wateringCanUse": "73",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 4706
   },
   {
@@ -160646,7 +160646,7 @@
     },
     "totalCost": 198400,
     "wateringCanUse": "69",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 4725
   },
   {
@@ -160918,7 +160918,7 @@
     },
     "totalCost": 10300,
     "wateringCanUse": "67",
-    "pixelsSpent": 18.5,
+    "pixelsSpent": 16.5,
     "wateringCanRank": 4733
   },
   {
@@ -161564,7 +161564,7 @@
     },
     "totalCost": 3350,
     "wateringCanUse": "63",
-    "pixelsSpent": 25,
+    "pixelsSpent": 15,
     "wateringCanRank": 4752
   },
   {
@@ -162244,7 +162244,7 @@
     },
     "totalCost": 44350,
     "wateringCanUse": "58",
-    "pixelsSpent": 111.5,
+    "pixelsSpent": 105.5,
     "wateringCanRank": 4772
   },
   {
@@ -162822,7 +162822,7 @@
     },
     "totalCost": 103350,
     "wateringCanUse": "55",
-    "pixelsSpent": 20,
+    "pixelsSpent": 12,
     "wateringCanRank": 4789
   },
   {
@@ -162890,7 +162890,7 @@
     },
     "totalCost": 271950,
     "wateringCanUse": "54",
-    "pixelsSpent": 388.5,
+    "pixelsSpent": 384.5,
     "wateringCanRank": 4791
   },
   {
@@ -163740,7 +163740,7 @@
     },
     "totalCost": 145800,
     "wateringCanUse": "49",
-    "pixelsSpent": 655,
+    "pixelsSpent": 455,
     "wateringCanRank": 4816
   },
   {
@@ -166494,7 +166494,7 @@
     },
     "totalCost": 41000,
     "wateringCanUse": "36",
-    "pixelsSpent": 15,
+    "pixelsSpent": 13,
     "wateringCanRank": 4897
   },
   {
@@ -169214,7 +169214,7 @@
     },
     "totalCost": 500,
     "wateringCanUse": "25",
-    "pixelsSpent": 7.5,
+    "pixelsSpent": 5.5,
     "wateringCanRank": 4977
   },
   {
@@ -169452,7 +169452,7 @@
     },
     "totalCost": 1000,
     "wateringCanUse": "24",
-    "pixelsSpent": 10,
+    "pixelsSpent": 6,
     "wateringCanRank": 4984
   },
   {
@@ -171050,7 +171050,7 @@
     },
     "totalCost": 1750,
     "wateringCanUse": "20",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 5031
   },
   {
@@ -171356,7 +171356,7 @@
     },
     "totalCost": 31900,
     "wateringCanUse": "19",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 5040
   },
   {
@@ -171832,7 +171832,7 @@
     },
     "totalCost": 10800,
     "wateringCanUse": "18",
-    "pixelsSpent": 15,
+    "pixelsSpent": 9,
     "wateringCanRank": 5054
   },
   {
@@ -173770,7 +173770,7 @@
     },
     "totalCost": 2100,
     "wateringCanUse": "14",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 5111
   },
   {
@@ -175198,7 +175198,7 @@
     },
     "totalCost": 4400,
     "wateringCanUse": "11",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 5153
   },
   {
@@ -176422,7 +176422,7 @@
     },
     "totalCost": 130600,
     "wateringCanUse": "9",
-    "pixelsSpent": 12,
+    "pixelsSpent": 10,
     "wateringCanRank": 5189
   },
   {
@@ -176728,7 +176728,7 @@
     },
     "totalCost": 100,
     "wateringCanUse": "9",
-    "pixelsSpent": 15,
+    "pixelsSpent": 13,
     "wateringCanRank": 5198
   },
   {
@@ -176830,7 +176830,7 @@
     },
     "totalCost": 2000,
     "wateringCanUse": "9",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 5201
   },
   {
@@ -179006,7 +179006,7 @@
     },
     "totalCost": 4950,
     "wateringCanUse": "6",
-    "pixelsSpent": 15,
+    "pixelsSpent": 9,
     "wateringCanRank": 5265
   },
   {
@@ -179652,7 +179652,7 @@
     },
     "totalCost": 7650,
     "wateringCanUse": "5",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 5284
   },
   {
@@ -180468,7 +180468,7 @@
     },
     "totalCost": 26550,
     "wateringCanUse": "4",
-    "pixelsSpent": 25,
+    "pixelsSpent": 15,
     "wateringCanRank": 5308
   },
   {
@@ -180944,7 +180944,7 @@
     },
     "totalCost": 0,
     "wateringCanUse": "4",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 5322
   },
   {
@@ -184718,7 +184718,7 @@
     },
     "totalCost": 0,
     "wateringCanUse": "1",
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 5433
   },
   {
@@ -185670,7 +185670,7 @@
     },
     "totalCost": 97200,
     "wateringCanUse": 0,
-    "pixelsSpent": 5,
+    "pixelsSpent": 3,
     "wateringCanRank": 5461
   },
   {

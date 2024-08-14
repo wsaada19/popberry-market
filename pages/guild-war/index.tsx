@@ -50,7 +50,7 @@ export default function GuildWar() {
   }, []);
 
   return (
-    <Layout description="Guild War data stuff" title="Guild War">
+    <Layout description="Guild statistics from the pixels online mushroom war" title="Guild War">
       {/* <h1 className="pt-1 pb-2">Pixels Guild War</h1> */}
       <Select
         onChange={(result) => {
