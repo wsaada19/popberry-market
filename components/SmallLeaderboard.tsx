@@ -1,6 +1,6 @@
 import React from 'react';
 // import Image from 'next/image';
-import { Player } from './Leaderboard';
+import { Player } from '@types';
 
 type Option = {
   value: string;
