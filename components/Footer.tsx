@@ -11,24 +11,12 @@ export const Footer = (): JSX.Element => {
             Pixels Online
           </Link>
         </p>
-        {/* <Link passHref className="px-2" href="https://github.com">
-          <Image
-            src="/images/github.svg"
-            height={24}
-            width={24}
-            alt="Github logo"
-            style={{
-              maxWidth: '100%',
-              height: 'auto',
-            }}
-          ></Image>
-        </Link> */}
         <Link
           passHref
           className="twitter-follow-button float-right"
           href="https://x.com/GamingEtheria"
         >
-          @x
+          Follow me on 𝕏
         </Link>
       </span>
     </footer>

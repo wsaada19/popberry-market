@@ -35,24 +35,26 @@ export type TeamLeaderBoardProps = {
 };
 
 export const Leaderboard = ({ players, className, guildId }: TeamLeaderBoardProps) => {
-  // const sortyBy = (p: Player) => {
-  //   switch (selected) {
-  //     case 'fert':
-  //       return players.sort((a, b) => b.fert.value - a.fert.value);
-  //     case 'goo':
-  //       return players.sort((a, b) => b.goo.value - a.goo.value);
-  //     case 'spores':
-  //       return players.sort((a, b) => b.spores.value - a.spores.value);
-  //     case 'wateringCan':
-  //       return players.sort((a, b) => Number(b.wateringCanUse) - Number(a.wateringCanUse));
-  //     case 'pixels':
-  //       return players.sort((a, b) => b.pixelsSpent - a.pixelsSpent);
-  //     case 'total':
-  //       return players.sort((a, b) => b.totalCost - a.totalCost);
-  //     default:
-  //       return players.sort((a, b) => b.totalCost - a.totalCost);
-  //   }
-  // };
+  const [selected, setSelected] = React.useState('total');
+
+  const sortBy = (p: Player[]) => {
+    switch (selected) {
+      case 'guano':
+        return p.sort((a, b) => b.fert.value - a.fert.value);
+      case 'goo':
+        return p.sort((a, b) => b.goo.value - a.goo.value);
+      case 'spores':
+        return p.sort((a, b) => b.spores.value - a.spores.value);
+      case 'wateringCan':
+        return p.sort((a, b) => Number(b.wateringCanUse) - Number(a.wateringCanUse));
+      case 'pixels':
+        return p.sort((a, b) => b.pixelsSpent - a.pixelsSpent);
+      case 'total':
+        return p.sort((a, b) => b.totalCost - a.totalCost);
+      default:
+        return p.sort((a, b) => b.totalCost - a.totalCost);
+    }
+  };
 
   return (
     <div className={`text-base ${className} h-144 overflow-auto w-full`}>
@@ -66,12 +68,14 @@ export const Leaderboard = ({ players, className, guildId }: TeamLeaderBoardProp
                 src={`/images/guano.png`}
                 height={32}
                 width={32}
-                alt="Github logo"
+                alt="Guano"
+                onClick={() => setSelected('guano')}
                 style={{
                   maxWidth: '100%',
                   height: 'auto',
                   display: 'inline',
                   paddingBottom: '4px',
+                  cursor: 'pointer',
                 }}
               ></Image>
             </th>
@@ -80,12 +84,14 @@ export const Leaderboard = ({ players, className, guildId }: TeamLeaderBoardProp
                 src={`/images/goo.png`}
                 height={32}
                 width={32}
-                alt="Github logo"
+                alt="Goo"
+                onClick={() => setSelected('goo')}
                 style={{
                   maxWidth: '100%',
                   height: 'auto',
                   display: 'inline',
                   paddingBottom: '4px',
+                  cursor: 'pointer',
                 }}
               ></Image>
             </th>
@@ -94,12 +100,14 @@ export const Leaderboard = ({ players, className, guildId }: TeamLeaderBoardProp
                 src={`/images/spores.png`}
                 height={32}
                 width={32}
-                alt="Github logo"
+                alt="Seeds"
+                onClick={() => setSelected('spores')}
                 style={{
                   maxWidth: '100%',
                   height: 'auto',
                   display: 'inline',
                   paddingBottom: '4px',
+                  cursor: 'pointer',
                 }}
               ></Image>
             </th>
@@ -109,11 +117,13 @@ export const Leaderboard = ({ players, className, guildId }: TeamLeaderBoardProp
                 height={32}
                 width={32}
                 alt="watering can"
+                onClick={() => setSelected('wateringCan')}
                 style={{
                   maxWidth: '100%',
                   height: 'auto',
                   display: 'inline',
                   paddingBottom: '4px',
+                  cursor: 'pointer',
                 }}
               ></Image>
             </th>
@@ -123,11 +133,13 @@ export const Leaderboard = ({ players, className, guildId }: TeamLeaderBoardProp
                 height={32}
                 width={32}
                 alt="Pixels"
+                onClick={() => setSelected('pixels')}
                 style={{
                   maxWidth: '100%',
                   height: 'auto',
                   display: 'inline',
                   paddingBottom: '4px',
+                  cursor: 'pointer',
                 }}
               ></Image>
             </th>
@@ -137,45 +149,44 @@ export const Leaderboard = ({ players, className, guildId }: TeamLeaderBoardProp
                 height={32}
                 width={32}
                 alt="coin"
+                onClick={() => setSelected('total')}
                 style={{
                   maxWidth: '100%',
                   height: 'auto',
                   display: 'inline',
+                  cursor: 'pointer',
                 }}
               ></Image>
             </th>
           </tr>
         </thead>
         <tbody>
-          {players
-            .filter((p) => p.guildId == guildId)
-            .sort((a, b) => b.totalCost - a.totalCost)
-            .map((player, index) => {
-              return (
-                <tr className="h-11 text-black even:bg-light bg-white" key={player.name}>
-                  <td className="tex-sm pl-4 w-1/12 text-base md:text-base">#{index + 1}</td>
-                  <td className="text-sm w-10 md:text-base">{`${player.name}`}</td>
-                  <td className="text-sm w-10 text-center md:text-base">
-                    {player.fert.value.toLocaleString()}
-                  </td>
-                  <td className="text-sm w-10 text-center md:text-base">
-                    {player.goo.value.toLocaleString()}
-                  </td>
-                  <td className="text-sm w-10 text-center md:text-base">
-                    {player.spores.value.toLocaleString()}
-                  </td>
-                  <td className="text-sm w-10 text-center md:text-base">
-                    {Number(player.wateringCanUse).toLocaleString()}
-                  </td>
-                  <td className="text-sm w-10 text-center md:text-base">
-                    {Number(player.pixelsSpent).toLocaleString()}
-                  </td>
-                  <td className="text-sm w-10 text-center md:text-base">
-                    {Number(player.totalCost.toFixed(0)).toLocaleString()}
-                  </td>
-                </tr>
-              );
-            })}
+          {sortBy(players.filter((p) => p.guildId == guildId)).map((player, index) => {
+            return (
+              <tr className="h-11 text-black even:bg-light bg-white" key={player.name}>
+                <td className="text-xs sm:tex-sm pl-4 w-1/12 md:text-base">#{index + 1}</td>
+                <td className="text-xs sm:text-sm w-10 md:text-base">{`${player.name}`}</td>
+                <td className="text-xs sm:text-sm w-10 text-center md:text-base">
+                  {player.fert.value.toLocaleString()}
+                </td>
+                <td className="text-xs sm:text-sm w-10 text-center md:text-base">
+                  {player.goo.value.toLocaleString()}
+                </td>
+                <td className="text-xs sm:text-sm w-10 text-center md:text-base">
+                  {player.spores.value.toLocaleString()}
+                </td>
+                <td className="text-xs sm:text-sm w-10 text-center md:text-base">
+                  {Number(player.wateringCanUse).toLocaleString()}
+                </td>
+                <td className="text-xs sm:text-sm w-10 text-center md:text-base">
+                  {Number(player.pixelsSpent).toLocaleString()}
+                </td>
+                <td className="text-xs sm:text-sm w-10 text-center md:text-base">
+                  {Number(player.totalCost.toFixed(0)).toLocaleString()}
+                </td>
+              </tr>
+            );
+          })}
         </tbody>
       </table>
     </div>
