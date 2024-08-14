@@ -3,7 +3,8 @@ import React, { useEffect, useRef, useState } from 'react';
 import pixelsData from '../../components/d3/guildWarsData.json';
 import Image from 'next/image';
 import { addPixelsPlot } from '@components/d3/pixelsGuildWar';
-import { Leaderboard, Player } from '@components/Leaderboard';
+import { Leaderboard } from '@components/Leaderboard';
+import { Player } from '@types';
 import Select from 'react-select';
 import options from '../../components/guildData.json';
 
@@ -57,7 +58,7 @@ export default function GuildWar() {
           // @ts-ignore relax
           addPixelsPlot(pixelsData, ref, result.value, selected);
         }}
-        placeholder="Guild"
+        placeholder="Select Guild"
         className="w-full sm:w-1/3 float-right text-black border-purple"
         options={options}
         styles={{

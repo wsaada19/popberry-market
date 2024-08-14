@@ -1,6 +1,8 @@
 import Layout from '@components/layouts/PageLayout';
 import pixelsData from '../../../components/d3/guildWarsData.json';
 import { SmallLeaderboard } from '@components/SmallLeaderboard';
+import type { GetStaticProps } from 'next';
+import { Player } from '@types';
 import Select from 'react-select';
 import { useState } from 'react';
 
@@ -15,10 +17,6 @@ const options = [
     label: 'Plants Watered',
   },
   {
-    value: 'spores',
-    label: 'Seeds Planted',
-  },
-  {
     value: 't1Seeds',
     label: 'T1 Seeds Planted',
   },
@@ -30,19 +28,23 @@ const options = [
     value: 't3Seeds',
     label: 'T3 Seeds Planted',
   },
+  {
+    value: 'spores',
+    label: 'Seed Points',
+  },
   { value: 't1Guano', label: 'T1 Guano Used' },
   { value: 't2Guano', label: 'T2 Guano Used' },
   { value: 't3Guano', label: 'T3 Guano Used' },
+  {
+    value: 'guano',
+    label: 'Guano Points',
+  },
   { value: 't1Goo', label: 'T1 Goo Used' },
   { value: 't2Goo', label: 'T2 Goo Used' },
   { value: 't3Goo', label: 'T3 Goo Used' },
   {
-    value: 'guano',
-    label: 'Guano Used',
-  },
-  {
     value: 'goo',
-    label: 'Goo Used',
+    label: 'Goo Points',
   },
   {
     value: 'pixels',
@@ -54,7 +56,7 @@ const options = [
   },
 ];
 
-export default function TopPlayer() {
+export default function TopPlayer({ players }) {
   const [selected, setSelected] = useState(options[0]);
   return (
     <Layout description="Top Players for different tasks" title="Guild War">
@@ -68,8 +70,14 @@ export default function TopPlayer() {
           options={options}
         />
         <div></div>
-        <SmallLeaderboard players={pixelsData} className="mt-2" selected={selected} />
+        <SmallLeaderboard players={players} className="mt-2" selected={selected} />
       </div>
     </Layout>
   );
 }
+
+export const getStaticProps = (async () => {
+  return { props: { players: pixelsData } };
+}) satisfies GetStaticProps<{
+  players: Player[];
+}>;
