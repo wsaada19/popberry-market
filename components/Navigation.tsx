@@ -1,28 +1,19 @@
 import Link from 'next/link';
 import React from 'react';
-import { Switch } from './switch';
+import { Switch } from './switch/Switch';
 
-type NavigationProps = {
-  hideLinks: boolean;
-};
-
-export const Navigation = ({ hideLinks = false }: NavigationProps) => {
+export const Navigation = () => {
   return (
     <nav className="mt-2 mb-4 text-base h-6">
-      <span className="text-blue-600 text-base m-0 dark:text-white">Guild War Analysis</span>
-      {!hideLinks && (
-        <>
-          <Link href="/" className="mr-2 md:mr-4">
-            Home
-          </Link>
-          <Link href="/blog" className="mx-2 md:mx-4">
-            Blog
-          </Link>
-          <Link href="/portfolio" className="ml-2 md:mx-4">
-            Portfolio
-          </Link>
-        </>
-      )}
+      <span className="text-blue-700 font-bold text-lg m-0 dark:text-white mr-4">
+        Guild War Analysis
+      </span>
+      <Link href="/guild-war/top-players" className="mr-2 md:mr-4 text-sm">
+        Top Players
+      </Link>
+      <Link href="/" className="mr-2 md:mr-4 text-sm">
+        Guilds
+      </Link>
       <span className="sm:block float-right">
         <Switch className="px-2" />
       </span>

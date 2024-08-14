@@ -4,8 +4,8 @@ export const Footer = (): JSX.Element => {
   return (
     <footer className="mt-4 text-base">
       <hr className="border-gray-300 mb-2" />
-      <span className="flex justify-between">
-        <p className="text-sm mb-2 mt-2">
+      <div className="flex justify-between">
+        <p className="text-xs mt-1">
           Not affiliated with{' '}
           <Link passHref href="https://play.pixels.xyz">
             Pixels Online
@@ -13,12 +13,12 @@ export const Footer = (): JSX.Element => {
         </p>
         <Link
           passHref
-          className="twitter-follow-button float-right"
+          className="twitter-follow-button float-right text-xs mt-1"
           href="https://x.com/GamingEtheria"
         >
           Follow me on 𝕏
         </Link>
-      </span>
+      </div>
     </footer>
   );
 };

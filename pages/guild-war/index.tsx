@@ -51,13 +51,13 @@ export default function GuildWar() {
 
   return (
     <Layout description="Guild statistics from the pixels online mushroom war" title="Guild War">
-      {/* <h1 className="pt-1 pb-2">Pixels Guild War</h1> */}
       <Select
         onChange={(result) => {
           setGuildData(result);
           // @ts-ignore relax
           addPixelsPlot(pixelsData, ref, result.value, selected);
         }}
+        placeholder="Select a guild"
         className="w-1/3 float-right text-black border-purple"
         options={options}
       />
@@ -72,6 +72,12 @@ export default function GuildWar() {
         <StatDisplay value={getPixelsSpent().toLocaleString()} type="Pixels spent" />
         <StatDisplay value={guildData.earnings.toLocaleString()} type="Earnings" />
       </div>
+      <Leaderboard
+        className="mb-4 mt-5"
+        players={pixelsData as Player[]}
+        guildId={guildData.value}
+        selected={selected}
+      />
       <div className="mt-4 mb-6 text-base h-6 flex justify-center">
         <Tab
           title="Spores"
@@ -116,12 +122,6 @@ export default function GuildWar() {
       </div>
       <div className="my-8" ref={ref}></div>
       {/* ts-ignore relax */}
-      <Leaderboard
-        className="my-4"
-        players={pixelsData as Player[]}
-        guildId={guildData.value}
-        selected={selected}
-      />
     </Layout>
   );
 }
