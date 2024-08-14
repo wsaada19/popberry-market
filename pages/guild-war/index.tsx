@@ -57,7 +57,7 @@ export default function GuildWar() {
           // @ts-ignore relax
           addPixelsPlot(pixelsData, ref, result.value, selected);
         }}
-        placeholder="Select a guild"
+        placeholder="Guild"
         className="w-1/3 float-right text-black border-purple"
         options={options}
       />
