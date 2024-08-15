@@ -68,21 +68,22 @@ export default function GuildWar() {
           }),
         }}
       />
-
-      <h1 className="mt-4 text-blue-800">{`${guildData.label} Stats`}</h1>
-      {/* <Image
-        src={`https://${guildData.emblem}`}
-        height={48}
-        width={48}
-        alt={`${guildData.label} Emblem`}
-        style={{
-          maxWidth: '100%',
-          height: 'auto',
-          display: 'relative',
-          paddingBottom: '12px',
-          paddingLeft: '8px',
-        }}
-      ></Image> */}
+      <div>
+        <h1 className="mt-4 text-blue-800 inline">{`${guildData.label}`}</h1>
+        <Image
+          src={`https://${guildData.emblem}`}
+          height={48}
+          width={48}
+          alt={`${guildData.label} Emblem`}
+          style={{
+            maxWidth: '100%',
+            height: 'auto',
+            display: 'inline-block',
+            paddingBottom: '12px',
+            paddingLeft: '8px',
+          }}
+        ></Image>
+      </div>
       <div className="p-3 mt-4 bg-blue-600 shadow-2xl text-white grid grid-cols-2 md:grid-cols-4 gap-4">
         <StatDisplay value={`#${guildData.rank}`} type={`${guildData.bracket} Bracket`} />
         <StatDisplay value={`#${guildData.totalRank}`} type="Total Rank" />
