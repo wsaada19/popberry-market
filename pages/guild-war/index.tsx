@@ -8,6 +8,10 @@ import { Player } from '@types';
 import Select from 'react-select';
 import options from '../../components/guildData.json';
 
+const imgLoader = ({ src }) => {
+  return `https://${src}`;
+};
+
 export default function GuildWar() {
   const ref = useRef(null);
   const [selected, setSelected] = useState('spores');
@@ -71,7 +75,8 @@ export default function GuildWar() {
       <div>
         <h1 className="mt-4 text-blue-800 inline">{`${guildData.label}`}</h1>
         <Image
-          src={`https://${guildData.emblem}`}
+          src={guildData.emblem}
+          loader={imgLoader}
           height={48}
           width={48}
           alt={`${guildData.label} Emblem`}
