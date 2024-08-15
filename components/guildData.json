@@ -1997,5 +1997,1003 @@
     "earnings": 0,
     "bracket": "Lower",
     "rank": 130
+  },
+  {
+    "value": "dolcsi",
+    "label": "Solar Pixels",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/dolcsi.png",
+    "score": 135,
+    "totalRank": 201,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 131
+  },
+  {
+    "value": "floraguild",
+    "label": "Flora House",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/floraguild.png",
+    "score": 134,
+    "totalRank": 202,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 132
+  },
+  {
+    "value": "shexels",
+    "label": "SheXels",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/shexels.png",
+    "score": 133,
+    "totalRank": 203,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 133
+  },
+  {
+    "value": "pixelstips",
+    "label": "pixels.tips",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/pixelstips.png",
+    "score": 130,
+    "totalRank": 204,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 134
+  },
+  {
+    "value": "bilgewater",
+    "label": "The Bilgewater Cartel - Friendly and High Tier of all Industries",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/bilgewater.png",
+    "score": 129,
+    "totalRank": 205,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 135
+  },
+  {
+    "value": "alfonz",
+    "label": "Lucky Pixels",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/alfonz.png",
+    "score": 122,
+    "totalRank": 206,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 136
+  },
+  {
+    "value": "0tinl0vers",
+    "label": "0tinl0vers",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/0tinl0vers.png",
+    "score": 120,
+    "totalRank": 207,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 137
+  },
+  {
+    "value": "mvk",
+    "label": "Metaversal Knights",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/mvk.png",
+    "score": 117,
+    "totalRank": 208,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 138
+  },
+  {
+    "value": "snag",
+    "label": "Wizards",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/snag.png",
+    "score": 110,
+    "totalRank": 209,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 139
+  },
+  {
+    "value": "serenity",
+    "label": "Les pixeleurs ",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/serenity.png",
+    "score": 107,
+    "totalRank": 210,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 140
+  },
+  {
+    "value": "alltheyoungdudes",
+    "label": "All The Young Dudes ",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/alltheyoungdudes.png",
+    "score": 106,
+    "totalRank": 211,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 141
+  },
+  {
+    "value": "kaku",
+    "label": "kaku",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/kaku.png",
+    "score": 106,
+    "totalRank": 212,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 142
+  },
+  {
+    "value": "judasgaming",
+    "label": "Alpha",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/judasgaming.png",
+    "score": 101,
+    "totalRank": 213,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 143
+  },
+  {
+    "value": "con",
+    "label": "Connection",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/con.png",
+    "score": 94,
+    "totalRank": 214,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 144
+  },
+  {
+    "value": "anime201",
+    "label": "IMPERIO ANIME",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/anime201.png",
+    "score": 87,
+    "totalRank": 215,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 145
+  },
+  {
+    "value": "tempest",
+    "label": "OnlyFarms",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/tempest.png",
+    "score": 84,
+    "totalRank": 216,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 146
+  },
+  {
+    "value": "foresters",
+    "label": "Fikas Foresters",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/foresters.png",
+    "score": 82,
+    "totalRank": 217,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 147
+  },
+  {
+    "value": "q",
+    "label": "Q",
+    "score": 81,
+    "totalRank": 218,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 148
+  },
+  {
+    "value": "pixelshunter",
+    "label": "Pixels Hunter",
+    "score": 75,
+    "totalRank": 219,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 149
+  },
+  {
+    "value": "topgun",
+    "label": "TopGun",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/topgun.png",
+    "score": 74,
+    "totalRank": 220,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 150
+  },
+  {
+    "value": "guildless",
+    "label": "Guildless Gamers",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/5rBIFFBjK9NHsZNeewDlKp6B.png",
+    "score": 70,
+    "totalRank": 221,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 151
+  },
+  {
+    "value": "getgood2",
+    "label": "CE-BEARS",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/getgood2.png",
+    "score": 69,
+    "totalRank": 222,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 152
+  },
+  {
+    "value": "alljoin",
+    "label": "xsuyogi",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/alljoin.png",
+    "score": 69,
+    "totalRank": 223,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 153
+  },
+  {
+    "value": "vengeance",
+    "label": "Vengeance",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/vengeance.png",
+    "score": 66,
+    "totalRank": 224,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 154
+  },
+  {
+    "value": "degenplay",
+    "label": "Grumpkings",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/degenplay.png",
+    "score": 65,
+    "totalRank": 225,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 155
+  },
+  {
+    "value": "utopia",
+    "label": "Utopia",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/utopia.png",
+    "score": 64,
+    "totalRank": 226,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 156
+  },
+  {
+    "value": "pixelpirates",
+    "label": "Pixel Pirates",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/pixelpirates.png",
+    "score": 64,
+    "totalRank": 227,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 157
+  },
+  {
+    "value": "teamjd24",
+    "label": "jesus24",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/teamjd24.png",
+    "score": 62,
+    "totalRank": 228,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 158
+  },
+  {
+    "value": "otobolotomon",
+    "label": "Otobolotomon",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/otobolotomon.png",
+    "score": 60,
+    "totalRank": 229,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 159
+  },
+  {
+    "value": "beggars",
+    "label": "HouseOfBeggars",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/beggars.png",
+    "score": 60,
+    "totalRank": 230,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 160
+  },
+  {
+    "value": "blackstone",
+    "label": "Blackstone Legion",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/blackstone.png",
+    "score": 58,
+    "totalRank": 231,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 161
+  },
+  {
+    "value": "ignite",
+    "label": "Ignite",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/ignite.png",
+    "score": 57,
+    "totalRank": 232,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 162
+  },
+  {
+    "value": "diamondbacks",
+    "label": "HyperDrake",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/diamondbacks.png",
+    "score": 54,
+    "totalRank": 233,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 163
+  },
+  {
+    "value": "merchantscholar",
+    "label": "Merchant Scholar Outcast",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/merchantscholar.png",
+    "score": 54,
+    "totalRank": 234,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 164
+  },
+  {
+    "value": "newworld",
+    "label": "NEW WORLD <NEW>",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/IlD5EolYGKOfGpKg-gwRBqM-.png",
+    "score": 52,
+    "totalRank": 235,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 165
+  },
+  {
+    "value": "blackpearl",
+    "label": "Black Pearl",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/blackpearl.png",
+    "score": 52,
+    "totalRank": 236,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 166
+  },
+  {
+    "value": "pixelsblackrock",
+    "label": "Pixels BlackRock",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/pixelsblackrock.png",
+    "score": 51,
+    "totalRank": 237,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 167
+  },
+  {
+    "value": "makepixelsgreatagain",
+    "label": "MPGA",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/makepixelsgreatagain.png",
+    "score": 50,
+    "totalRank": 238,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 168
+  },
+  {
+    "value": "spv",
+    "label": "Spice Harvesters",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/spv.png",
+    "score": 50,
+    "totalRank": 239,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 169
+  },
+  {
+    "value": "all4cents",
+    "label": "All4Cents",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/all4cents.png",
+    "score": 49,
+    "totalRank": 240,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 170
+  },
+  {
+    "value": "quantum",
+    "label": "Quantum Guild",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/quantum.png",
+    "score": 48,
+    "totalRank": 241,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 171
+  },
+  {
+    "value": "pix2",
+    "label": "PIX BR 2",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/pix2.png",
+    "score": 48,
+    "totalRank": 242,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 172
+  },
+  {
+    "value": "gooitbaby",
+    "label": "GOO MY 100 COINS",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/gooitbaby.png",
+    "score": 47,
+    "totalRank": 243,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 173
+  },
+  {
+    "value": "athena",
+    "label": "Athena's Strategists",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/athena.png",
+    "score": 46,
+    "totalRank": 244,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 174
+  },
+  {
+    "value": "tutortrove",
+    "label": "TutorTrove",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/5nN-vYp2QxS8Ec_T3VupDMmx.png",
+    "score": 46,
+    "totalRank": 245,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 175
+  },
+  {
+    "value": "pm",
+    "label": "PlowMasters",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/pm.png",
+    "score": 45,
+    "totalRank": 246,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 176
+  },
+  {
+    "value": "xyz",
+    "label": "xyZ",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/hHFxLX6Gt2m52KHz2uSUwQux.png",
+    "score": 42,
+    "totalRank": 247,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 177
+  },
+  {
+    "value": "dreamtimeguild",
+    "label": "DreamTime Guild",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/dreamtimeguild.png",
+    "score": 41,
+    "totalRank": 248,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 178
+  },
+  {
+    "value": "croptopiaguild",
+    "label": "Croptopia Guild Incorporated",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/croptopiaguild.png",
+    "score": 40,
+    "totalRank": 249,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 179
+  },
+  {
+    "value": "boredplayers",
+    "label": "無聊玩家 Bored Players 中文第一公會",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/lefHHSramikTeUgv9tVliBJN.png",
+    "score": 39,
+    "totalRank": 250,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 180
+  },
+  {
+    "value": "comandouwu",
+    "label": "ComandoUwU",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/comandouwu.png",
+    "score": 37,
+    "totalRank": 251,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 181
+  },
+  {
+    "value": "iraq",
+    "label": "Arab Guild",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/iraq.png",
+    "score": 36,
+    "totalRank": 252,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 182
+  },
+  {
+    "value": "meninblack57",
+    "label": "Men In Black",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/meninblack57.png",
+    "score": 35,
+    "totalRank": 253,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 183
+  },
+  {
+    "value": "grumpkins",
+    "label": "GRUMPKINS GUILD",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/grumpkins.png",
+    "score": 31,
+    "totalRank": 254,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 184
+  },
+  {
+    "value": "fazal",
+    "label": "Fazal Guild Team",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/fazal.png",
+    "score": 30,
+    "totalRank": 255,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 185
+  },
+  {
+    "value": "bumers",
+    "label": "Bum Friends",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/bumers.png",
+    "score": 30,
+    "totalRank": 256,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 186
+  },
+  {
+    "value": "ragnarok",
+    "label": "The_REAL_Ragnarok",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/ragnarok.png",
+    "score": 28,
+    "totalRank": 257,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 187
+  },
+  {
+    "value": "uhawsapixels00",
+    "label": "Uhaw sa Pixels",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/uhawsapixels00.png",
+    "score": 28,
+    "totalRank": 258,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 188
+  },
+  {
+    "value": "saa",
+    "label": "Sushinobi Axis Academy",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/saa.png",
+    "score": 27,
+    "totalRank": 259,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 189
+  },
+  {
+    "value": "errorcon",
+    "label": "Error Con",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/errorcon.png",
+    "score": 27,
+    "totalRank": 260,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 190
+  },
+  {
+    "value": "makeroom143",
+    "label": "MakeRoom143",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/makeroom143.png",
+    "score": 26,
+    "totalRank": 261,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 191
+  },
+  {
+    "value": "avefenix",
+    "label": "Ave Fénix Pixels",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/avefenix.png",
+    "score": 26,
+    "totalRank": 262,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 192
+  },
+  {
+    "value": "punksinpixels",
+    "label": "Punks in Pixels",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/punksinpixels.png",
+    "score": 26,
+    "totalRank": 263,
+    "earnings": 0,
+    "bracket": "Middle",
+    "rank": 51
+  },
+  {
+    "value": "friendsofhohmer",
+    "label": "Hohmer",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/friendsofhohmer.png",
+    "score": 25,
+    "totalRank": 264,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 193
+  },
+  {
+    "value": "v2fox",
+    "label": "V2Fox",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/v2fox.png",
+    "score": 25,
+    "totalRank": 265,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 194
+  },
+  {
+    "value": "ucg",
+    "label": "Ultimate Community Guild",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/ucg.png",
+    "score": 22,
+    "totalRank": 266,
+    "earnings": 0,
+    "bracket": "Middle",
+    "rank": 52
+  },
+  {
+    "value": "coinav",
+    "label": "coinAV",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/coinav.png",
+    "score": 22,
+    "totalRank": 267,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 195
+  },
+  {
+    "value": "reaplay",
+    "label": "Axe 🪓 | Gang",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/reaplay.png",
+    "score": 22,
+    "totalRank": 268,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 196
+  },
+  {
+    "value": "farmersrus",
+    "label": "Farmers 'R Us",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/farmersrus.png",
+    "score": 21,
+    "totalRank": 269,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 197
+  },
+  {
+    "value": "agcrypto",
+    "label": "AG CRYPTO",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/agcrypto.png",
+    "score": 20,
+    "totalRank": 270,
+    "earnings": 0,
+    "bracket": "Middle",
+    "rank": 53
+  },
+  {
+    "value": "theberrybandits",
+    "label": "The Berry Bandits",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/theberrybandits.png",
+    "score": 20,
+    "totalRank": 271,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 198
+  },
+  {
+    "value": "bitemup",
+    "label": "Bit'em UP",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/tbRx46hlrbC7-ThWT6rv8UWz.png",
+    "score": 20,
+    "totalRank": 272,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 199
+  },
+  {
+    "value": "cryptojack",
+    "label": "Crypto Jack",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/cryptojack.png",
+    "score": 19,
+    "totalRank": 273,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 200
+  },
+  {
+    "value": "italy",
+    "label": "Italy ",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/italy.png",
+    "score": 19,
+    "totalRank": 274,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 201
+  },
+  {
+    "value": "stpm",
+    "label": "STPM",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/stpm.png",
+    "score": 18,
+    "totalRank": 275,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 202
+  },
+  {
+    "value": "jga",
+    "label": "Jungle Army",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/jga.png",
+    "score": 18,
+    "totalRank": 276,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 203
+  },
+  {
+    "value": "lagranjerita",
+    "label": "la granjerita",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/lagranjerita.png",
+    "score": 18,
+    "totalRank": 277,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 204
+  },
+  {
+    "value": "pavanimadhu",
+    "label": "Cryptohunter",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/pavanimadhu.png",
+    "score": 16,
+    "totalRank": 278,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 205
+  },
+  {
+    "value": "blaond",
+    "label": "Black diamond",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/blaond.png",
+    "score": 15,
+    "totalRank": 279,
+    "earnings": 0,
+    "bracket": "Middle",
+    "rank": 54
+  },
+  {
+    "value": "qiaominxu",
+    "label": "Wage Slave Life",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/qiaominxu.png",
+    "score": 15,
+    "totalRank": 280,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 206
+  },
+  {
+    "value": "pixelcorgis",
+    "label": "Pixel Corguild",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/pixelcorgis.png",
+    "score": 14,
+    "totalRank": 281,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 207
+  },
+  {
+    "value": "angel",
+    "label": "Charlie's Angels",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/angel.png",
+    "score": 14,
+    "totalRank": 282,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 208
+  },
+  {
+    "value": "pixelbeasts",
+    "label": "PixelBeasts",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/pixelbeasts.png",
+    "score": 13,
+    "totalRank": 283,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 209
+  },
+  {
+    "value": "pwr",
+    "label": "POWER",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/pwr.png",
+    "score": 13,
+    "totalRank": 284,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 210
+  },
+  {
+    "value": "hoangchill",
+    "label": "Chill",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/hoangchill.png",
+    "score": 12,
+    "totalRank": 285,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 211
+  },
+  {
+    "value": "143143008",
+    "label": "AGRONOMIC",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/143143008.png",
+    "score": 12,
+    "totalRank": 286,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 212
+  },
+  {
+    "value": "luke",
+    "label": "Luke's Guild",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/nsRkHJntGGwj4chGImJ-C8aE.png",
+    "score": 11,
+    "totalRank": 287,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 213
+  },
+  {
+    "value": "thisistheway",
+    "label": "Mandalorian Outriders ",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/giP-mMcE-5e0qaVT7SOG8Pyk.png",
+    "score": 11,
+    "totalRank": 288,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 214
+  },
+  {
+    "value": "alirezark70",
+    "label": "Alireza",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/alirezark70.png",
+    "score": 10,
+    "totalRank": 289,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 215
+  },
+  {
+    "value": "apolonos",
+    "label": "Apolonos",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/apolonos.png",
+    "score": 9,
+    "totalRank": 290,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 216
+  },
+  {
+    "value": "pixelatedpinoys",
+    "label": "PixelPH",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/pixelatedpinoys.png",
+    "score": 9,
+    "totalRank": 291,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 217
+  },
+  {
+    "value": "avp",
+    "label": "AveragePunks",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/avp.png",
+    "score": 9,
+    "totalRank": 292,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 218
+  },
+  {
+    "value": "warriors",
+    "label": "Warrior Farmers",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/warriors.png",
+    "score": 9,
+    "totalRank": 293,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 219
+  },
+  {
+    "value": "halogg",
+    "label": "HALOGG",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/halogg.png",
+    "score": 8,
+    "totalRank": 294,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 220
+  },
+  {
+    "value": "htgamefi",
+    "label": "HT GameFi",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/htgamefi.png",
+    "score": 7,
+    "totalRank": 295,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 221
+  },
+  {
+    "value": "nightshade",
+    "label": "Nightshade",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/nightshade.png",
+    "score": 7,
+    "totalRank": 296,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 222
+  },
+  {
+    "value": "artofwar",
+    "label": "ArtOfWar",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/artofwar.png",
+    "score": 7,
+    "totalRank": 297,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 223
+  },
+  {
+    "value": "guildwars",
+    "label": "Guild WarS  ",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/guildwars.png",
+    "score": 7,
+    "totalRank": 298,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 224
+  },
+  {
+    "value": "valhallaguild",
+    "label": "Valhalla Guild - closed",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/valhallaguild.png",
+    "score": 6,
+    "totalRank": 299,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 225
+  },
+  {
+    "value": "lunarpixel",
+    "label": "LunarPixel",
+    "emblem": "//mesh-online-assets.s3.us-east-2.amazonaws.com/uploadedAssets/guild/emblem/lunarpixel.png",
+    "score": 6,
+    "totalRank": 300,
+    "earnings": 0,
+    "bracket": "Lower",
+    "rank": 226
   }
 ]
