@@ -32,7 +32,7 @@ export const Leaderboard = ({ players, className, guildId }: TeamLeaderBoardProp
   };
 
   return (
-    <div className={`text-base ${className} h-144 overflow-auto w-full`}>
+    <div className={`text-base ${className} max-h-144 overflow-auto w-full`}>
       <table className="text-white w-full">
         <thead className="md:tex-sm  text-base text-white h-11 bg-blue-600 sticky top-0">
           <tr>
@@ -121,8 +121,8 @@ export const Leaderboard = ({ players, className, guildId }: TeamLeaderBoardProp
             <th className="tex-sm md:text-base lg:text-lg">
               <Image
                 src={`/images/coin.webp`}
-                height={32}
-                width={32}
+                height={30}
+                width={30}
                 alt="coin"
                 onClick={() => setSelected('total')}
                 style={{
@@ -130,6 +130,7 @@ export const Leaderboard = ({ players, className, guildId }: TeamLeaderBoardProp
                   height: 'auto',
                   display: 'inline',
                   cursor: 'pointer',
+                  paddingBottom: '2px',
                 }}
               ></Image>
             </th>

@@ -4,7 +4,7 @@ module.exports = () => {
    */
   const nextConfig = {
     images: {
-      domains: ['images.ctfassets.net'],
+      domains: ['images.ctfassets.net', 'mesh-online-assets.s3.us-east-2.amazonaws.com'],
     },
   };
   return nextConfig;
