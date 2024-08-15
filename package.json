@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "test": "vitest",
+    "prod": "next build && next start",
     "add-content": "dotenvx run --env-file=.env.local -- node scripts/addContent.mjs"
   },
   "dependencies": {
