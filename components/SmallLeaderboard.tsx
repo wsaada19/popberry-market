@@ -95,7 +95,7 @@ export const SmallLeaderboard = ({ players, className, selected }: SmallLeaderbo
       <table className="text-white w-full">
         <tbody>
           {sortBy(players)
-            .slice(0, 50)
+            .slice(0, 100)
             .map((player, index) => {
               return (
                 <tr className="h-11 text-black even:bg-light bg-white" key={player.name}>
