@@ -104,7 +104,7 @@ export default function GuildWar() {
       />
       <h3>Player Graph</h3>
       <div className="mt-2 mb-4" ref={ref}></div>
-      <div className="mt-4 mb-6 text-base h-6 flex justify-center">
+      <div className="mt-4 mb-8 text-base flex justify-center">
         <Tab
           title="Spores"
           imageUrl="spores.png"
