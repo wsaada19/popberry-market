@@ -7,10 +7,7 @@ import { Leaderboard } from '@components/Leaderboard';
 import { Player } from '@types';
 import Select from 'react-select';
 import options from '../../components/guildData.json';
-
-const imgLoader = ({ src }) => {
-  return `https://${src}`;
-};
+import { pixelsLoader } from '@utilities';
 
 export default function GuildWar() {
   const ref = useRef(null);
@@ -73,10 +70,10 @@ export default function GuildWar() {
         }}
       />
       <div>
-        <h1 className="mt-4 text-blue-800 inline">{`${guildData.label}`}</h1>
+        <h1 className="text-blue-800 inline">{`${guildData.label}`}</h1>
         <Image
           src={guildData.emblem}
-          loader={imgLoader}
+          loader={pixelsLoader}
           height={48}
           width={48}
           alt={`${guildData.label} Emblem`}
@@ -89,7 +86,7 @@ export default function GuildWar() {
           }}
         ></Image>
       </div>
-      <div className="p-3 mt-4 bg-blue-600 shadow-2xl text-white grid grid-cols-2 md:grid-cols-4 gap-4">
+      <div className="p-3 mt-1 sm:mt-4 bg-blue-600 shadow-2xl text-white grid grid-cols-2 md:grid-cols-4 gap-4">
         <StatDisplay value={`#${guildData.rank}`} type={`${guildData.bracket} Bracket`} />
         <StatDisplay value={`#${guildData.totalRank}`} type="Total Rank" />
         <StatDisplay value={guildData.score.toLocaleString()} type="Points scored" />
@@ -100,11 +97,13 @@ export default function GuildWar() {
         <StatDisplay value={guildData.earnings.toLocaleString()} type="Earnings" />
       </div>
       <Leaderboard
-        className="mb-4 mt-5"
+        className="my-5"
         players={pixelsData as Player[]}
         guildId={guildData.value}
         selected={selected}
       />
+      <h3>Player Graph</h3>
+      <div className="mt-2 mb-4" ref={ref}></div>
       <div className="mt-4 mb-6 text-base h-6 flex justify-center">
         <Tab
           title="Spores"
@@ -147,7 +146,6 @@ export default function GuildWar() {
           guildId={guildData.value}
         />
       </div>
-      <div className="my-8" ref={ref}></div>
       {/* ts-ignore relax */}
     </Layout>
   );
@@ -156,7 +154,7 @@ export default function GuildWar() {
 const StatDisplay = ({ value, type }) => {
   return (
     <span>
-      <div className="text-md text-center md:text-lg font-bold">
+      <div className="text-lg text-center md:text-xl font-bold">
         {type == 'Earnings' || type == 'Pixels spent' ? (
           <Image
             src={`/images/pixel.webp`}

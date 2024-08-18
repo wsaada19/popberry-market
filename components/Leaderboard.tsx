@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { Player } from '@types';
+import { useWindowSize } from '@utilities';
 
 export type TeamLeaderBoardProps = {
   players: Player[];
@@ -11,6 +12,9 @@ export type TeamLeaderBoardProps = {
 
 export const Leaderboard = ({ players, className, guildId }: TeamLeaderBoardProps) => {
   const [selected, setSelected] = React.useState('total');
+  const windowSize = useWindowSize();
+
+  const imgSize = windowSize.width < 640 ? 24 : 32;
 
   const sortBy = (p: Player[]) => {
     switch (selected) {
@@ -31,18 +35,25 @@ export const Leaderboard = ({ players, className, guildId }: TeamLeaderBoardProp
     }
   };
 
+  const getCostString = (cost: number) => {
+    if (windowSize.width < 640 && cost > 999) {
+      return Math.round(Number(cost) / 1000).toLocaleString() + 'k';
+    }
+    return Number(cost.toFixed(0)).toLocaleString();
+  };
+
   return (
     <div className={`text-base ${className} max-h-144 overflow-auto w-full`}>
       <table className="text-white w-full">
-        <thead className="md:tex-sm  text-base text-white h-11 bg-blue-600 sticky top-0">
+        <thead className="text-white h-11 bg-blue-600 sticky top-0">
           <tr>
-            <th></th>
+            {windowSize.width > 640 && <th></th>}
             <th></th>
             <th>
               <Image
                 src={`/images/guano.png`}
-                height={32}
-                width={32}
+                height={imgSize}
+                width={imgSize}
                 alt="Guano"
                 onClick={() => setSelected('guano')}
                 style={{
@@ -57,8 +68,8 @@ export const Leaderboard = ({ players, className, guildId }: TeamLeaderBoardProp
             <th>
               <Image
                 src={`/images/goo.png`}
-                height={32}
-                width={32}
+                height={imgSize}
+                width={imgSize}
                 alt="Goo"
                 onClick={() => setSelected('goo')}
                 style={{
@@ -73,8 +84,8 @@ export const Leaderboard = ({ players, className, guildId }: TeamLeaderBoardProp
             <th>
               <Image
                 src={`/images/spores.png`}
-                height={32}
-                width={32}
+                height={imgSize}
+                width={imgSize}
                 alt="Seeds"
                 onClick={() => setSelected('spores')}
                 style={{
@@ -89,8 +100,8 @@ export const Leaderboard = ({ players, className, guildId }: TeamLeaderBoardProp
             <th className="tex-sm md:text-base lg:text-lg">
               <Image
                 src={`/images/watering-can.png`}
-                height={32}
-                width={32}
+                height={imgSize}
+                width={imgSize}
                 alt="watering can"
                 onClick={() => setSelected('wateringCan')}
                 style={{
@@ -105,8 +116,8 @@ export const Leaderboard = ({ players, className, guildId }: TeamLeaderBoardProp
             <th className="tex-sm md:text-base lg:text-lg">
               <Image
                 src={`/images/pixel.webp`}
-                height={32}
-                width={32}
+                height={imgSize}
+                width={imgSize}
                 alt="Pixels"
                 onClick={() => setSelected('pixels')}
                 style={{
@@ -121,8 +132,8 @@ export const Leaderboard = ({ players, className, guildId }: TeamLeaderBoardProp
             <th className="tex-sm md:text-base lg:text-lg">
               <Image
                 src={`/images/coin.webp`}
-                height={30}
-                width={30}
+                height={imgSize}
+                width={imgSize}
                 alt="coin"
                 onClick={() => setSelected('total')}
                 style={{
@@ -139,9 +150,11 @@ export const Leaderboard = ({ players, className, guildId }: TeamLeaderBoardProp
         <tbody>
           {sortBy(players.filter((p) => p.guildId == guildId)).map((player, index) => {
             return (
-              <tr className="h-11 text-black even:bg-light bg-white" key={player.name}>
-                <td className="text-xs sm:tex-sm pl-4 w-1/12 md:text-base">#{index + 1}</td>
-                <td className="text-xs sm:text-sm w-10 md:text-base">{`${player.name}`}</td>
+              <tr className=" h-11 text-black even:bg-light bg-white" key={player.name}>
+                {windowSize.width > 640 && (
+                  <td className="text-xs sm:tex-sm pl-4 w-1/12 md:text-base">#{index + 1}</td>
+                )}
+                <td className="pl-1 md:pl-0 text-xs sm:text-sm w-10 md:text-base">{`${player.name}`}</td>
                 <td className="text-xs sm:text-sm w-10 text-center md:text-base">
                   {player.fert.value.toLocaleString()}
                 </td>
@@ -158,7 +171,7 @@ export const Leaderboard = ({ players, className, guildId }: TeamLeaderBoardProp
                   {Number(player.pixelsSpent).toLocaleString()}
                 </td>
                 <td className="text-xs sm:text-sm w-10 text-center md:text-base">
-                  {Number(player.totalCost.toFixed(0)).toLocaleString()}
+                  {getCostString(player.totalCost)}
                 </td>
               </tr>
             );
