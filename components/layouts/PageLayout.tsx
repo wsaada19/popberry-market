@@ -18,6 +18,10 @@ export default function PageLayout({ children, description, title }: LayoutProps
           <meta name="description" content={description} />
           <meta name="og:title" content={title} />
           <meta name="og:image" content="/favicon.png" />
+          <meta
+            name="google-site-verification"
+            content="XYHYhmY8K9CS_cW2VUIUUZrm1TY7TUWjU8SH5h00Fik"
+          />
         </Head>
         <script
           dangerouslySetInnerHTML={{
