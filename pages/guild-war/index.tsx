@@ -8,14 +8,15 @@ import { Player } from '@types';
 import Select from 'react-select';
 import options from '../../components/guildData.json';
 import { pixelsLoader } from '@utilities';
+import type { GetStaticProps } from 'next';
 
-export default function GuildWar() {
+export default function GuildWar({ players }) {
   const ref = useRef(null);
   const [selected, setSelected] = useState('spores');
   const [guildData, setGuildData] = useState(options[0]);
 
   const getTotalCost = () => {
-    const res = pixelsData
+    const res = players
       .filter((p) => p.guildId == guildData.value)
       .reduce((acc, curr) => {
         return acc + curr.totalCost;
@@ -26,7 +27,7 @@ export default function GuildWar() {
   };
 
   const getTotalGooUsed = () => {
-    return pixelsData
+    return players
       .filter((p) => p.guildId == guildData.value)
       .reduce((acc, curr) => {
         return acc + curr.goo.value;
@@ -34,7 +35,7 @@ export default function GuildWar() {
   };
 
   const getPixelsSpent = () => {
-    return pixelsData
+    return players
       .filter((p) => p.guildId == guildData.value)
       .reduce((acc, curr) => {
         return acc + curr.pixelsSpent;
@@ -42,13 +43,13 @@ export default function GuildWar() {
   };
 
   const getTop100InGuild = () => {
-    return pixelsData.filter((p) => p.guildId == guildData.value).filter((p) => p.total.rank <= 100)
+    return players.filter((p) => p.guildId == guildData.value).filter((p) => p.total.rank <= 100)
       .length;
   };
 
   useEffect(() => {
     // @ts-ignore relax
-    addPixelsPlot(pixelsData, ref, options[0].value, 'spores');
+    addPixelsPlot(players, ref, options[0].value, 'spores');
   }, []);
 
   return (
@@ -57,7 +58,7 @@ export default function GuildWar() {
         onChange={(result) => {
           setGuildData(result);
           // @ts-ignore relax
-          addPixelsPlot(pixelsData, ref, result.value, selected);
+          addPixelsPlot(players, ref, result.value, selected);
         }}
         placeholder="Guild Search"
         className="w-full sm:w-1/3 float-right text-black border-purple"
@@ -98,7 +99,7 @@ export default function GuildWar() {
       </div>
       <Leaderboard
         className="my-5"
-        players={pixelsData as Player[]}
+        players={players as Player[]}
         guildId={guildData.value}
         selected={selected}
       />
@@ -112,6 +113,7 @@ export default function GuildWar() {
           setSelected={setSelected}
           selected={selected}
           guildId={guildData.value}
+          players={players}
         />
         <Tab
           title="Guano"
@@ -120,6 +122,7 @@ export default function GuildWar() {
           setSelected={setSelected}
           selected={selected}
           guildId={guildData.value}
+          players={players}
         />
         <Tab
           title="Goo"
@@ -128,6 +131,7 @@ export default function GuildWar() {
           setSelected={setSelected}
           selected={selected}
           guildId={guildData.value}
+          players={players}
         />
         <Tab
           title="Watering"
@@ -136,6 +140,7 @@ export default function GuildWar() {
           setSelected={setSelected}
           selected={selected}
           guildId={guildData.value}
+          players={players}
         />
         <Tab
           title="Total"
@@ -144,12 +149,19 @@ export default function GuildWar() {
           setSelected={setSelected}
           selected={selected}
           guildId={guildData.value}
+          players={players}
         />
       </div>
       {/* ts-ignore relax */}
     </Layout>
   );
 }
+
+export const getStaticProps = (async () => {
+  return { props: { players: pixelsData } };
+}) satisfies GetStaticProps<{
+  players: Player[];
+}>;
 
 const StatDisplay = ({ value, type }) => {
   return (
@@ -196,12 +208,12 @@ const StatDisplay = ({ value, type }) => {
   );
 };
 
-const Tab = ({ title, imageUrl, graph, setSelected, selected, guildId }) => {
+const Tab = ({ title, imageUrl, graph, setSelected, selected, guildId, players }) => {
   return (
     <button
       onClick={() => {
         // @ts-ignore relax
-        addPixelsPlot(pixelsData, graph, guildId, title.toLowerCase());
+        addPixelsPlot(players, graph, guildId, title.toLowerCase());
         setSelected(title.toLowerCase());
       }}
       className={`cursor-pointer h-9 px-2 mx-2 border-b-4 ${
@@ -211,8 +223,8 @@ const Tab = ({ title, imageUrl, graph, setSelected, selected, guildId }) => {
       {title !== 'Total' && (
         <Image
           src={`/images/${imageUrl}`}
-          height={title == 'Total' ? 28 : 32}
-          width={title == 'Total' ? 28 : 32}
+          height={title == 'Total' ? 24 : 28}
+          width={title == 'Total' ? 24 : 28}
           alt={title}
           style={{
             maxWidth: '100%',
