@@ -15,6 +15,7 @@ export default function PageLayout({ children, description, title }: LayoutProps
         <Head>
           <title>{title}</title>
           <link rel="icon" href="/favicon.png" />
+          <link rel="apple-touch-icon" href="/apple-icon.png>" />
           <meta name="description" content={description} />
           <meta name="og:title" content={title} />
           <meta name="og:image" content="/favicon.png" />

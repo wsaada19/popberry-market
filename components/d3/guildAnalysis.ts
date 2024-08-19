@@ -87,7 +87,7 @@ export function addGuildPlot(data: Guild[], ref: React.RefObject<HTMLDivElement>
   function update(data: Guild[]) {
     g.selectAll('circle').remove();
     const getRank = (d: Guild) => d.score;
-    const getValue = (d: Guild) => d.stats.t3Goo;
+    const getValue = (d: Guild) => d.stats.wateringCanUse;
 
     data = data.filter((d) => getValue(d) > 0);
 
