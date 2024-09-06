@@ -14,11 +14,11 @@ export default function PageLayout({ children, description, title }: LayoutProps
       <div className="pt-4 mx-auto pb-8 max-w-4xl px-4 md:px-8">
         <Head>
           <title>{title}</title>
-          <link rel="icon" href="/favicon.png" />
+          <link rel="icon" href="/favicon.ico" />
           <link rel="apple-touch-icon" href="/apple-icon.png>" />
           <meta name="description" content={description} />
           <meta name="og:title" content={title} />
-          <meta name="og:image" content="/favicon.png" />
+          <meta name="og:image" content="/favicon.ico" />
           <meta
             name="google-site-verification"
             content="XYHYhmY8K9CS_cW2VUIUUZrm1TY7TUWjU8SH5h00Fik"

@@ -60,8 +60,8 @@ export default function TopPlayer({ players }) {
   const [selected, setSelected] = useState(options[0]);
   return (
     <Layout
-      description="Leaderboard to view the top players in the pixels online guild war for planting, watering and more!"
-      title="Guild War | Player leader board"
+      description="Leader board to view the top players in the pixels online guild war for planting, watering and more!"
+      title="Pixels Guild War | Player leader board"
     >
       <div>
         <Select

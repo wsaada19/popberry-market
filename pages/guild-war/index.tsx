@@ -9,6 +9,7 @@ import Select from 'react-select';
 import options from '../../components/guildData.json';
 import { pixelsLoader } from '@utilities';
 import type { GetStaticProps } from 'next';
+import { StatDisplay } from '@components/StatDisplay';
 
 export default function GuildWar({ players }) {
   const ref = useRef(null);
@@ -165,51 +166,6 @@ export const getStaticProps = (async () => {
 }) satisfies GetStaticProps<{
   players: Player[];
 }>;
-
-const StatDisplay = ({ value, type }) => {
-  return (
-    <span>
-      <div className="text-lg text-center md:text-xl font-bold">
-        {type == 'Earnings' || type == 'Pixels spent' ? (
-          <Image
-            src={`/images/pixel.webp`}
-            height={24}
-            width={24}
-            alt="Pixel"
-            style={{
-              maxWidth: '100%',
-              height: 'auto',
-              display: 'inline',
-              paddingBottom: '4px',
-              paddingRight: '4px',
-            }}
-          ></Image>
-        ) : (
-          <></>
-        )}
-        {type == 'Coins spent' ? (
-          <Image
-            src={`/images/coin.webp`}
-            height={24}
-            width={24}
-            alt="Coin"
-            style={{
-              maxWidth: '100%',
-              height: 'auto',
-              display: 'inline',
-              paddingBottom: '4px',
-              paddingRight: '4px',
-            }}
-          ></Image>
-        ) : (
-          <></>
-        )}
-        {value}
-      </div>
-      <div className="text-center text-xs">{type}</div>
-    </span>
-  );
-};
 
 const Tab = ({ title, imageUrl, graph, setSelected, selected, guildId, players }) => {
   return (
