@@ -1,8 +1,8 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import type { NextApiRequest, NextApiResponse } from 'next';
 
 type ResponseData = {
   message: string;
-  // @ts-ignore relax
   data: any;
 };
 
