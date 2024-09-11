@@ -150,7 +150,13 @@ export const Leaderboard = ({ players, className, guildId }: TeamLeaderBoardProp
         <tbody>
           {sortBy(players.filter((p) => p.guildId == guildId)).map((player, index) => {
             return (
-              <tr className=" h-11 text-black even:bg-blue-100 bg-white" key={player.name}>
+              <tr
+                className=" h-11 text-black even:bg-blue-100 bg-white cursor-pointer"
+                key={player.name}
+                onClick={() => {
+                  window.location.href = `/players/${player.id}`;
+                }}
+              >
                 {windowSize.width > 640 && (
                   <td className="text-xs sm:tex-sm pl-4 w-1/12 md:text-base">#{index + 1}</td>
                 )}

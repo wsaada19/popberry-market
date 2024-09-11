@@ -56,7 +56,7 @@ export default function GuildWar({ players }) {
   return (
     <Layout
       description="Guild statistics from the pixels online mushroom war, including spores, guano, goo, watering, and total stats."
-      title="Guild War | Stats for top guilds in the Pixels Mushroom War"
+      title="Pixels Guild War | Stats for top guilds in the Pixels Mushroom War"
     >
       <Select
         onChange={(result) => {

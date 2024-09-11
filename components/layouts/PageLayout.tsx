@@ -36,8 +36,6 @@ export default function PageLayout({ children, description, title }: LayoutProps
               }`,
           }}
         ></script>
-        <script async src="https://platform.twitter.com/widgets.js"></script>
-
         <header>
           <Navigation />
         </header>

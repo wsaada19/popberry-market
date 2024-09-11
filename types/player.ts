@@ -6,6 +6,7 @@ export type Player = {
   name: string;
   id: string;
   wateringCanUse: string;
+  wateringCanRank: number;
   fert: {
     value: number;
     rank: number;

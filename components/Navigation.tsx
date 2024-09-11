@@ -8,8 +8,8 @@ export const Navigation = () => {
       <span className="text-base mr-2 text-blue-700 font-bold sm:text-lg m-0 dark:text-white sm:mr-4">
         Pixels Event Stats
       </span>
-      <Link href="/guild-war/top-players" className="mr-2 md:mr-4 text-sm">
-        Top Players
+      <Link href="/players" className="mr-2 md:mr-4 text-sm">
+        Players
       </Link>
       <Link href="/guild-war" className="text-sm">
         Guilds

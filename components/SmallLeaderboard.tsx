@@ -9,7 +9,7 @@ type Option = {
 
 export type SmallLeaderboardProps = {
   players: Player[];
-  className: string;
+  className?: string;
   selected: Option;
 };
 
@@ -26,6 +26,8 @@ export const SmallLeaderboard = ({ players, className, selected }: SmallLeaderbo
         return p.sort((a, b) => Number(b.wateringCanUse) - Number(a.wateringCanUse));
       case 'pixels':
         return p.sort((a, b) => b.pixelsSpent - a.pixelsSpent);
+      case 'totalPoints':
+        return p.sort((a, b) => b.total.value - a.total.value);
       case 'totalCost':
         return p.sort((a, b) => b.totalCost - a.totalCost);
       case 't1Seeds':
@@ -98,7 +100,13 @@ export const SmallLeaderboard = ({ players, className, selected }: SmallLeaderbo
             .slice(0, 100)
             .map((player, index) => {
               return (
-                <tr className="h-11 text-black even:bg-light bg-white" key={player.name}>
+                <tr
+                  className="h-11 text-black even:bg-light bg-white cursor-pointer"
+                  key={player.name}
+                  onClick={() => {
+                    window.location.href = `/players/${player.id}`;
+                  }}
+                >
                   <td className="tex-sm pl-4 w-1/12 md:text-base">#{index + 1}</td>
                   <td className="text-sm w-10 md:text-base">{`${player.name}`}</td>
                   <td className="text-sm w-10 text-center md:text-base">
