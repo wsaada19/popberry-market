@@ -27,11 +27,13 @@ export default function PlayerPage({ playerData, guildInfo }: PlayerPageProps) {
         </Link>
         <h1 className="text-xl text-center">{`${playerData.name}`}</h1>
         <h5 className="mt-3 mb-1 font-semibold">Pixels Crop Wars - August 2024</h5>
-        <p>
-          Competed for the <strong>{guildInfo.guildName} Guild</strong> which ranked{' '}
-          <strong>#{guildInfo.guildRank}</strong> in the <strong>{guildInfo.bracket}</strong>{' '}
-          bracket.
-        </p>
+        {guildInfo?.guildName.length > 0 && (
+          <p>
+            Competed for the <strong>{guildInfo.guildName} Guild</strong> which ranked{' '}
+            <strong>#{guildInfo.guildRank}</strong> in the <strong>{guildInfo.bracket}</strong>{' '}
+            bracket.
+          </p>
+        )}
         <div className="my-2 p-3 bg-blue-600 shadow-2xl text-white grid grid-cols-2 md:grid-cols-4 gap-4">
           <StatDisplay value={playerData.total.value.toLocaleString()} type="Points scored" />
           <StatDisplay value={`#${playerData.total.rank}`} type="Total rank" />
@@ -76,15 +78,16 @@ export const getStaticPaths: GetStaticPaths = async () => {
 export const getStaticProps: GetStaticProps = async ({ params }) => {
   const playerData: Player = data.find((item) => item.id === params.playerId);
   const guild = guildData.find((item) => item.value === playerData.guildId);
+  const guildInfo = {
+    guildId: guild?.value || '',
+    guildName: guild?.label || '',
+    guildRank: guild?.rank || 0,
+    bracket: guild?.bracket || '',
+  };
   return {
     props: {
       playerId: params.playerId,
-      guildInfo: {
-        guildId: guild.value,
-        guildName: guild.label,
-        guildRank: guild.rank,
-        bracket: guild.bracket,
-      },
+      guildInfo: guildInfo,
       playerData: playerData,
     },
   };
