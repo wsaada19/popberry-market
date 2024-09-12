@@ -22,7 +22,7 @@ export default function PlayerPage({ playerData, guildInfo }: PlayerPageProps) {
   return (
     <Layout description={`Pixels event statistics for ${playerData.name}`} title="Pixels Guild War">
       <div>
-        <Link className="text-xs -mt-1" href="/players">
+        <Link className="text-xs -mt-1 inline-block float-left pt-3" href="/players">
           Back to search
         </Link>
         <h1 className="text-xl text-center">{`${playerData.name}`}</h1>
