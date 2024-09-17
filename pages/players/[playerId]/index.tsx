@@ -40,9 +40,9 @@ export default function PlayerPage({ playerData, guildInfo, bStats, name }: Play
               <StatDisplay value={(bStats.value * 2194).toLocaleString()} type="Cost estimate*" />
             </div>
             <p className="text-xs mb-4">
-              *Player spend is based on price averages during the event, assuming that each point
-              cost 2,194 coins based on the cost to make boxes and prices of other event items. This
-              estimate may be very different from the actual value.
+              *Cost estimate is based on price averages during the event and assuming that the
+              average point cost approximately 2,194 coins. This estimate may be very different from
+              the actual value.
             </p>
           </>
         )}
