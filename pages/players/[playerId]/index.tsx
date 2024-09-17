@@ -40,9 +40,8 @@ export default function PlayerPage({ playerData, guildInfo, bStats, name }: Play
               <StatDisplay value={(bStats.value * 2194).toLocaleString()} type="Cost estimate*" />
             </div>
             <p className="text-xs mb-4">
-              *Cost estimate is based on price averages during the event and assuming that the
-              average point cost approximately 2,194 coins. This estimate may be very different from
-              the actual value.
+              * Cost estimate is based on price averages during the event and assuming that the
+              average point cost approximately 2,194 coins.
             </p>
           </>
         )}
@@ -52,7 +51,7 @@ export default function PlayerPage({ playerData, guildInfo, bStats, name }: Play
             {guildInfo?.guildName.length > 0 && (
               <p>
                 Competed for the <strong>{guildInfo.guildName} Guild</strong> which ranked{' '}
-                <strong>#{guildInfo.guildRank}</strong> in the <strong>{guildInfo.bracket}</strong>{' '}
+                <strong>#{guildInfo.guildRank}</strong> in the {guildInfo.bracket.toLowerCase()}{' '}
                 bracket.
               </p>
             )}
