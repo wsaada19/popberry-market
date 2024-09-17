@@ -39,7 +39,7 @@ export default function PageLayout({ children, description, title }: LayoutProps
         <header>
           <Navigation />
         </header>
-        <main>{children}</main>
+        <main className="full-page">{children}</main>
         <Footer />
       </div>
     </div>

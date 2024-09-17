@@ -21,7 +21,7 @@ export const StatDisplay = ({ value, type }: { value: string; type: string }) =>
         ) : (
           <></>
         )}
-        {type == 'Coins spent' ? (
+        {type == 'Coins spent' || type == 'Cost estimate*' ? (
           <Image
             src={`/images/coin.webp`}
             height={24}
