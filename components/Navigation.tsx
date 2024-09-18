@@ -4,7 +4,7 @@ import { Switch } from './switch/Switch';
 
 export const Navigation = () => {
   return (
-    <nav className="mt-2 mb-4 text-base h-6">
+    <nav className="mt-2 mb-3 text-base h-6">
       <span className="text-base mr-2 text-blue-700 font-bold sm:text-lg m-0 dark:text-white sm:mr-4">
         Pixels Event Stats
       </span>

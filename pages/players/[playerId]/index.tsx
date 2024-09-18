@@ -2,7 +2,7 @@ import Layout from '@components/layouts/PageLayout';
 import { GetStaticPaths, GetStaticProps } from 'next';
 import data from '@components/d3/guildWarsData.json';
 import guildData from '@components/guildData.json';
-import { Player } from '@types';
+import { Player, BazarnStats } from '@types';
 import { StatDisplay } from '@components/StatDisplay';
 import Link from 'next/link';
 import bazarnData from '@components/d3/bazarnPoints.json';
@@ -19,25 +19,26 @@ type PlayerPageProps = {
   guildInfo: GuildInfo;
   playerId: string;
   name: string;
-  bStats: { player: { _id: string; username: string }; value: number; rank: number };
+  bStats: BazarnStats;
 };
 export default function PlayerPage({ playerData, guildInfo, bStats, name }: PlayerPageProps) {
   return (
     <Layout description={`Pixels event statistics for ${name}`} title="Pixels Guild War">
       <div>
-        <Link className="text-xs" href="/players">
+        <Link className="text-xs mb-2 block" href="/players">
           Back to search
         </Link>
         <h1 className="text-xl text-center">{`${name}`}</h1>
         {bStats.value > 0 && (
           <>
-            <h5 className="mt-4 mb-1 font-semibold">
+            <h5 className="mt-4 mb-1 text-lg font-semibold">
               Barney&apos;s Bazaarn Blitz - September 2024
             </h5>
             <div className="mb-2 p-3 bg-blue-600 shadow-2xl text-white grid grid-cols-2 md:grid-cols-3 gap-4">
               <StatDisplay value={`#${bStats.rank}`} type="Rank" />
               <StatDisplay value={bStats.value.toLocaleString()} type="Points" />
               <StatDisplay value={(bStats.value * 2194).toLocaleString()} type="Cost estimate*" />
+              <StatDisplay value="?" type="Earnings" />
             </div>
             <p className="text-xs mb-4">
               * Cost estimate is based on price averages during the event and assumes that the
@@ -47,9 +48,9 @@ export default function PlayerPage({ playerData, guildInfo, bStats, name }: Play
         )}
         {playerData.total && playerData.total.value > 0 && (
           <>
-            <h5 className="mt-3 mb-1 font-semibold">Pixels Crop Wars - August 2024</h5>
+            <h5 className="mt-3 mb-1 text-lg font-semibold">Pixels Crop Wars - August 2024</h5>
             {guildInfo?.guildName.length > 0 && (
-              <p>
+              <p className="text-sm">
                 Competed for the <strong>{guildInfo.guildName} Guild</strong> which ranked{' '}
                 <strong>#{guildInfo.guildRank}</strong> in the {guildInfo.bracket.toLowerCase()}{' '}
                 bracket.

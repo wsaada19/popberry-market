@@ -33,3 +33,9 @@ export type Player = {
     value: number;
   };
 };
+
+export type BazarnStats = {
+  player: { _id: string; username: string };
+  value: number;
+  rank: number;
+};

@@ -1,15 +1,16 @@
 import Layout from '@components/layouts/PageLayout';
 import Link from 'next/link';
 import { useState } from 'react';
-// import data from '@components/d3/guildWarsData.json';
-import { Player } from '@types';
-import pixelsData from '@components/d3/guildWarsData.json';
+import { BazarnStats } from '@types';
+import bazarnData from '@components/d3/bazarnPoints.json';
 import { GetStaticProps } from 'next';
-import { SmallLeaderboard } from '@components/SmallLeaderboard';
+import { BazarnLeaderboard } from '@components/BazarnLeaderboard';
 import { Snackbar } from '@components/Snackbar';
 
-// type PlayerSearchProps = {};
-export default function PlayerSearch({ players }: { players: Player[] }) {
+type PlayerSearchProps = {
+  players: BazarnStats[];
+};
+export default function PlayerSearch({ players }: PlayerSearchProps) {
   const [search, setSearch] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
   const [bannerOpacity, setBannerOpacity] = useState('0');
@@ -39,13 +40,13 @@ export default function PlayerSearch({ players }: { players: Player[] }) {
     >
       <div className="bg-blue-600 text-white py-20 mt-4 mb-2">
         <h1 className="mb-2 mt-0 text-2xl text-center text-white">Player Search</h1>
-        <p className="text-center text-sm px-2 sm:px-12">
+        <p className="text-center text-sm px-3 sm:px-12">
           Search for a player by their username or id to view their pixels online event statistics.
           Click on a player in the leader board to see more of their stats.
         </p>
         <div className="mt-6 flex justify-center align-middle">
           <input
-            className="mx-1 bg-white text-black p-2 rounded-md w-full sm:w-1/2 border-blue-600 placeholder-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent"
+            className="ml-3 mr-1 bg-white text-black p-2 rounded-md w-full sm:w-1/2 border-blue-600 placeholder-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent"
             type="text"
             placeholder="Search for a player"
             value={search}
@@ -54,27 +55,24 @@ export default function PlayerSearch({ players }: { players: Player[] }) {
               if (e.key === 'Enter') playerSearch();
             }}
           />
-          <button className="" onClick={playerSearch}>
+          <button className="mr-3" onClick={playerSearch}>
             <SearchSVG />
           </button>
         </div>
       </div>
       <Link className="text-xs mb-2" href="/guild-war/top-players">
-        More Crop Wars Leader Boards
+        Crop Wars Leader Boards
       </Link>
-      <SmallLeaderboard
-        players={players}
-        selected={{ value: 'totalPoints', label: 'Crop Wars Points' }}
-      />
+      <BazarnLeaderboard players={players} />
       <Snackbar opacity={bannerOpacity} message={errorMessage} />
     </Layout>
   );
 }
 
 export const getStaticProps = (async () => {
-  return { props: { players: pixelsData } };
+  return { props: { players: bazarnData.playersDescending.slice(0, 200) as BazarnStats[] } };
 }) satisfies GetStaticProps<{
-  players: Player[];
+  players: BazarnStats[];
 }>;
 
 const SearchSVG = () => {
