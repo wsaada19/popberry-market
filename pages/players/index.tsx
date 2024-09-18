@@ -40,9 +40,9 @@ export default function PlayerSearch({ players }: PlayerSearchProps) {
     >
       <div className="bg-blue-600 text-white py-20 mt-4 mb-2">
         <h1 className="mb-2 mt-0 text-2xl text-center text-white">Player Search</h1>
-        <p className="text-center text-sm px-3 sm:px-12">
+        <p className="text-sm px-3 sm:px-12">
           Search for a player by their username or id to view their pixels online event statistics.
-          Click on a player in the leader board to see more of their stats.
+          Click on a player row in the leader board to see more of their stats.
         </p>
         <div className="mt-6 flex justify-center align-middle">
           <input
@@ -61,7 +61,7 @@ export default function PlayerSearch({ players }: PlayerSearchProps) {
         </div>
       </div>
       <Link className="text-xs mb-2" href="/guild-war/top-players">
-        Crop Wars Leader Boards
+        View Crop Wars Leader Boards
       </Link>
       <BazarnLeaderboard players={players} />
       <Snackbar opacity={bannerOpacity} message={errorMessage} />

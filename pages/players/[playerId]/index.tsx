@@ -34,11 +34,15 @@ export default function PlayerPage({ playerData, guildInfo, bStats, name }: Play
             <h5 className="mt-4 mb-1 text-lg font-semibold">
               Barney&apos;s Bazaarn Blitz - September 2024
             </h5>
-            <div className="mb-2 p-3 bg-blue-600 shadow-2xl text-white grid grid-cols-2 md:grid-cols-3 gap-4">
+            <div className="mb-2 p-3 bg-blue-600 shadow-2xl text-white grid grid-cols-2 lg:grid-cols-3 gap-4">
               <StatDisplay value={`#${bStats.rank}`} type="Rank" />
               <StatDisplay value={bStats.value.toLocaleString()} type="Points" />
-              <StatDisplay value={(bStats.value * 2194).toLocaleString()} type="Cost estimate*" />
-              <StatDisplay value="?" type="Earnings" />
+              <StatDisplay
+                value={(bStats.value * 2194).toLocaleString()}
+                type="Cost estimate*"
+                icon="coin"
+              />
+              <StatDisplay value="?" type="Earnings" icon="pixel" />
             </div>
             <p className="text-xs mb-4">
               * Cost estimate is based on price averages during the event and assumes that the
@@ -59,8 +63,16 @@ export default function PlayerPage({ playerData, guildInfo, bStats, name }: Play
             <div className="mt-2 mb-4 p-3 bg-blue-600 shadow-2xl text-white grid grid-cols-2 md:grid-cols-4 gap-4">
               <StatDisplay value={playerData.total.value.toLocaleString()} type="Points scored" />
               <StatDisplay value={`#${playerData.total.rank}`} type="Total rank" />
-              <StatDisplay value={playerData.pixelsSpent.toLocaleString()} type="Pixels spent" />
-              <StatDisplay value={playerData.totalCost.toLocaleString()} type="Coins spent" />
+              <StatDisplay
+                value={playerData.pixelsSpent.toLocaleString()}
+                type="Pixels spent"
+                icon="pixel"
+              />
+              <StatDisplay
+                value={playerData.totalCost.toLocaleString()}
+                type="Coins spent"
+                icon="coin"
+              />
               <StatDisplay
                 value={Number(playerData.wateringCanUse).toLocaleString()}
                 type="Plants watered"
