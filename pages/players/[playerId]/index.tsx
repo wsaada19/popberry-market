@@ -42,7 +42,12 @@ export default function PlayerPage({ playerData, guildInfo, bStats, name }: Play
                 type="Cost estimate*"
                 icon="coin"
               />
-              <StatDisplay value="?" type="Earnings" icon="pixel" />
+              <StatDisplay
+                value={bStats.reward.toLocaleString()}
+                type="Earnings"
+                icon="pixel"
+                tooltip={`$${Number((bStats.reward * 0.1421).toFixed(2)).toLocaleString()} USD`}
+              />
             </div>
             <p className="text-xs mb-4">
               * Cost estimate is based on price averages during the event and assumes that the
@@ -120,13 +125,50 @@ export const getStaticPaths: GetStaticPaths = async () => {
   };
 };
 
+const getReward = (rank: number) => {
+  if (rank == 1) {
+    return 30000;
+  } else if (rank == 2) {
+    return 9600;
+  } else if (rank == 3) {
+    return 7200;
+  } else if (rank == 4) {
+    return 4800;
+  } else if (rank == 5) {
+    return 3600;
+  } else if (rank == 6) {
+    return 1800;
+  } else if (rank == 7) {
+    return 1680;
+  } else if (rank == 8) {
+    return 1560;
+  } else if (rank == 9) {
+    return 1440;
+  } else if (rank == 10) {
+    return 1320;
+  } else if (rank <= 20) {
+    return 960;
+  } else if (rank <= 99) {
+    return 384;
+  } else if (rank <= 499) {
+    return 192;
+  } else if (rank <= 999) {
+    return 144;
+  } else if (rank <= 1999) {
+    return 60;
+  } else if (rank <= 5000) {
+    return 48;
+  } else {
+    return 0;
+  }
+};
+
 export const getStaticProps: GetStaticProps = async ({ params }) => {
   let playerData: Player = data.find((item) => item.id === params.playerId);
   const guild = guildData.find((item) => item.value === playerData?.guildId);
   let bStats = bazarnData.playersDescending.find((item) => item.player['_id'] === params.playerId);
-  const rank = bazarnData.playersDescending.findIndex(
-    (item) => item.player['_id'] === params.playerId
-  );
+  const rank =
+    bazarnData.playersDescending.findIndex((item) => item.player['_id'] === params.playerId) + 1;
 
   let playerName = playerData?.name;
 
@@ -163,7 +205,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
       name: playerName,
       guildInfo: guildInfo,
       playerData: playerData,
-      bStats: { ...bStats, rank: rank + 1 },
+      bStats: { ...bStats, rank: rank, reward: getReward(rank) },
     },
   };
 };
