@@ -35,7 +35,7 @@ export default function PlayerSearch({ players }: PlayerSearchProps) {
   };
   return (
     <Layout
-      description={`Pixels Online event statistics for players.`}
+      description={`Pixels Online event statistics for players from events such as Pixels Crop Wars and Barney's Bazarn Event.`}
       title="Pixels Statistics Player Search"
     >
       <div className="bg-blue-600 text-white py-20 mt-4 mb-2">
