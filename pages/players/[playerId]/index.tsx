@@ -46,7 +46,7 @@ export default function PlayerPage({ playerData, guildInfo, bStats, name }: Play
               />
             </div>
             <p className="text-xs mb-4">
-              *The cost estimate is based on average event prices, assuming each point costs around
+              *The cost estimate is based on average event prices, assuming each point cost around
               2,194 coins.
             </p>
           </>
