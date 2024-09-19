@@ -38,15 +38,15 @@ export default function PlayerSearch({ players }: PlayerSearchProps) {
       description={`Pixels Online event statistics for players from events such as Pixels Crop Wars and Barney's Bazarn Event.`}
       title="Pixels Statistics Player Search"
     >
-      <div className="bg-blue-600 text-white py-20 mt-4 mb-2">
+      <div className="bg-blue-600 text-white py-8 md:py-14 mt-4 mb-2">
         <h1 className="mb-2 mt-0 text-2xl text-center text-white">Player Search</h1>
-        <p className="text-sm px-3 sm:px-12">
-          Search for a player by their username or id to view their pixels online event statistics.
-          Click on a player row in the leader board to see more of their stats.
+        <p className="text-sm px-6 sm:px-12">
+          Search for a player by username or ID to view their event stats. Click on a player in the
+          leader board to see more details.
         </p>
         <div className="mt-6 flex justify-center align-middle">
           <input
-            className="ml-3 mr-1 bg-white text-black p-2 rounded-md w-full sm:w-1/2 border-blue-600 placeholder-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent"
+            className="ml-4 mr-1 bg-white text-black p-2 rounded-md w-full sm:w-1/2 border-blue-600 placeholder-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent"
             type="text"
             placeholder="Search for a player"
             value={search}
@@ -55,7 +55,7 @@ export default function PlayerSearch({ players }: PlayerSearchProps) {
               if (e.key === 'Enter') playerSearch();
             }}
           />
-          <button className="mr-3" onClick={playerSearch}>
+          <button className="mr-4" onClick={playerSearch}>
             <SearchSVG />
           </button>
         </div>
