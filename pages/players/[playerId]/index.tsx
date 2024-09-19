@@ -46,7 +46,7 @@ export default function PlayerPage({ playerData, guildInfo, bStats, name }: Play
                 value={bStats.reward.toLocaleString()}
                 type="Earnings"
                 icon="pixel"
-                tooltip={`$${Number((bStats.reward * 0.1425).toFixed(2)).toLocaleString()} USD`}
+                tooltip={`$${Number((bStats.reward * 0.1436).toFixed(2)).toLocaleString()} USD`}
               />
             </div>
             <p className="text-xs mb-4">
