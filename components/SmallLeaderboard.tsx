@@ -49,7 +49,7 @@ export const SmallLeaderboard = ({ players, className, selected }: SmallLeaderbo
       case 't3Goo':
         return p.sort((a, b) => b.goo.t3Goo - a.goo.t3Goo);
       default:
-        return p.sort((a, b) => b.totalCost - a.totalCost);
+        return p.sort((a, b) => b.total.value - a.total.value);
     }
   };
 
@@ -86,7 +86,7 @@ export const SmallLeaderboard = ({ players, className, selected }: SmallLeaderbo
       case 'totalCost':
         return player.totalCost;
       default:
-        return player.totalCost;
+        return player.total.value;
     }
   };
   return (
@@ -101,7 +101,7 @@ export const SmallLeaderboard = ({ players, className, selected }: SmallLeaderbo
             .map((player, index) => {
               return (
                 <tr
-                  className="h-11 text-black even:bg-light bg-white cursor-pointer"
+                  className="h-11 text-black even:bg-blue-100 bg-white cursor-pointer"
                   key={player.name}
                   onClick={() => {
                     window.location.href = `/players/${player.id}`;

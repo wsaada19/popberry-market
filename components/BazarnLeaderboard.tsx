@@ -22,7 +22,7 @@ export const BazarnLeaderboard = ({ players, className }: SmallLeaderboardProps)
             .map((player, index) => {
               return (
                 <tr
-                  className="h-11 text-black even:bg-light bg-white cursor-pointer"
+                  className="h-11 text-black even:bg-blue-100 bg-white cursor-pointer"
                   key={player.player['_id']}
                   onClick={() => {
                     window.location.href = `/players/${player.player['_id']}`;

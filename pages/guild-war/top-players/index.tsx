@@ -13,6 +13,10 @@ export type Option = {
 
 const options = [
   {
+    value: 'totalPoints',
+    label: 'Points Scored',
+  },
+  {
     value: 'wateringCan',
     label: 'Plants Watered',
   },
@@ -63,7 +67,7 @@ export default function TopPlayer({ players }) {
       description="Leader board to view the top players in the pixels online guild war for planting, watering and more!"
       title="Pixels Guild War | Player leader board"
     >
-      <div>
+      <div className="mt-4">
         <Select
           onChange={(result) => {
             setSelected(result);
@@ -73,7 +77,7 @@ export default function TopPlayer({ players }) {
           options={options}
         />
         <div></div>
-        <SmallLeaderboard players={players} className="mt-2" selected={selected} />
+        <SmallLeaderboard players={players} selected={selected} />
       </div>
     </Layout>
   );

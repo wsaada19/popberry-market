@@ -74,7 +74,7 @@ export default function GuildWar({ players }) {
           }),
         }}
       />
-      <div>
+      <div className="mt-4">
         <h1 className="text-blue-800 inline">{`${guildData.label}`}</h1>
         <Image
           src={guildData.emblem}
