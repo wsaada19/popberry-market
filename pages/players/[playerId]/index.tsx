@@ -46,16 +46,16 @@ export default function PlayerPage({ playerData, guildInfo, bStats, name }: Play
               />
             </div>
             <p className="text-xs mb-4">
-              *The cost estimate is based on average event prices, assuming each point cost around
+              * The cost estimate is based on average event prices, assuming each point cost around
               2,194 coins.
             </p>
           </>
         )}
         {playerData.total && playerData.total.value > 0 && (
           <>
-            <h5 className="mt-3 mb-1 font-semibold">Pixels Crop Wars - August 2024</h5>
+            <h5 className="mt-3 md:mb-1 font-semibold">Pixels Crop Wars - August 2024</h5>
             {guildInfo?.guildName.length > 0 && (
-              <p className="text-sm">
+              <p className="text-xs sm:text-sm">
                 Competed for <strong>{guildInfo.guildName} Guild</strong> which ranked{' '}
                 <strong>#{guildInfo.guildRank}</strong> in the {guildInfo.bracket.toLowerCase()}{' '}
                 bracket.
