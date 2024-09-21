@@ -37,7 +37,6 @@ export default function PageLayout({ children, description, title }: LayoutProps
           }}
         ></script>
         <header>
-          {/* <Navigation /> */}
           <HamburgerMenu />
         </header>
         <main className="full-page">{children}</main>
