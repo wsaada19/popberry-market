@@ -1,7 +1,7 @@
 import React, { ReactNode } from 'react';
 import { Footer } from '../Footer';
 import Head from 'next/head';
-import { Navigation } from '../Navigation';
+import { HamburgerMenu } from '@components/menus/Hamburger';
 
 type LayoutProps = {
   children: ReactNode;
@@ -11,7 +11,7 @@ type LayoutProps = {
 export default function PageLayout({ children, description, title }: LayoutProps) {
   return (
     <div className="dark:bg-blue-900 dark:text-white min-h-full">
-      <div className="pt-4 mx-auto pb-8 max-w-4xl px-4 md:px-8">
+      <div className="mx-auto pb-4 max-w-4xl px-4 md:px-8">
         <Head>
           <title>{title}</title>
           <link rel="icon" href="/favicon.ico" />
@@ -37,7 +37,8 @@ export default function PageLayout({ children, description, title }: LayoutProps
           }}
         ></script>
         <header>
-          <Navigation />
+          {/* <Navigation /> */}
+          <HamburgerMenu />
         </header>
         <main className="full-page">{children}</main>
         <Footer />

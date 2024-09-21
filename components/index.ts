@@ -8,3 +8,5 @@ export * from './Navigation';
 export * from './Footer';
 export * from './StatDisplay';
 export * from './Snackbar';
+export * from './menus/Hamburger';
+export * from './TriStatDisplay';

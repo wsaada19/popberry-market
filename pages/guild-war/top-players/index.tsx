@@ -1,6 +1,6 @@
 import Layout from '@components/layouts/PageLayout';
 import pixelsData from '../../../components/d3/guildWarsData.json';
-import { SmallLeaderboard } from '@components/SmallLeaderboard';
+import { SmallLeaderboard } from '@components/leaderboards/SmallLeaderboard';
 import type { GetStaticProps } from 'next';
 import { Player } from '@types';
 import Select from 'react-select';
@@ -67,7 +67,7 @@ export default function TopPlayer({ players }) {
       description="Leader board to view the top players in the pixels online guild war for planting, watering and more!"
       title="Pixels Guild War | Player leader board"
     >
-      <div className="mt-4">
+      <div>
         <Select
           onChange={(result) => {
             setSelected(result);

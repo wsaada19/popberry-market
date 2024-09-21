@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { BazarnStats } from '@types';
 import bazarnData from '@components/d3/bazarnPoints.json';
 import { GetStaticProps } from 'next';
-import { BazarnLeaderboard } from '@components/BazarnLeaderboard';
+import { BazarnLeaderboard } from '@components/leaderboards/BazarnLeaderboard';
 import { Snackbar } from '@components/Snackbar';
 
 type PlayerSearchProps = {
@@ -38,7 +38,7 @@ export default function PlayerSearch({ players }: PlayerSearchProps) {
       description={`Pixels Online event statistics for players from events such as Pixels Crop Wars and Barney's Bazarn Event.`}
       title="Pixels Statistics Player Search"
     >
-      <div className="bg-blue-600 text-white py-8 md:py-14 mt-4 mb-2">
+      <div className="bg-blue-600 text-white py-8 md:py-14 mb-4">
         <h1 className="mb-2 mt-0 text-2xl text-center text-white">Player Search</h1>
         <p className="text-sm px-6 sm:px-12">
           Search for a player by username or ID to view their event stats. Click on a player in the

@@ -3,7 +3,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import pixelsData from '../../components/d3/guildWarsData.json';
 import Image from 'next/image';
 import { addPixelsPlot } from '@components/d3/pixelsGuildWar';
-import { Leaderboard } from '@components/Leaderboard';
+import { Leaderboard } from '@components/leaderboards/Leaderboard';
 import { Player } from '@types';
 import Select from 'react-select';
 import options from '../../components/guildData.json';
@@ -74,7 +74,7 @@ export default function GuildWar({ players }) {
           }),
         }}
       />
-      <div className="mt-4">
+      <div>
         <h1 className="text-blue-800 inline">{`${guildData.label}`}</h1>
         <Image
           src={guildData.emblem}

@@ -5,6 +5,7 @@ import guildData from '@components/guildData.json';
 import { Player, BazarnStats } from '@types';
 import { StatDisplay } from '@components/StatDisplay';
 import bazarnData from '@components/d3/bazarnPoints.json';
+// import { TriStatDisplay } from '@components/TriStatDisplay';
 
 type GuildInfo = {
   guildId: string;
@@ -24,13 +25,11 @@ export default function PlayerPage({ playerData, guildInfo, bStats, name }: Play
   return (
     <Layout description={`Pixels event statistics for ${name}`} title="Pixels Guild War">
       <div>
-        <h1 className="text-xl text-center">{`${name}`}</h1>
+        <h1 className="text-xl text-center text-blue-700 mb-2">{name}</h1>
         {bStats.value > 0 && (
           <>
-            <h5 className="mt-4 mb-1 font-semibold">
-              Barney&apos;s Bazaarn Blitz - September 2024
-            </h5>
-            <div className="mb-1 p-3 bg-blue-600 text-white grid grid-cols-2 md:grid-cols-4 gap-3">
+            <h5 className="font-semibold">Barney&apos;s Bazaarn Blitz</h5>
+            <div className="mb-1 px-1 py-3 bg-blue-600 text-white grid grid-cols-2 md:grid-cols-4 gap-2">
               <StatDisplay value={`#${bStats.rank}`} type="Rank" />
               <StatDisplay value={bStats.value.toLocaleString()} type="Points" />
               <StatDisplay
@@ -53,20 +52,20 @@ export default function PlayerPage({ playerData, guildInfo, bStats, name }: Play
         )}
         {playerData.total && playerData.total.value > 0 && (
           <>
-            <h5 className="mt-3 md:mb-1 font-semibold">Pixels Crop Wars - August 2024</h5>
+            <h5 className="mt-3 font-semibold">Pixels Crop Wars</h5>
             {guildInfo?.guildName.length > 0 && (
               <p className="text-xs sm:text-sm">
-                Competed for <strong>{guildInfo.guildName} Guild</strong> which ranked{' '}
+                Competed for the guild <strong>{guildInfo.guildName}</strong> which ranked{' '}
                 <strong>#{guildInfo.guildRank}</strong> in the {guildInfo.bracket.toLowerCase()}{' '}
                 bracket.
               </p>
             )}
-            <div className="mt-1 mb-4 p-3 bg-blue-600 text-white grid grid-cols-2 md:grid-cols-4 gap-3">
-              <StatDisplay value={playerData.total.value.toLocaleString()} type="Points scored" />
-              <StatDisplay value={`#${playerData.total.rank}`} type="Total rank" />
+            <div className="mt-1 mb-4 py-3 bg-blue-600 text-white grid grid-cols-2 md:grid-cols-4 gap-3">
+              <StatDisplay value={playerData.total.value.toLocaleString()} type="Points" />
+              <StatDisplay value={`#${playerData.total.rank}`} type="Overall rank" />
               <StatDisplay
                 value={playerData.pixelsSpent.toLocaleString()}
-                type="Pixels spent"
+                type="Pixels burned"
                 icon="pixel"
               />
               <StatDisplay
@@ -78,12 +77,9 @@ export default function PlayerPage({ playerData, guildInfo, bStats, name }: Play
                 value={Number(playerData.wateringCanUse).toLocaleString()}
                 type="Plants watered"
               />
-              <StatDisplay value={playerData.spores.value.toLocaleString()} type="Seed Points" />
-              <StatDisplay value={playerData.goo.value.toLocaleString()} type="Goo Points" />
-              <StatDisplay
-                value={playerData.fert.value.toLocaleString()}
-                type="Fertilizer Points"
-              />
+              <StatDisplay value={playerData.spores.value.toLocaleString()} type="Seeds" />
+              <StatDisplay value={playerData.goo.value.toLocaleString()} type="Goo" />
+              <StatDisplay value={playerData.fert.value.toLocaleString()} type="Fert" />
               <StatDisplay
                 value={`#${playerData.wateringCanRank?.toLocaleString()}`}
                 type="Watering Rank"
@@ -94,6 +90,26 @@ export default function PlayerPage({ playerData, guildInfo, bStats, name }: Play
                 value={`#${playerData.fert.rank.toLocaleString()}`}
                 type="Fertilizer Rank"
               />
+              {/* <TriStatDisplay
+                type="Watering"
+                value={`${Number(playerData.wateringCanUse).toLocaleString()}`}
+                rank={playerData.wateringCanRank.toLocaleString()}
+              />
+              <TriStatDisplay
+                type="Seeds"
+                value={`${playerData.spores.value.toLocaleString()}`}
+                rank={playerData.spores.rank.toLocaleString()}
+              />
+              <TriStatDisplay
+                type="Goo"
+                value={`${playerData.goo.value.toLocaleString()}`}
+                rank={playerData.goo.rank.toLocaleString()}
+              />
+              <TriStatDisplay
+                type="Fert"
+                value={`${playerData.fert.value.toLocaleString()}`}
+                rank={playerData.fert.rank.toLocaleString()}
+              /> */}
             </div>
           </>
         )}
