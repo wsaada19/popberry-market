@@ -23,12 +23,15 @@ type PlayerPageProps = {
 };
 export default function PlayerPage({ playerData, guildInfo, bStats, name }: PlayerPageProps) {
   return (
-    <Layout description={`Pixels event statistics for ${name}`} title="Pixels Guild War">
+    <Layout
+      description={`Pixels event statistics for ${name}`}
+      title="Pixels Guild War | Player Statistics"
+    >
       <div>
-        <h1 className="text-xl text-center text-blue-700 mb-2">{name}</h1>
+        <h1 className="text-xl text-center text-blue-800 mb-2">{name}</h1>
         {bStats.value > 0 && (
           <>
-            <h5 className="font-semibold">Barney&apos;s Bazaarn Blitz</h5>
+            <h5 className="font-semibold sm:text-lg">Barney&apos;s Bazaarn Blitz</h5>
             <div className="mb-1 px-1 py-3 bg-blue-600 text-white grid grid-cols-2 md:grid-cols-4 gap-2">
               <StatDisplay value={`#${bStats.rank}`} type="Rank" />
               <StatDisplay value={bStats.value.toLocaleString()} type="Points" />
@@ -52,13 +55,17 @@ export default function PlayerPage({ playerData, guildInfo, bStats, name }: Play
         )}
         {playerData.total && playerData.total.value > 0 && (
           <>
-            <h5 className="mt-3 font-semibold">Pixels Crop Wars</h5>
+            <h5 className="mt-3 font-semibold sm:text-lg">Pixels Crop Wars</h5>
             {guildInfo?.guildName.length > 0 && (
-              <p className="text-xs sm:text-sm">
-                Competed for the guild <strong>{guildInfo.guildName}</strong> which ranked{' '}
-                <strong>#{guildInfo.guildRank}</strong> in the {guildInfo.bracket.toLowerCase()}{' '}
-                bracket.
-              </p>
+              <div className="flex justify-between">
+                <p className="text-xs sm:text-sm">
+                  Guild: <strong>{guildInfo.guildName}</strong>
+                </p>
+                <p className="text-xs sm:text-sm">
+                  <strong>#{guildInfo.guildRank}</strong> in the{' '}
+                  <strong>{guildInfo.bracket}</strong> bracket
+                </p>
+              </div>
             )}
             <div className="mt-1 mb-4 py-3 bg-blue-600 text-white grid grid-cols-2 md:grid-cols-4 gap-3">
               <StatDisplay value={playerData.total.value.toLocaleString()} type="Points" />
