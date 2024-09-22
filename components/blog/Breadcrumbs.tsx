@@ -1,7 +1,7 @@
 import { LinkType } from '@types';
 import React from 'react';
 import Link from 'next/link';
-import { BreadcrumbsLd } from './schema/SchemaComponents';
+import { BreadcrumbsLd } from '../schema/SchemaComponents';
 
 export type BreadcrumbsProps = {
   crumbs: LinkType[];

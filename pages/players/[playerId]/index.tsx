@@ -47,7 +47,7 @@ export default function PlayerPage({ playerData, guildInfo, bStats, name }: Play
                 tooltip={`$${Number((bStats.reward * 0.1436).toFixed(2)).toLocaleString()} USD`}
               />
             </div>
-            <p className="text-xs mb-4">
+            <p className="text-2xs mb-4 leading-3 sm:text-xs sm:leading-4">
               * The cost estimate is based on average event prices, assuming each point cost around
               2,194 coins.
             </p>

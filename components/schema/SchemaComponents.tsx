@@ -1,4 +1,4 @@
-import { BreadcrumbsProps } from '@components/Breadcrumbs';
+import { BreadcrumbsProps } from '@components/blog/Breadcrumbs';
 import { ArticleLdProps } from '@types';
 import { getArticleLd, getBreadcrumbsJsonLd } from './schemaBuilder';
 

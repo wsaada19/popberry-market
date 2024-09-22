@@ -15,6 +15,9 @@ module.exports = {
         128: '32rem',
         144: '36rem',
       },
+      fontSize: {
+        '2xs': '.65rem',
+      },
       backgroundColor: ['checked'],
       minHeight: {
         full: '100vh',

@@ -11,10 +11,10 @@ import { pixelsLoader } from '@utilities';
 import type { GetStaticProps } from 'next';
 import { StatDisplay } from '@components/StatDisplay';
 
-export default function GuildWar({ players }) {
+export default function GuildWar({ players, guilds }) {
   const ref = useRef(null);
   const [selected, setSelected] = useState('spores');
-  const [guildData, setGuildData] = useState(options[0]);
+  const [guildData, setGuildData] = useState(guilds[0]);
 
   const getTotalCost = () => {
     const res = players
@@ -50,7 +50,7 @@ export default function GuildWar({ players }) {
 
   useEffect(() => {
     // @ts-ignore relax
-    addPixelsPlot(players, ref, options[0].value, 'spores');
+    addPixelsPlot(players, ref, guilds[0].value, 'spores');
   }, []);
 
   return (
@@ -66,7 +66,7 @@ export default function GuildWar({ players }) {
         }}
         placeholder="Guild Search"
         className="w-full sm:w-1/3 float-right text-black border-purple"
-        options={options}
+        options={guilds}
         styles={{
           control: (baseStyles) => ({
             ...baseStyles,
@@ -162,7 +162,7 @@ export default function GuildWar({ players }) {
 }
 
 export const getStaticProps = (async () => {
-  return { props: { players: pixelsData } };
+  return { props: { players: pixelsData, guilds: options } };
 }) satisfies GetStaticProps<{
   players: Player[];
 }>;
