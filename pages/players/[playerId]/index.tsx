@@ -133,7 +133,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 
   let playerName = playerData?.name;
 
-  if (bStats.name !== undefined) {
+  if (bStats && bStats.name !== undefined) {
     playerName = bStats.name;
   }
 
