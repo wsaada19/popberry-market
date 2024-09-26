@@ -35,8 +35,10 @@ export type Player = {
 };
 
 export type BazarnStats = {
-  player: { _id: string; username: string };
-  value: number;
+  playerId: string;
+  name: string;
+  score: number;
   rank: number;
   reward: number;
+  costEstimate: number;
 };

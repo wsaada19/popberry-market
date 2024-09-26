@@ -73,9 +73,11 @@ export default function TopPlayer({ players }) {
             setSelected(result);
           }}
           placeholder="Select a task"
-          className="w-full sm:w-1/2 text-black mb-5"
+          className="w-full sm:w-1/2 text-black mb-5 float-right"
           options={options}
         />
+        <h1 className="text-xl text-blue-800 mb-2">Crop Wars Leaderboard</h1>
+
         <div></div>
         <SmallLeaderboard players={players} selected={selected} />
       </div>

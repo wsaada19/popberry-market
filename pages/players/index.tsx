@@ -2,7 +2,7 @@ import Layout from '@components/layouts/PageLayout';
 import Link from 'next/link';
 import { useState } from 'react';
 import { BazarnStats } from '@types';
-import bazarnData from '@components/d3/bazarnPoints.json';
+import bazarnData from '@components/d3/bazarnData.json';
 import { GetStaticProps } from 'next';
 import { BazarnLeaderboard } from '@components/leaderboards/BazarnLeaderboard';
 import { Snackbar } from '@components/Snackbar';
@@ -41,8 +41,8 @@ export default function PlayerSearch({ players }: PlayerSearchProps) {
       <div className="bg-blue-600 text-white py-8 md:py-14 mb-4">
         <h1 className="mb-2 mt-0 text-2xl text-center text-white">Player Search</h1>
         <p className="text-sm px-6 sm:px-12">
-          Search for a player by username or ID to view their event stats. Click on a player in the
-          leader board to see more details.
+          Search for a player by username, wallet address or ID to view their event stats. Click on
+          a player in the leader board to see more details.
         </p>
         <div className="mt-6 flex justify-center align-middle">
           <input
@@ -70,7 +70,7 @@ export default function PlayerSearch({ players }: PlayerSearchProps) {
 }
 
 export const getStaticProps = (async () => {
-  return { props: { players: bazarnData.playersDescending.slice(0, 200) as BazarnStats[] } };
+  return { props: { players: bazarnData.slice(0, 200) as BazarnStats[] } };
 }) satisfies GetStaticProps<{
   players: BazarnStats[];
 }>;

@@ -13,6 +13,8 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse<
   let response;
   if (isHexString(username)) {
     response = await fetch(`${url}?mid=${username}&detail=2&skills=1&guild=1`);
+  } else if (isCryptoWallet(username)) {
+    response = await fetch(`${url}?cryptoWalletAddress=${username}&detail=2&skills=1&guild=1`);
   } else {
     response = await fetch(`${url}?username=${username}&detail=2&skills=1&guild=1`);
   }
@@ -26,5 +28,10 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse<
 
 function isHexString(str) {
   const regex = /^[a-f0-9]{24}$/;
+  return regex.test(str);
+}
+
+function isCryptoWallet(str) {
+  const regex = /^0x[a-fA-F0-9]{40}$/;
   return regex.test(str);
 }

@@ -8,7 +8,7 @@ export type SmallLeaderboardProps = {
 
 export const BazarnLeaderboard = ({ players, className }: SmallLeaderboardProps) => {
   const sortBy = (p: BazarnStats[]) => {
-    return p.sort((a, b) => b.value - a.value);
+    return p.sort((a, b) => b.score - a.score);
   };
   return (
     <div className={`text-base h-144 overflow-auto w-full ${className}`}>
@@ -23,15 +23,15 @@ export const BazarnLeaderboard = ({ players, className }: SmallLeaderboardProps)
               return (
                 <tr
                   className="h-11 text-black even:bg-blue-100 bg-white cursor-pointer"
-                  key={player.player['_id']}
+                  key={player.playerId}
                   onClick={() => {
-                    window.location.href = `/players/${player.player['_id']}`;
+                    window.location.href = `/players/${player.playerId}`;
                   }}
                 >
                   <td className="tex-sm pl-4 w-1/12 md:text-base">#{index + 1}</td>
-                  <td className="text-sm w-10 md:text-base">{`${player.player.username}`}</td>
+                  <td className="text-sm w-10 md:text-base">{`${player.name}`}</td>
                   <td className="text-sm w-10 text-center md:text-base">
-                    {player.value.toLocaleString()}
+                    {player.score.toLocaleString()}
                   </td>
                 </tr>
               );
