@@ -100,3 +100,15 @@ h6 {
 .toggle-switch:checked::after {
   @apply transform scale-90 translate-x-4;
 }
+
+.axis-label {
+  font-size: 12px;
+  text-anchor: middle;
+}
+
+.dark .axis-label {
+  fill: white;
+}
+.radar-area {
+  fill-opacity: 0.6;
+}

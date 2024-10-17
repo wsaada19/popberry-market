@@ -10,7 +10,7 @@ export const HamburgerMenu = () => {
         href="/"
         className="text-base font-semibold md:mb-1 md:text-lg flex md:w-full items-center flex-shrink-0 text-blue-800 dark:text-white mr-6 md:mr-72 hover:no-underline"
       >
-        Pixels Event Stats
+        Popberry Analytics
       </Link>
       <div className="block md:hidden">
         <button
@@ -49,10 +49,22 @@ export const HamburgerMenu = () => {
             Player Search
           </Link>
           <Link
+            href="/pixels-highest-skill-levels"
+            className="block mt-3 md:inline-block md:mt-0 text-white-200 mr-4"
+          >
+            Skills
+          </Link>
+          <Link
             href="/guild-war/top-players"
             className="block mt-3 md:inline-block md:mt-0 text-white-200 mr-4"
           >
-            Leaderboards
+            Crop Wars
+          </Link>
+          <Link
+            href="/pixels-barneys-bazaarn-blitz"
+            className="block mt-3 md:inline-block mb-2 md:mb-1 md:mt-0 text-white-200 mr-4"
+          >
+            Bazaarn Blitz
           </Link>
         </div>
         <div></div>

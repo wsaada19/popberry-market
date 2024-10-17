@@ -1,9 +1,10 @@
 import { addGuildPlot } from '@components/d3/guildAnalysis';
-import guildData from '@components/d3/guildStats.json';
 import { useEffect, useRef } from 'react';
 import Layout from '@components/layouts/PageLayout';
+import { Guild } from '@types';
+import { getBlobStorageFile } from '@services/azure/blobStorage';
 
-export default function GuildWarAnalysis() {
+export default function GuildWarAnalysis({ guildData }: { guildData: Guild[] }) {
   const ref = useRef(null);
   useEffect(() => {
     // @ts-ignore relax
@@ -12,7 +13,7 @@ export default function GuildWarAnalysis() {
   return (
     <Layout
       description="Top Players for different tasks"
-      title="Pixels Guild War | Event Rankings and Statistics"
+      title="Popberry Analytics | Event Rankings and Statistics"
     >
       <div>
         <h1>Guild War Analysis</h1>
@@ -20,4 +21,12 @@ export default function GuildWarAnalysis() {
       </div>
     </Layout>
   );
+}
+
+export async function getStaticProps() {
+  const guildStats = (await getBlobStorageFile('pixels-data', 'guildStats.json'))
+    .results as Guild[];
+  return {
+    props: { guildData: guildStats },
+  };
 }

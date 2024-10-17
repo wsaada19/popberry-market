@@ -1,15 +1,22 @@
 import Layout from '@components/layouts/PageLayout';
-import Link from 'next/link';
 import { useState } from 'react';
-import { BazarnStats } from '@types';
-import bazarnData from '@components/d3/bazarnData.json';
+import { PlayerData } from '@types';
+import { convertData, getTotalLevel, getTotalExp } from '@utilities';
 import { GetStaticProps } from 'next';
-import { BazarnLeaderboard } from '@components/leaderboards/BazarnLeaderboard';
+import { Leaderboard } from '@components/leaderboards/Leaderboard';
 import { Snackbar } from '@components/Snackbar';
+import { getBlobStorageFile } from '@services/azure/blobStorage';
+
+export type PlayerSkills = {
+  playerId: string;
+  name: string;
+  levels: Record<string, number[]>;
+};
 
 type PlayerSearchProps = {
-  players: BazarnStats[];
+  players: PlayerSkills[];
 };
+
 export default function PlayerSearch({ players }: PlayerSearchProps) {
   const [search, setSearch] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
@@ -36,9 +43,9 @@ export default function PlayerSearch({ players }: PlayerSearchProps) {
   return (
     <Layout
       description={`Pixels Online event statistics for players from events such as Pixels Crop Wars and Barney's Bazarn Event.`}
-      title="Pixels Statistics Player Search"
+      title="Pixels Online Player Search"
     >
-      <div className="bg-blue-600 text-white py-8 md:py-14 mb-4">
+      <div className="bg-blue-600 text-white py-8 md:py-14 mb-6">
         <h1 className="mb-2 mt-0 text-2xl text-center text-white">Player Search</h1>
         <p className="text-sm px-6 sm:px-12">
           Search for a player by username, wallet address or ID to view their event stats. Click on
@@ -60,19 +67,55 @@ export default function PlayerSearch({ players }: PlayerSearchProps) {
           </button>
         </div>
       </div>
-      <Link className="text-xs mb-2" href="/guild-war/top-players">
-        View Crop Wars Leader Boards
-      </Link>
-      <BazarnLeaderboard players={players} />
+      <h2 className="text-base mb-1">Highest Overall Level</h2>
+      <Leaderboard
+        players={players.map((p) => ({
+          name: p.name,
+          playerId: p.playerId,
+          scores: p.levels.total,
+        }))}
+        labels={['Level', 'Exp']}
+      />
+      <p className="text-2xs mb-4 leading-3 sm:text-xs sm:leading-4 mt-1">
+        * This only includes players who have competed in one of the Pixels Online events.
+        Leaderboard is updated every Sunday.
+      </p>
       <Snackbar opacity={bannerOpacity} message={errorMessage} />
     </Layout>
   );
 }
 
 export const getStaticProps = (async () => {
-  return { props: { players: bazarnData.slice(0, 200) as BazarnStats[] } };
+  const allPlayerData = (await getBlobStorageFile('pixels-data', 'playerData.json'))
+    .results as PlayerData[];
+
+  const skillData = allPlayerData
+    .map((p) => {
+      const keys = Object.keys(p.level);
+      const key = keys[keys.length - 1];
+      const totalLevel = getTotalLevel(p.level);
+      const totalExp = getTotalExp(p.level);
+      return {
+        name: p.name,
+        levels: {
+          ...p.level[key],
+          total: { level: totalLevel, totalExp: totalExp },
+        },
+        playerId: p.playerId,
+      };
+    })
+    .filter((p) => {
+      const overallLevel = (p.levels?.total?.level || 0) > 600;
+      return overallLevel;
+    })
+    .map((p) => ({
+      playerId: p.playerId,
+      name: p.name,
+      levels: convertData(p.levels),
+    }));
+  return { props: { players: skillData } };
 }) satisfies GetStaticProps<{
-  players: BazarnStats[];
+  players: PlayerSkills[];
 }>;
 
 const SearchSVG = () => {
