@@ -101,8 +101,8 @@ export default function SkillsLeaders({
       description="Pixels Online top skill level player rankings and leaderboards."
       title="Popberry Analytics | Pixels Online Player Statistics"
     >
-      <div className="flex justify-between">
-        <h1 className="pt-3 font-semibold my-auto text-base text-blue-800 h-11">
+      <div className="sm:flex sm:justify-between">
+        <h1 className="block pt-2 font-semibold my-auto text-base text-blue-800 h-11">
           {selectedOption.icon && (
             <span>
               <Image
@@ -121,7 +121,7 @@ export default function SkillsLeaders({
             setSelectedOption(result);
           }}
           placeholder="Select a skill"
-          className="w-full sm:w-1/3 text-black mb-4"
+          className="mb-3 w-full sm:w-1/3 float-right text-black"
           options={options}
           components={{ Option }}
         />

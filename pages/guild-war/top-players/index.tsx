@@ -142,8 +142,8 @@ export default function TopPlayer({ players }) {
       title="Popberry Analytics | Crops wars leaderboard"
     >
       <div>
-        <div className="flex justify-between">
-          <h1 className="text-base text-center text-blue-800 pt-3">
+        <div className="sm:flex sm:justify-between">
+          <h1 className="mb-1 sm:mb-0 text-base text-center text-blue-800 pt-3">
             Crop Wars Individual Leaderboard
           </h1>
           <Select
@@ -151,7 +151,7 @@ export default function TopPlayer({ players }) {
               setSelected(result);
             }}
             placeholder="Select a task"
-            className="w-full sm:w-1/3 text-black mb-4 float-right"
+            className="w-full sm:w-1/3 text-black mb-3 float-right"
             options={options}
           />
         </div>
