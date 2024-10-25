@@ -143,7 +143,7 @@ export default function TopPlayer({ players }) {
     >
       <div>
         <div className="flex justify-between">
-          <h1 className="text-base text-center text-blue-800 pt-2.5">
+          <h1 className="text-base text-center text-blue-800 pt-3">
             Crop Wars Individual Leaderboard
           </h1>
           <Select

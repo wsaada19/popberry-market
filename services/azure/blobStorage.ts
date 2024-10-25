@@ -26,9 +26,10 @@ export const getBlobStorageFile = async (containerName, blobName) => {
 
     // get last modified date
     const properties = await blockBlobClient.getProperties();
-    const lastModified = properties.lastModified;
-    cacheData.put(cacheKey, jsonResult, 1000 * 60 * 60);
-    return { results: jsonResult, lastModified: lastModified };
+    const lastModified = properties.lastModified.toISOString();
+    const result = { results: jsonResult, lastModified: lastModified };
+    cacheData.put(cacheKey, result, 1000 * 60 * 60);
+    return result;
   } catch (err) {
     console.error('Error downloading blob:', err.message);
   }

@@ -1,7 +1,7 @@
 import Layout from '@components/layouts/PageLayout';
+import { Date } from '@components/Date';
 import { Leaderboard, LeaderboardEntry } from '@components/leaderboards/Leaderboard';
 import { getBlobStorageFile } from '@services/azure/blobStorage';
-import { PlayerData } from '@types';
 import { convertData, getTotalLevel, getTotalExp } from '@utilities';
 import { GetStaticProps } from 'next';
 import { useState } from 'react';
@@ -61,8 +61,12 @@ const options = [
     icon: '/skills/forestry.png',
   },
   {
+    value: 'overall',
+    label: 'Overall Level',
+  },
+  {
     value: 'total',
-    label: 'Highest Overall Level',
+    label: 'Total Level',
   },
 ];
 
@@ -84,11 +88,17 @@ const Option = (props) => (
     </div>
   </components.Option>
 );
-export default function SkillsLeaders({ players }: { players: PlayerSkills[] }) {
+export default function SkillsLeaders({
+  players,
+  lastUpdated,
+}: {
+  players: PlayerSkills[];
+  lastUpdated: string;
+}) {
   const [selectedOption, setSelectedOption] = useState(options[options.length - 1]);
   return (
     <Layout
-      description="Pixels Online top 200 players by skill level."
+      description="Pixels Online top skill level player rankings and leaderboards."
       title="Popberry Analytics | Pixels Online Player Statistics"
     >
       <div className="flex justify-between">
@@ -140,31 +150,31 @@ export default function SkillsLeaders({ players }: { players: PlayerSkills[] }) 
         }
         labels={['Level', 'Exp']}
       />
-      <p className="text-2xs mb-4 leading-3 sm:text-xs sm:leading-4 mt-1">
+      <p className="text-2xs mb-1 leading-3 sm:text-xs sm:leading-4 mt-1">
         * This only includes players who have competed in one of the Pixels Online events.
-        Leaderboard is updated every Sunday.
+      </p>
+      <p className="text-2xs mb-4">
+        Last updated <Date dateString={lastUpdated} />
       </p>
     </Layout>
   );
 }
 
 export const getStaticProps = (async () => {
-  const allPlayerData = (await getBlobStorageFile('pixels-data', 'playerData.json'))
-    .results as PlayerData[];
+  const blobResult = await getBlobStorageFile('pixels-data', 'skillLeaderboard.json');
+  const topPlayerData = blobResult.results as {
+    playerId: string;
+    name: string;
+    levels: Record<string, { level: number; totalExp: number }>;
+  }[];
 
-  const skillData = allPlayerData
+  const filteredPlayers = topPlayerData
     .map((p) => {
-      const keys = Object.keys(p.level);
-      const key = keys[keys.length - 1];
-      const totalLevel = getTotalLevel(p.level);
-      const totalExp = getTotalExp(p.level);
+      p.levels['total'] = { level: getTotalLevel(p.levels), totalExp: getTotalExp(p.levels) };
       return {
-        name: p.name,
-        levels: {
-          ...p.level[key],
-          total: { level: totalLevel, totalExp: totalExp },
-        },
         playerId: p.playerId,
+        name: p.name,
+        levels: p.levels,
       };
     })
     .filter((p) => {
@@ -194,7 +204,9 @@ export const getStaticProps = (async () => {
       name: p.name,
       levels: convertData(p.levels),
     }));
-  return { props: { players: skillData } };
+  return {
+    props: { players: filteredPlayers, lastUpdated: blobResult.lastModified },
+  };
 }) satisfies GetStaticProps<{
   players: PlayerSkills[];
 }>;

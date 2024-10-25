@@ -72,12 +72,6 @@ export type PlayerData = {
   id: string;
   playerId: string;
   name: string;
-  level: {
-    [key: string]: PlayerLevels;
-  };
-  currencies: {
-    [key: string]: Currencies;
-  };
   guildId: string;
   cropWarsEvents: CropWarsEvent[];
   individualEvents: IndividualEvent[];

@@ -16,8 +16,8 @@ export default function GuildWarAnalysis({ guildData }: { guildData: Guild[] }) 
       title="Popberry Analytics | Event Rankings and Statistics"
     >
       <div>
-        <h1>Guild War Analysis</h1>
-        <div className="mt-4 mb-4" ref={ref}></div>
+        <h1 className="text-lg">Guild War Analysis</h1>
+        <div className="mt-2 mb-4" ref={ref}></div>
       </div>
     </Layout>
   );

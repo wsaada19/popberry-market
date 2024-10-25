@@ -8,19 +8,10 @@ import { GetStaticProps } from 'next';
 export default function BazaarnBlitz({ players }: { players: BazarnStats[] }) {
   return (
     <Layout
-      description="Pixels Online top 200 players from the Barneys Bazaarn Blitz event."
+      description="Pixels Online top 500 players from the Barneys Bazaarn Blitz event."
       title="Popberry Analytics | Pixels Online Barneys Bazaarn Blitz Leaderboard"
     >
-      <h1 className="text-base mb-2">Barneys Bazaarn Blitz</h1>
-      {/* <div className="float-right">
-        <Image
-          alt="Bazaarn Blitz"
-          src="/images/Bazaarn-Blitz.png"
-          height={80}
-          width={160}
-          style={{ marginBottom: '12px' }}
-        />
-      </div> */}
+      <h1 className="text-base mb-2">Barneys Bazaarn Blitz Top 500</h1>
       <Leaderboard
         players={players.map((p) => ({
           ...p,

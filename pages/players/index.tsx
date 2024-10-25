@@ -1,6 +1,5 @@
 import Layout from '@components/layouts/PageLayout';
 import { useState } from 'react';
-import { PlayerData } from '@types';
 import { convertData, getTotalLevel, getTotalExp } from '@utilities';
 import { GetStaticProps } from 'next';
 import { Leaderboard } from '@components/leaderboards/Leaderboard';
@@ -45,7 +44,7 @@ export default function PlayerSearch({ players }: PlayerSearchProps) {
       description={`Pixels Online event statistics for players from events such as Pixels Crop Wars and Barney's Bazarn Event.`}
       title="Pixels Online Player Search"
     >
-      <div className="bg-blue-600 text-white py-8 md:py-14 mb-6">
+      <div className="bg-blue-600 text-white py-8 md:py-14 mb-4">
         <h1 className="mb-2 mt-0 text-2xl text-center text-white">Player Search</h1>
         <p className="text-sm px-6 sm:px-12">
           Search for a player by username, wallet address or ID to view their event stats. Click on
@@ -67,7 +66,7 @@ export default function PlayerSearch({ players }: PlayerSearchProps) {
           </button>
         </div>
       </div>
-      <h2 className="text-base mb-1">Highest Overall Level</h2>
+      <h2 className="text-base mb-1">Total Level</h2>
       <Leaderboard
         players={players.map((p) => ({
           name: p.name,
@@ -78,7 +77,6 @@ export default function PlayerSearch({ players }: PlayerSearchProps) {
       />
       <p className="text-2xs mb-4 leading-3 sm:text-xs sm:leading-4 mt-1">
         * This only includes players who have competed in one of the Pixels Online events.
-        Leaderboard is updated every Sunday.
       </p>
       <Snackbar opacity={bannerOpacity} message={errorMessage} />
     </Layout>
@@ -86,22 +84,20 @@ export default function PlayerSearch({ players }: PlayerSearchProps) {
 }
 
 export const getStaticProps = (async () => {
-  const allPlayerData = (await getBlobStorageFile('pixels-data', 'playerData.json'))
-    .results as PlayerData[];
+  const topPlayerData = (await getBlobStorageFile('pixels-data', 'skillLeaderboard.json'))
+    .results as {
+    playerId: string;
+    name: string;
+    levels: Record<string, { level: number; totalExp: number }>;
+  }[];
 
-  const skillData = allPlayerData
+  const filteredPlayers = topPlayerData
     .map((p) => {
-      const keys = Object.keys(p.level);
-      const key = keys[keys.length - 1];
-      const totalLevel = getTotalLevel(p.level);
-      const totalExp = getTotalExp(p.level);
+      p.levels['total'] = { level: getTotalLevel(p.levels), totalExp: getTotalExp(p.levels) };
       return {
-        name: p.name,
-        levels: {
-          ...p.level[key],
-          total: { level: totalLevel, totalExp: totalExp },
-        },
         playerId: p.playerId,
+        name: p.name,
+        levels: p.levels,
       };
     })
     .filter((p) => {
@@ -113,7 +109,7 @@ export const getStaticProps = (async () => {
       name: p.name,
       levels: convertData(p.levels),
     }));
-  return { props: { players: skillData } };
+  return { props: { players: filteredPlayers } };
 }) satisfies GetStaticProps<{
   players: PlayerSkills[];
 }>;
