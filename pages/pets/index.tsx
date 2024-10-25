@@ -1,5 +1,4 @@
 import Layout from '@components/layouts/PageLayout';
-import { Leaderboard } from '@components/leaderboards/Leaderboard';
 import { getBlobStorageFile } from '@services/azure/blobStorage';
 import { GetStaticProps } from 'next';
 import Image from 'next/image';
