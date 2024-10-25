@@ -7,3 +7,4 @@ export * from './StatDisplay';
 export * from './Snackbar';
 export * from './menus/Hamburger';
 export * from './TriStatDisplay';
+export * from './Date';

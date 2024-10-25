@@ -12,11 +12,17 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse<
   const { username } = req.query;
   let response;
   if (isHexString(username)) {
-    response = await fetch(`${url}?mid=${username}&detail=2&skills=1&guild=1`);
+    response = await fetch(`${url}?mid=${username}&detail=2&skills=1&guild=1`, {
+      next: { revalidate: 3600 * 4 },
+    });
   } else if (isCryptoWallet(username)) {
-    response = await fetch(`${url}?cryptoWalletAddress=${username}&detail=2&skills=1&guild=1`);
+    response = await fetch(`${url}?cryptoWalletAddress=${username}&detail=2&skills=1&guild=1`, {
+      next: { revalidate: 3600 * 4 },
+    });
   } else {
-    response = await fetch(`${url}?username=${username}&detail=2&skills=1&guild=1`);
+    response = await fetch(`${url}?username=${username}&detail=2&skills=1&guild=1`, {
+      next: { revalidate: 3600 * 4 },
+    });
   }
 
   const playerData = await response.json();

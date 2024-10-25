@@ -51,7 +51,7 @@ module.exports = {
     },
   },
   variants: {
-    extend: { backgroundColor: ['even'] },
+    extend: { backgroundColor: ['even'], display: ['group-hover'] },
   },
   plugins: [],
 };

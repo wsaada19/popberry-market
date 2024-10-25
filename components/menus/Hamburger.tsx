@@ -10,7 +10,7 @@ export const HamburgerMenu = () => {
         href="/"
         className="text-base font-semibold md:mb-1 md:text-lg flex md:w-full items-center flex-shrink-0 text-blue-800 dark:text-white mr-6 md:mr-72 hover:no-underline"
       >
-        Pixels Event Stats
+        Popberry Analytics
       </Link>
       <div className="block md:hidden">
         <button
@@ -48,11 +48,57 @@ export const HamburgerMenu = () => {
           <Link href="/players" className="block mt-3 md:inline-block md:mt-0 text-white-200 mr-4">
             Player Search
           </Link>
+          <div className="relative group inline-block">
+            {/* Main navigation link */}
+            <span className="hidden md:inline-block text-blue-700 dark:text-blue-400 mr-6 cursor-pointer">
+              Leaderboards
+            </span>
+
+            {/* Dropdown content */}
+            <div className="hidden absolute group-hover:block bg-blue-800 dark:bg-blue-800 shadow-lg z-20">
+              <Link
+                href="/pixels-highest-skill-levels"
+                className="block px-3 py-3 text-sm text-white dark:text-white hover:bg-blue-700"
+              >
+                Skills
+              </Link>
+              <Link
+                href="/guild-war/top-players"
+                className="block px-3 py-3 text-sm text-white dark:text-white hover:bg-blue-700"
+              >
+                Crop Wars
+              </Link>
+              <Link
+                href="/pixels-barneys-bazaarn-blitz"
+                className="block px-3 py-3 text-sm text-white dark:text-white hover:bg-blue-700"
+              >
+                Bazaarn Blitz
+              </Link>
+              <Link
+                href="/pixels-halloween-event-24"
+                className="block px-3 py-3 text-sm text-white dark:text-white hover:bg-blue-700"
+              >
+                Halloween
+              </Link>
+            </div>
+          </div>
+          <Link
+            href="/pixels-highest-skill-levels"
+            className="-mt-2 block md:hidden md:mt-0 text-white-200 mr-4"
+          >
+            Skills
+          </Link>
           <Link
             href="/guild-war/top-players"
-            className="block mt-3 md:inline-block md:mt-0 text-white-200 mr-4"
+            className="block mt-3 md:hidden md:mt-0 text-white-200 mr-4"
           >
-            Leaderboards
+            Crop Wars
+          </Link>
+          <Link
+            href="/pixels-barneys-bazaarn-blitz"
+            className="block mt-3 md:hidden mb-2 md:mb-1 md:mt-0 text-white-200 mr-4"
+          >
+            Bazaarn Blitz
           </Link>
         </div>
         <div></div>

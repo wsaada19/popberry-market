@@ -1,4 +1,4 @@
-const MARGIN = { LEFT: 80, RIGHT: 50, TOP: 20, BOTTOM: 70 };
+const MARGIN = { LEFT: 90, RIGHT: 50, TOP: 20, BOTTOM: 70 };
 const WIDTH = 650 - MARGIN.LEFT - MARGIN.RIGHT;
 const HEIGHT = 375 - MARGIN.TOP - MARGIN.BOTTOM;
 
@@ -54,7 +54,7 @@ export function addGuildPlot(data: Guild[], ref: React.RefObject<HTMLDivElement>
   g.append('text')
     .attr('class', 'y-axis-label')
     .attr('x', -(HEIGHT / 2))
-    .attr('y', -50)
+    .attr('y', -70)
     .attr('font-size', '12px')
     .attr('text-anchor', 'middle')
     .attr('transform', 'rotate(-90)')
@@ -64,7 +64,7 @@ export function addGuildPlot(data: Guild[], ref: React.RefObject<HTMLDivElement>
   g.append('text')
     .attr('class', 'x axis-label')
     .attr('x', WIDTH / 2)
-    .attr('y', HEIGHT + 55)
+    .attr('y', HEIGHT - 25)
     .attr('font-size', '12px')
     .attr('text-anchor', 'middle')
     .text('Rank');

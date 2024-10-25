@@ -3,44 +3,21 @@ import React, { useEffect, useRef, useState } from 'react';
 import pixelsData from '../../components/d3/guildWarsData.json';
 import Image from 'next/image';
 import { addPixelsPlot } from '@components/d3/pixelsGuildWar';
-import { Leaderboard } from '@components/leaderboards/Leaderboard';
-import { Player } from '@types';
+import { Leaderboard } from '@components/leaderboards/CropWarsLeaderboard';
+import { Guild, Player } from '@types';
 import Select from 'react-select';
-import options from '../../components/guildData.json';
 import { pixelsLoader } from '@utilities';
 import type { GetStaticProps } from 'next';
 import { StatDisplay } from '@components/StatDisplay';
+import { getBlobStorageFile } from '@services/azure/blobStorage';
 
 export default function GuildWar({ players, guilds }) {
   const ref = useRef(null);
   const [selected, setSelected] = useState('spores');
   const [guildData, setGuildData] = useState(guilds[0]);
 
-  const getTotalCost = () => {
-    const res = players
-      .filter((p) => p.guildId == guildData.value)
-      .reduce((acc, curr) => {
-        return acc + curr.totalCost;
-      }, 0)
-      .toFixed(0);
-
-    return Number(res);
-  };
-
   const getTotalGooUsed = () => {
-    return players
-      .filter((p) => p.guildId == guildData.value)
-      .reduce((acc, curr) => {
-        return acc + curr.goo.value;
-      }, 0);
-  };
-
-  const getPixelsSpent = () => {
-    return players
-      .filter((p) => p.guildId == guildData.value)
-      .reduce((acc, curr) => {
-        return acc + curr.pixelsSpent;
-      }, 0);
+    return guildData.stats.t1Goo + guildData.stats.t2Goo + guildData.stats.t3Goo;
   };
 
   const getTop100InGuild = () => {
@@ -56,7 +33,7 @@ export default function GuildWar({ players, guilds }) {
   return (
     <Layout
       description="Guild statistics from the pixels online mushroom war, including spores, guano, goo, watering, and total stats."
-      title="Pixels Guild War | Stats for top guilds in the Pixels Mushroom War"
+      title="Popberry Analytics | Stats for top guilds in the Pixels Mushroom War"
     >
       <Select
         onChange={(result) => {
@@ -95,10 +72,18 @@ export default function GuildWar({ players, guilds }) {
         <StatDisplay value={`#${guildData.rank}`} type={`${guildData.bracket} Bracket`} />
         <StatDisplay value={`#${guildData.totalRank}`} type="Total Rank" />
         <StatDisplay value={guildData.score.toLocaleString()} type="Points scored" />
-        <StatDisplay value={getTotalCost().toLocaleString()} type="Coins spent" icon="coin" />
+        <StatDisplay
+          value={guildData.stats.coinsSpent.toLocaleString()}
+          type="Coins spent"
+          icon="coin"
+        />
         <StatDisplay value={getTop100InGuild()} type="Top 100 players" />
         <StatDisplay value={getTotalGooUsed().toLocaleString()} type={'Goo Used'} />
-        <StatDisplay value={getPixelsSpent().toLocaleString()} type="Pixels spent" icon="pixel" />
+        <StatDisplay
+          value={guildData.stats.pixelsSpent.toLocaleString()}
+          type="Pixels spent"
+          icon="pixel"
+        />
         <StatDisplay value={guildData.earnings.toLocaleString()} type="Earnings" icon="pixel" />
       </div>
       <Leaderboard
@@ -112,7 +97,7 @@ export default function GuildWar({ players, guilds }) {
       <div className="mt-4 mb-8 text-base flex justify-center">
         <Tab
           title="Spores"
-          imageUrl="spores.png"
+          imageUrl="/crop-wars/spores.png"
           graph={ref}
           setSelected={setSelected}
           selected={selected}
@@ -121,7 +106,7 @@ export default function GuildWar({ players, guilds }) {
         />
         <Tab
           title="Guano"
-          imageUrl="guano.png"
+          imageUrl="/crop-wars/guano.png"
           graph={ref}
           setSelected={setSelected}
           selected={selected}
@@ -130,7 +115,7 @@ export default function GuildWar({ players, guilds }) {
         />
         <Tab
           title="Goo"
-          imageUrl="goo.png"
+          imageUrl="/crop-wars/goo.png"
           graph={ref}
           setSelected={setSelected}
           selected={selected}
@@ -139,7 +124,7 @@ export default function GuildWar({ players, guilds }) {
         />
         <Tab
           title="Watering"
-          imageUrl="watering-can.png"
+          imageUrl="/images/watering-can.png"
           graph={ref}
           setSelected={setSelected}
           selected={selected}
@@ -148,7 +133,7 @@ export default function GuildWar({ players, guilds }) {
         />
         <Tab
           title="Total"
-          imageUrl="land.webp"
+          imageUrl="/images/land.webp"
           graph={ref}
           setSelected={setSelected}
           selected={selected}
@@ -162,7 +147,9 @@ export default function GuildWar({ players, guilds }) {
 }
 
 export const getStaticProps = (async () => {
-  return { props: { players: pixelsData, guilds: options } };
+  const guildStats = (await getBlobStorageFile('pixels-data', 'guildStats.json'))
+    .results as Guild[];
+  return { props: { players: pixelsData, guilds: guildStats } };
 }) satisfies GetStaticProps<{
   players: Player[];
 }>;
@@ -181,7 +168,7 @@ const Tab = ({ title, imageUrl, graph, setSelected, selected, guildId, players }
     >
       {title !== 'Total' && (
         <Image
-          src={`/images/${imageUrl}`}
+          src={`${imageUrl}`}
           height={title == 'Total' ? 24 : 28}
           width={title == 'Total' ? 24 : 28}
           alt={title}
