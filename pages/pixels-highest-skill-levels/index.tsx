@@ -151,7 +151,7 @@ export default function SkillsLeaders({
         labels={['Level', 'Exp']}
       />
       <p className="text-2xs mb-1 leading-3 sm:text-xs sm:leading-4 mt-1">
-        * This only includes players who have competed in one of the Pixels Online events.
+        * This only includes players who have competed in one Pixels Online event.
       </p>
       <p className="text-2xs mb-4">
         Last updated <Date dateString={lastUpdated} />
