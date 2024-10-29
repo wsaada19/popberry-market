@@ -98,7 +98,7 @@ export default function SkillsLeaders({
   const [selectedOption, setSelectedOption] = useState(options[options.length - 1]);
   return (
     <Layout
-      description="Pixels Online top skill level player rankings and leaderboards."
+      description="Pixels Online top skill level player rankings and leaderboards!"
       title="Popberry Analytics | Pixels Online Player Statistics"
     >
       <div className="sm:flex sm:justify-between">
