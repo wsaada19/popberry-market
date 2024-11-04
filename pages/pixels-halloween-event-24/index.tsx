@@ -12,7 +12,7 @@ type HalloweenData = {
 export default function HalloweenEvent({ players }: { players: HalloweenData[] }) {
   return (
     <Layout
-      description="Pixels Online top 100 players in the 2024 Halloween Event."
+      description="Pixels Online top 1000 players in the 2024 Halloween Event."
       title="Popberry Analytics | Pixels Online Halloween Leaderboard"
     >
       <h1 className="text-base mb-2">
@@ -44,7 +44,7 @@ export const getStaticProps = (async () => {
     await fetch('https://pixels-server.pixels.xyz/cache/leaderboard/ldb_halloween_2024?')
   ).json();
   const halloweenData = halloweenLeaderboard.playersDescending as HalloweenData[];
-  return { props: { players: halloweenData } };
+  return { props: { players: halloweenData.slice(0, 1000) } };
 }) satisfies GetStaticProps<{
   players: HalloweenData[];
 }>;
