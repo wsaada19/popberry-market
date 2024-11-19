@@ -12,7 +12,7 @@ type HalloweenData = {
 export default function HalloweenEvent({ players }: { players: HalloweenData[] }) {
   return (
     <Layout
-      description="Pixels Online top 1000 players in the 2024 Halloween Event."
+      description="Pixels Online top 1000 players in the 2024 Halloween Event"
       title="Popberry Analytics | Pixels Online Halloween Leaderboard"
     >
       <h1 className="text-base mb-2">
